@@ -1,0 +1,67 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "vehicles",
+    "title": "Vehicle",
+    "description": "Canlı otobüs konumu – REST API yanıtı",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "Araç için benzersiz kimlik (ör. plaka veya araç kodu)"
+        },
+        "routeId": {
+            "type": "string",
+            "description": "Aracın bağlı olduğu hat (routes.id ile eşleşir)"
+        },
+        "tripType": {
+            "type": "string",
+            "enum": ["outbound", "inbound", "loop"],
+            "description": "Sefer tipi"
+        },
+        "lat": {
+            "type": "number",
+            "minimum": -90,
+            "maximum": 90,
+            "description": "Anlık enlem (WGS84)"
+        },
+        "lon": {
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180,
+            "description": "Anlık boylam (WGS84)"
+        },
+        "bearing": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 360,
+            "description": "Aracın yönü (derece, opsiyonel)"
+        },
+        "speed": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Anlık hız (km/s, opsiyonel)"
+        },
+        "timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Konumun alındığı zaman (ISO 8601, opsiyonel)"
+        },
+        "plate": {
+            "type": "string",
+            "description": "Araç plakası (opsiyonel)"
+        },
+        "vehicleType": {
+            "type": "string",
+            "enum": ["bus", "minibus", "tram", "metro"],
+            "description": "Araç tipi (opsiyonel)"
+        }
+    },
+    "required": [
+        "id",
+        "routeId",
+        "tripType",
+        "lat",
+        "lon"
+    ],
+    "additionalProperties": false
+}

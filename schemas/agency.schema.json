@@ -1,0 +1,40 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "agency",
+    "title": "Agency",
+    "description": "A schema for TransitJSON agencies",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "Agency için benzersiz kimlik (Örn: burulas)"
+        },
+        "name": {
+            "type": "string",
+            "description": "Agency'nin tam adı (Örn: BURULAŞ)"
+        },
+        "cityCode": {
+            "type": "string",
+            "description": "Agency'nin bağlı olduğu şehrin kodu (city.json'daki code alanına referans)",
+            "pattern": "^[A-Z]{3}$"
+        },
+        "url": {
+            "type": "string",
+            "description": "Agency'nin resmi web sitesi",
+            "format": "uri"
+        },
+        "timezone": {
+            "type": "string",
+            "description": "Agency'nin varsayılan zaman dilimi (IANA formatı, Örn: Europe/Istanbul)"
+        },
+        "phone": {
+            "type": "string",
+            "description": "Agency'nin iletişim telefon numarası"
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "cityCode"
+    ]
+}

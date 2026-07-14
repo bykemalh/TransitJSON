@@ -1,0 +1,43 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "stop_time",
+    "title": "StopTime",
+    "description": "Durak bazında varış/kalkış saatleri – tamamen opsiyonel",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "Kayıt kimliği"
+        },
+        "tripId": {
+            "type": "string",
+            "description": "Hangi sefere ait (trips.id)"
+        },
+        "stopId": {
+            "type": "string",
+            "description": "Hangi durak (stops.id)"
+        },
+        "sequence": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Durak sırası (0 = ilk durak)"
+        },
+        "arrival_time": {
+            "type": "string",
+            "pattern": "^\\d{2}:\\d{2}:\\d{2}$",
+            "description": "Varış saati (HH:MM:SS) – opsiyonel"
+        },
+        "departure_time": {
+            "type": "string",
+            "pattern": "^\\d{2}:\\d{2}:\\d{2}$",
+            "description": "Kalkış saati (HH:MM:SS) – opsiyonel"
+        }
+    },
+    "required": [
+        "id",
+        "tripId",
+        "stopId",
+        "sequence"
+    ],
+    "additionalProperties": false
+}

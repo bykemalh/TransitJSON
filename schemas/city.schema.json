@@ -1,0 +1,37 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "city",
+    "title": "City",
+    "description": "A city schema for TransitJSON",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "code": {
+            "type": "string",
+            "pattern": "^[A-Z]{3}$"
+        },
+        "population": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "countryCode": {
+            "type": "string",
+            "description": "Şehrin ait olduğu ülkenin ISO kodu (country.json'daki code alanına referans)",
+            "minLength": 2,
+            "maxLength": 2
+        },
+        "timezone": {
+            "type": "string",
+            "description": "IANA zaman dilimi adı (Örn: Europe/Istanbul, America/New_York)",
+            "pattern": "^[A-Za-z_]+/[A-Za-z_]+$"
+        }
+    },
+    "required": [
+        "name",
+        "code",
+        "countryCode",
+        "timezone"
+    ]
+}

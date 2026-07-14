@@ -1,0 +1,60 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "stops",
+    "title": "Stops",
+    "description": "TransitJSON Durak veri şeması",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "Durağa ait benzersiz kimlik"
+        },
+        "name": {
+            "type": "string",
+            "description": "Durak adı"
+        },
+        "lat": {
+            "type": "number",
+            "minimum": -90,
+            "maximum": 90,
+            "description": "Durak enlemi (WGS84)"
+        },
+        "lon": {
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180,
+            "description": "Durak boylamı (WGS84)"
+        },
+        "routeId": {
+            "type": "string",
+            "description": "Durağın ait olduğu route kimliği"
+        },
+        "tripType": {
+            "type": "string",
+            "description": "Sefer tipi: outbound (gidiş), inbound (dönüş), loop (ring)",
+            "enum": [
+                "outbound",
+                "inbound",
+                "loop"
+            ]
+        },
+        "sequence": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Durağın route üzerindeki sıra numarası (isteğe bağlı)"
+        },
+        "description": {
+            "type": "string",
+            "description": "Durakla ilgili ek açıklama"
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "lat",
+        "lon",
+        "routeId",
+        "tripType"
+    ],
+    "additionalProperties": false
+}

@@ -1,0 +1,58 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "routes",
+    "title": "Routes",
+    "description": "A schema for TransitJSON routes",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "Route için benzersiz kimlik"
+        },
+        "code": {
+            "type": "string",
+            "description": "Route'un kodu"
+        },
+        "agencyId": {
+            "type": "string",
+            "description": "Route'un ait olduğu ajansın kimliği"
+        },
+        "shortName": {
+            "type": "string",
+            "description": "Route'un kısa adı"
+        },
+        "longName": {
+            "type": "string",
+            "description": "Route'un uzun adı"
+        },
+        "description": {
+            "type": "string",
+            "description": "Route'un açıklaması"
+        },
+        "color": {
+            "type": "string",
+            "description": "Route'un rengi (hex formatında, Örn: #FF0000)",
+            "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+        },
+        "carType": {
+            "type": "string",
+            "description": "Route'un taşıma türü (Örn: bus, tram, metro)",
+            "enum": [
+                "bus",
+                "tram",
+                "metro",
+                "ferry",
+                "rail",
+                "subway"
+            ]
+        }
+    },
+    "required": [
+        "id",
+        "code",
+        "color",
+        "carType",
+        "shortName",
+        "agencyId"
+    ]
+}

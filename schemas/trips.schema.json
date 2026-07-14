@@ -1,0 +1,52 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "trips",
+    "title": "Trips",
+    "description": "Sefer tanımı – ilk kalkış saati ile birlikte",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "Sefer için benzersiz kimlik"
+        },
+        "routeId": {
+            "type": "string",
+            "description": "Hangi hatta ait olduğu"
+        },
+        "tripType": {
+            "type": "string",
+            "enum": [
+                "outbound",
+                "inbound",
+                "loop"
+            ],
+            "description": "Sefer tipi"
+        },
+        "dayType": {
+            "type": "string",
+            "enum": [
+                "weekday",
+                "saturday",
+                "sunday"
+            ],
+            "description": "Hafta içi, cumartesi veya pazar"
+        },
+        "departure_time": {
+            "type": "string",
+            "pattern": "^\\d{2}:\\d{2}:\\d{2}$",
+            "description": "İlk duraktan kalkış saati (HH:MM:SS)"
+        },
+        "headsign": {
+            "type": "string",
+            "description": "Araç tabelasında yazan yön bilgisi (opsiyonel)"
+        }
+    },
+    "required": [
+        "id",
+        "routeId",
+        "tripType",
+        "dayType",
+        "departure_time"
+    ],
+    "additionalProperties": false
+}
