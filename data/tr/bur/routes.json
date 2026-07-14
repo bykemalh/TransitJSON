@@ -1,0 +1,4142 @@
+[
+  {
+    "id": "BUR1001",
+    "code": "1 - AKÇALAR",
+    "agencyId": "burulas",
+    "shortName": "1 - AKÇALAR",
+    "longName": "1 - AKÇALAR",
+    "description": "1 - AKÇALAR",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1002",
+    "code": "101",
+    "agencyId": "burulas",
+    "shortName": "101",
+    "longName": "101",
+    "description": "101",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1003",
+    "code": "102",
+    "agencyId": "burulas",
+    "shortName": "102",
+    "longName": "102",
+    "description": "102",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1004",
+    "code": "103",
+    "agencyId": "burulas",
+    "shortName": "103",
+    "longName": "103",
+    "description": "103",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1005",
+    "code": "103A",
+    "agencyId": "burulas",
+    "shortName": "103A",
+    "longName": "103A",
+    "description": "103A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1006",
+    "code": "104",
+    "agencyId": "burulas",
+    "shortName": "104",
+    "longName": "104",
+    "description": "104",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1007",
+    "code": "105",
+    "agencyId": "burulas",
+    "shortName": "105",
+    "longName": "105",
+    "description": "105",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1008",
+    "code": "111A",
+    "agencyId": "burulas",
+    "shortName": "111A",
+    "longName": "111A",
+    "description": "111A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1009",
+    "code": "111B",
+    "agencyId": "burulas",
+    "shortName": "111B",
+    "longName": "111B",
+    "description": "111B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1010",
+    "code": "112",
+    "agencyId": "burulas",
+    "shortName": "112",
+    "longName": "112",
+    "description": "112",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1011",
+    "code": "112A",
+    "agencyId": "burulas",
+    "shortName": "112A",
+    "longName": "112A",
+    "description": "112A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1012",
+    "code": "113",
+    "agencyId": "burulas",
+    "shortName": "113",
+    "longName": "113",
+    "description": "113",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1013",
+    "code": "113A",
+    "agencyId": "burulas",
+    "shortName": "113A",
+    "longName": "113A",
+    "description": "113A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1014",
+    "code": "114",
+    "agencyId": "burulas",
+    "shortName": "114",
+    "longName": "114",
+    "description": "114",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1015",
+    "code": "114A",
+    "agencyId": "burulas",
+    "shortName": "114A",
+    "longName": "114A",
+    "description": "114A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1016",
+    "code": "115",
+    "agencyId": "burulas",
+    "shortName": "115",
+    "longName": "115",
+    "description": "115",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1017",
+    "code": "116",
+    "agencyId": "burulas",
+    "shortName": "116",
+    "longName": "116",
+    "description": "116",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1018",
+    "code": "116C",
+    "agencyId": "burulas",
+    "shortName": "116C",
+    "longName": "116C",
+    "description": "116C",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1019",
+    "code": "117",
+    "agencyId": "burulas",
+    "shortName": "117",
+    "longName": "117",
+    "description": "117",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1020",
+    "code": "118A",
+    "agencyId": "burulas",
+    "shortName": "118A",
+    "longName": "118A",
+    "description": "118A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1021",
+    "code": "119",
+    "agencyId": "burulas",
+    "shortName": "119",
+    "longName": "119",
+    "description": "119",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1022",
+    "code": "119A",
+    "agencyId": "burulas",
+    "shortName": "119A",
+    "longName": "119A",
+    "description": "119A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1023",
+    "code": "120",
+    "agencyId": "burulas",
+    "shortName": "120",
+    "longName": "120",
+    "description": "120",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1024",
+    "code": "130",
+    "agencyId": "burulas",
+    "shortName": "130",
+    "longName": "130",
+    "description": "130",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1025",
+    "code": "131",
+    "agencyId": "burulas",
+    "shortName": "131",
+    "longName": "131",
+    "description": "131",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1026",
+    "code": "132",
+    "agencyId": "burulas",
+    "shortName": "132",
+    "longName": "132",
+    "description": "132",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1027",
+    "code": "132İ",
+    "agencyId": "burulas",
+    "shortName": "132İ",
+    "longName": "132İ",
+    "description": "132İ",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1028",
+    "code": "133",
+    "agencyId": "burulas",
+    "shortName": "133",
+    "longName": "133",
+    "description": "133",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1029",
+    "code": "134",
+    "agencyId": "burulas",
+    "shortName": "134",
+    "longName": "134",
+    "description": "134",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1030",
+    "code": "134F",
+    "agencyId": "burulas",
+    "shortName": "134F",
+    "longName": "134F",
+    "description": "134F",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1031",
+    "code": "135",
+    "agencyId": "burulas",
+    "shortName": "135",
+    "longName": "135",
+    "description": "135",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1032",
+    "code": "135H",
+    "agencyId": "burulas",
+    "shortName": "135H",
+    "longName": "135H",
+    "description": "135H",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1033",
+    "code": "136",
+    "agencyId": "burulas",
+    "shortName": "136",
+    "longName": "136",
+    "description": "136",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1034",
+    "code": "137",
+    "agencyId": "burulas",
+    "shortName": "137",
+    "longName": "137",
+    "description": "137",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1035",
+    "code": "139",
+    "agencyId": "burulas",
+    "shortName": "139",
+    "longName": "139",
+    "description": "139",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1036",
+    "code": "140",
+    "agencyId": "burulas",
+    "shortName": "140",
+    "longName": "140",
+    "description": "140",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1037",
+    "code": "14F",
+    "agencyId": "burulas",
+    "shortName": "14F",
+    "longName": "14F",
+    "description": "14F",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1038",
+    "code": "14L",
+    "agencyId": "burulas",
+    "shortName": "14L",
+    "longName": "14L",
+    "description": "14L",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1039",
+    "code": "14L2",
+    "agencyId": "burulas",
+    "shortName": "14L2",
+    "longName": "14L2",
+    "description": "14L2",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1040",
+    "code": "14L3",
+    "agencyId": "burulas",
+    "shortName": "14L3",
+    "longName": "14L3",
+    "description": "14L3",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1041",
+    "code": "14N",
+    "agencyId": "burulas",
+    "shortName": "14N",
+    "longName": "14N",
+    "description": "14N",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1042",
+    "code": "14U",
+    "agencyId": "burulas",
+    "shortName": "14U",
+    "longName": "14U",
+    "description": "14U",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1043",
+    "code": "15",
+    "agencyId": "burulas",
+    "shortName": "15",
+    "longName": "15",
+    "description": "15",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1044",
+    "code": "15A",
+    "agencyId": "burulas",
+    "shortName": "15A",
+    "longName": "15A",
+    "description": "15A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1045",
+    "code": "15B",
+    "agencyId": "burulas",
+    "shortName": "15B",
+    "longName": "15B",
+    "description": "15B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1046",
+    "code": "15H",
+    "agencyId": "burulas",
+    "shortName": "15H",
+    "longName": "15H",
+    "description": "15H",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1047",
+    "code": "16A",
+    "agencyId": "burulas",
+    "shortName": "16A",
+    "longName": "16A",
+    "description": "16A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1048",
+    "code": "16S",
+    "agencyId": "burulas",
+    "shortName": "16S",
+    "longName": "16S",
+    "description": "16S",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1049",
+    "code": "16İ",
+    "agencyId": "burulas",
+    "shortName": "16İ",
+    "longName": "16İ",
+    "description": "16İ",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1050",
+    "code": "17A",
+    "agencyId": "burulas",
+    "shortName": "17A",
+    "longName": "17A",
+    "description": "17A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1051",
+    "code": "17B",
+    "agencyId": "burulas",
+    "shortName": "17B",
+    "longName": "17B",
+    "description": "17B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1052",
+    "code": "17C",
+    "agencyId": "burulas",
+    "shortName": "17C",
+    "longName": "17C",
+    "description": "17C",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1053",
+    "code": "17D",
+    "agencyId": "burulas",
+    "shortName": "17D",
+    "longName": "17D",
+    "description": "17D",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1054",
+    "code": "17E",
+    "agencyId": "burulas",
+    "shortName": "17E",
+    "longName": "17E",
+    "description": "17E",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1055",
+    "code": "17F",
+    "agencyId": "burulas",
+    "shortName": "17F",
+    "longName": "17F",
+    "description": "17F",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1056",
+    "code": "17H",
+    "agencyId": "burulas",
+    "shortName": "17H",
+    "longName": "17H",
+    "description": "17H",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1057",
+    "code": "17M",
+    "agencyId": "burulas",
+    "shortName": "17M",
+    "longName": "17M",
+    "description": "17M",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1058",
+    "code": "17S",
+    "agencyId": "burulas",
+    "shortName": "17S",
+    "longName": "17S",
+    "description": "17S",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1059",
+    "code": "17T",
+    "agencyId": "burulas",
+    "shortName": "17T",
+    "longName": "17T",
+    "description": "17T",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1060",
+    "code": "17Y",
+    "agencyId": "burulas",
+    "shortName": "17Y",
+    "longName": "17Y",
+    "description": "17Y",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1061",
+    "code": "17YE",
+    "agencyId": "burulas",
+    "shortName": "17YE",
+    "longName": "17YE",
+    "description": "17YE",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1062",
+    "code": "18",
+    "agencyId": "burulas",
+    "shortName": "18",
+    "longName": "18",
+    "description": "18",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1063",
+    "code": "18B",
+    "agencyId": "burulas",
+    "shortName": "18B",
+    "longName": "18B",
+    "description": "18B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1064",
+    "code": "18Y",
+    "agencyId": "burulas",
+    "shortName": "18Y",
+    "longName": "18Y",
+    "description": "18Y",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1065",
+    "code": "18İ",
+    "agencyId": "burulas",
+    "shortName": "18İ",
+    "longName": "18İ",
+    "description": "18İ",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1066",
+    "code": "19A",
+    "agencyId": "burulas",
+    "shortName": "19A",
+    "longName": "19A",
+    "description": "19A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1067",
+    "code": "19B",
+    "agencyId": "burulas",
+    "shortName": "19B",
+    "longName": "19B",
+    "description": "19B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1068",
+    "code": "19C",
+    "agencyId": "burulas",
+    "shortName": "19C",
+    "longName": "19C",
+    "description": "19C",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1069",
+    "code": "19D",
+    "agencyId": "burulas",
+    "shortName": "19D",
+    "longName": "19D",
+    "description": "19D",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1070",
+    "code": "19E",
+    "agencyId": "burulas",
+    "shortName": "19E",
+    "longName": "19E",
+    "description": "19E",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1071",
+    "code": "19İ",
+    "agencyId": "burulas",
+    "shortName": "19İ",
+    "longName": "19İ",
+    "description": "19İ",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1072",
+    "code": "1A",
+    "agencyId": "burulas",
+    "shortName": "1A",
+    "longName": "1A",
+    "description": "1A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1073",
+    "code": "1C",
+    "agencyId": "burulas",
+    "shortName": "1C",
+    "longName": "1C",
+    "description": "1C",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1074",
+    "code": "1D",
+    "agencyId": "burulas",
+    "shortName": "1D",
+    "longName": "1D",
+    "description": "1D",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1075",
+    "code": "1GY",
+    "agencyId": "burulas",
+    "shortName": "1GY",
+    "longName": "1GY",
+    "description": "1GY",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1076",
+    "code": "1H",
+    "agencyId": "burulas",
+    "shortName": "1H",
+    "longName": "1H",
+    "description": "1H",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1077",
+    "code": "1K",
+    "agencyId": "burulas",
+    "shortName": "1K",
+    "longName": "1K",
+    "description": "1K",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1078",
+    "code": "1M",
+    "agencyId": "burulas",
+    "shortName": "1M",
+    "longName": "1M",
+    "description": "1M",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1079",
+    "code": "1MB",
+    "agencyId": "burulas",
+    "shortName": "1MB",
+    "longName": "1MB",
+    "description": "1MB",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1080",
+    "code": "1SY",
+    "agencyId": "burulas",
+    "shortName": "1SY",
+    "longName": "1SY",
+    "description": "1SY",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1081",
+    "code": "1T",
+    "agencyId": "burulas",
+    "shortName": "1T",
+    "longName": "1T",
+    "description": "1T",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1082",
+    "code": "1TG",
+    "agencyId": "burulas",
+    "shortName": "1TG",
+    "longName": "1TG",
+    "description": "1TG",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1083",
+    "code": "1TH",
+    "agencyId": "burulas",
+    "shortName": "1TH",
+    "longName": "1TH",
+    "description": "1TH",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1084",
+    "code": "1TK",
+    "agencyId": "burulas",
+    "shortName": "1TK",
+    "longName": "1TK",
+    "description": "1TK",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1085",
+    "code": "20",
+    "agencyId": "burulas",
+    "shortName": "20",
+    "longName": "20",
+    "description": "20",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1086",
+    "code": "20A",
+    "agencyId": "burulas",
+    "shortName": "20A",
+    "longName": "20A",
+    "description": "20A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1087",
+    "code": "21",
+    "agencyId": "burulas",
+    "shortName": "21",
+    "longName": "21",
+    "description": "21",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1088",
+    "code": "21CK",
+    "agencyId": "burulas",
+    "shortName": "21CK",
+    "longName": "21CK",
+    "description": "21CK",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1089",
+    "code": "22C",
+    "agencyId": "burulas",
+    "shortName": "22C",
+    "longName": "22C",
+    "description": "22C",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1090",
+    "code": "23",
+    "agencyId": "burulas",
+    "shortName": "23",
+    "longName": "23",
+    "description": "23",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1091",
+    "code": "23A",
+    "agencyId": "burulas",
+    "shortName": "23A",
+    "longName": "23A",
+    "description": "23A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1092",
+    "code": "24B",
+    "agencyId": "burulas",
+    "shortName": "24B",
+    "longName": "24B",
+    "description": "24B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1093",
+    "code": "24D",
+    "agencyId": "burulas",
+    "shortName": "24D",
+    "longName": "24D",
+    "description": "24D",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1094",
+    "code": "25",
+    "agencyId": "burulas",
+    "shortName": "25",
+    "longName": "25",
+    "description": "25",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1095",
+    "code": "25A",
+    "agencyId": "burulas",
+    "shortName": "25A",
+    "longName": "25A",
+    "description": "25A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1096",
+    "code": "25B",
+    "agencyId": "burulas",
+    "shortName": "25B",
+    "longName": "25B",
+    "description": "25B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1097",
+    "code": "25D",
+    "agencyId": "burulas",
+    "shortName": "25D",
+    "longName": "25D",
+    "description": "25D",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1098",
+    "code": "27A",
+    "agencyId": "burulas",
+    "shortName": "27A",
+    "longName": "27A",
+    "description": "27A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1099",
+    "code": "28",
+    "agencyId": "burulas",
+    "shortName": "28",
+    "longName": "28",
+    "description": "28",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1100",
+    "code": "28A",
+    "agencyId": "burulas",
+    "shortName": "28A",
+    "longName": "28A",
+    "description": "28A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1101",
+    "code": "29A",
+    "agencyId": "burulas",
+    "shortName": "29A",
+    "longName": "29A",
+    "description": "29A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1102",
+    "code": "2B",
+    "agencyId": "burulas",
+    "shortName": "2B",
+    "longName": "2B",
+    "description": "2B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1103",
+    "code": "2BT",
+    "agencyId": "burulas",
+    "shortName": "2BT",
+    "longName": "2BT",
+    "description": "2BT",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1104",
+    "code": "2C",
+    "agencyId": "burulas",
+    "shortName": "2C",
+    "longName": "2C",
+    "description": "2C",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1105",
+    "code": "2E",
+    "agencyId": "burulas",
+    "shortName": "2E",
+    "longName": "2E",
+    "description": "2E",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1106",
+    "code": "2G1",
+    "agencyId": "burulas",
+    "shortName": "2G1",
+    "longName": "2G1",
+    "description": "2G1",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1107",
+    "code": "2G2",
+    "agencyId": "burulas",
+    "shortName": "2G2",
+    "longName": "2G2",
+    "description": "2G2",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1108",
+    "code": "2GA",
+    "agencyId": "burulas",
+    "shortName": "2GA",
+    "longName": "2GA",
+    "description": "2GA",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1109",
+    "code": "2GH",
+    "agencyId": "burulas",
+    "shortName": "2GH",
+    "longName": "2GH",
+    "description": "2GH",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1110",
+    "code": "2GK",
+    "agencyId": "burulas",
+    "shortName": "2GK",
+    "longName": "2GK",
+    "description": "2GK",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1111",
+    "code": "2GM",
+    "agencyId": "burulas",
+    "shortName": "2GM",
+    "longName": "2GM",
+    "description": "2GM",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1112",
+    "code": "2GY",
+    "agencyId": "burulas",
+    "shortName": "2GY",
+    "longName": "2GY",
+    "description": "2GY",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1113",
+    "code": "2K",
+    "agencyId": "burulas",
+    "shortName": "2K",
+    "longName": "2K",
+    "description": "2K",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1114",
+    "code": "2KÇ",
+    "agencyId": "burulas",
+    "shortName": "2KÇ",
+    "longName": "2KÇ",
+    "description": "2KÇ",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1115",
+    "code": "2M",
+    "agencyId": "burulas",
+    "shortName": "2M",
+    "longName": "2M",
+    "description": "2M",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1116",
+    "code": "2MU",
+    "agencyId": "burulas",
+    "shortName": "2MU",
+    "longName": "2MU",
+    "description": "2MU",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1117",
+    "code": "2U",
+    "agencyId": "burulas",
+    "shortName": "2U",
+    "longName": "2U",
+    "description": "2U",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1118",
+    "code": "30",
+    "agencyId": "burulas",
+    "shortName": "30",
+    "longName": "30",
+    "description": "30",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1119",
+    "code": "31A",
+    "agencyId": "burulas",
+    "shortName": "31A",
+    "longName": "31A",
+    "description": "31A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1120",
+    "code": "35B",
+    "agencyId": "burulas",
+    "shortName": "35B",
+    "longName": "35B",
+    "description": "35B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1121",
+    "code": "35C",
+    "agencyId": "burulas",
+    "shortName": "35C",
+    "longName": "35C",
+    "description": "35C",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1122",
+    "code": "35E1",
+    "agencyId": "burulas",
+    "shortName": "35E1",
+    "longName": "35E1",
+    "description": "35E1",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1123",
+    "code": "35E2",
+    "agencyId": "burulas",
+    "shortName": "35E2",
+    "longName": "35E2",
+    "description": "35E2",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1124",
+    "code": "35G",
+    "agencyId": "burulas",
+    "shortName": "35G",
+    "longName": "35G",
+    "description": "35G",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1125",
+    "code": "35H",
+    "agencyId": "burulas",
+    "shortName": "35H",
+    "longName": "35H",
+    "description": "35H",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1126",
+    "code": "35L",
+    "agencyId": "burulas",
+    "shortName": "35L",
+    "longName": "35L",
+    "description": "35L",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1127",
+    "code": "35R",
+    "agencyId": "burulas",
+    "shortName": "35R",
+    "longName": "35R",
+    "description": "35R",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1128",
+    "code": "35S",
+    "agencyId": "burulas",
+    "shortName": "35S",
+    "longName": "35S",
+    "description": "35S",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1129",
+    "code": "35SE",
+    "agencyId": "burulas",
+    "shortName": "35SE",
+    "longName": "35SE",
+    "description": "35SE",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1130",
+    "code": "35U",
+    "agencyId": "burulas",
+    "shortName": "35U",
+    "longName": "35U",
+    "description": "35U",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1131",
+    "code": "36",
+    "agencyId": "burulas",
+    "shortName": "36",
+    "longName": "36",
+    "description": "36",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1132",
+    "code": "36A",
+    "agencyId": "burulas",
+    "shortName": "36A",
+    "longName": "36A",
+    "description": "36A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1133",
+    "code": "37",
+    "agencyId": "burulas",
+    "shortName": "37",
+    "longName": "37",
+    "description": "37",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1134",
+    "code": "38",
+    "agencyId": "burulas",
+    "shortName": "38",
+    "longName": "38",
+    "description": "38",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1135",
+    "code": "38B",
+    "agencyId": "burulas",
+    "shortName": "38B",
+    "longName": "38B",
+    "description": "38B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1136",
+    "code": "38B2",
+    "agencyId": "burulas",
+    "shortName": "38B2",
+    "longName": "38B2",
+    "description": "38B2",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1137",
+    "code": "38D",
+    "agencyId": "burulas",
+    "shortName": "38D",
+    "longName": "38D",
+    "description": "38D",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1138",
+    "code": "38D2",
+    "agencyId": "burulas",
+    "shortName": "38D2",
+    "longName": "38D2",
+    "description": "38D2",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1139",
+    "code": "38G",
+    "agencyId": "burulas",
+    "shortName": "38G",
+    "longName": "38G",
+    "description": "38G",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1140",
+    "code": "3C",
+    "agencyId": "burulas",
+    "shortName": "3C",
+    "longName": "3C",
+    "description": "3C",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1141",
+    "code": "3G",
+    "agencyId": "burulas",
+    "shortName": "3G",
+    "longName": "3G",
+    "description": "3G",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1142",
+    "code": "3MU",
+    "agencyId": "burulas",
+    "shortName": "3MU",
+    "longName": "3MU",
+    "description": "3MU",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1143",
+    "code": "3P",
+    "agencyId": "burulas",
+    "shortName": "3P",
+    "longName": "3P",
+    "description": "3P",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1144",
+    "code": "3İ",
+    "agencyId": "burulas",
+    "shortName": "3İ",
+    "longName": "3İ",
+    "description": "3İ",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1145",
+    "code": "401",
+    "agencyId": "burulas",
+    "shortName": "401",
+    "longName": "401",
+    "description": "401",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1146",
+    "code": "40H",
+    "agencyId": "burulas",
+    "shortName": "40H",
+    "longName": "40H",
+    "description": "40H",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1147",
+    "code": "43A",
+    "agencyId": "burulas",
+    "shortName": "43A",
+    "longName": "43A",
+    "description": "43A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1148",
+    "code": "43D",
+    "agencyId": "burulas",
+    "shortName": "43D",
+    "longName": "43D",
+    "description": "43D",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1149",
+    "code": "43H",
+    "agencyId": "burulas",
+    "shortName": "43H",
+    "longName": "43H",
+    "description": "43H",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1150",
+    "code": "43HB",
+    "agencyId": "burulas",
+    "shortName": "43HB",
+    "longName": "43HB",
+    "description": "43HB",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1151",
+    "code": "4A",
+    "agencyId": "burulas",
+    "shortName": "4A",
+    "longName": "4A",
+    "description": "4A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1152",
+    "code": "4B",
+    "agencyId": "burulas",
+    "shortName": "4B",
+    "longName": "4B",
+    "description": "4B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1153",
+    "code": "4G",
+    "agencyId": "burulas",
+    "shortName": "4G",
+    "longName": "4G",
+    "description": "4G",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1154",
+    "code": "4İ",
+    "agencyId": "burulas",
+    "shortName": "4İ",
+    "longName": "4İ",
+    "description": "4İ",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1155",
+    "code": "501",
+    "agencyId": "burulas",
+    "shortName": "501",
+    "longName": "501",
+    "description": "501",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1156",
+    "code": "5A",
+    "agencyId": "burulas",
+    "shortName": "5A",
+    "longName": "5A",
+    "description": "5A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1157",
+    "code": "5B",
+    "agencyId": "burulas",
+    "shortName": "5B",
+    "longName": "5B",
+    "description": "5B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1158",
+    "code": "5E",
+    "agencyId": "burulas",
+    "shortName": "5E",
+    "longName": "5E",
+    "description": "5E",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1159",
+    "code": "5G",
+    "agencyId": "burulas",
+    "shortName": "5G",
+    "longName": "5G",
+    "description": "5G",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1160",
+    "code": "601",
+    "agencyId": "burulas",
+    "shortName": "601",
+    "longName": "601",
+    "description": "601",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1161",
+    "code": "601U",
+    "agencyId": "burulas",
+    "shortName": "601U",
+    "longName": "601U",
+    "description": "601U",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1162",
+    "code": "60B",
+    "agencyId": "burulas",
+    "shortName": "60B",
+    "longName": "60B",
+    "description": "60B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1163",
+    "code": "60K",
+    "agencyId": "burulas",
+    "shortName": "60K",
+    "longName": "60K",
+    "description": "60K",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1164",
+    "code": "610",
+    "agencyId": "burulas",
+    "shortName": "610",
+    "longName": "610",
+    "description": "610",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1165",
+    "code": "610H",
+    "agencyId": "burulas",
+    "shortName": "610H",
+    "longName": "610H",
+    "description": "610H",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1166",
+    "code": "611",
+    "agencyId": "burulas",
+    "shortName": "611",
+    "longName": "611",
+    "description": "611",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1167",
+    "code": "612",
+    "agencyId": "burulas",
+    "shortName": "612",
+    "longName": "612",
+    "description": "612",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1168",
+    "code": "612T",
+    "agencyId": "burulas",
+    "shortName": "612T",
+    "longName": "612T",
+    "description": "612T",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1169",
+    "code": "613",
+    "agencyId": "burulas",
+    "shortName": "613",
+    "longName": "613",
+    "description": "613",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1170",
+    "code": "614",
+    "agencyId": "burulas",
+    "shortName": "614",
+    "longName": "614",
+    "description": "614",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1171",
+    "code": "615",
+    "agencyId": "burulas",
+    "shortName": "615",
+    "longName": "615",
+    "description": "615",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1172",
+    "code": "616",
+    "agencyId": "burulas",
+    "shortName": "616",
+    "longName": "616",
+    "description": "616",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1173",
+    "code": "616H",
+    "agencyId": "burulas",
+    "shortName": "616H",
+    "longName": "616H",
+    "description": "616H",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1174",
+    "code": "617",
+    "agencyId": "burulas",
+    "shortName": "617",
+    "longName": "617",
+    "description": "617",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1175",
+    "code": "617H",
+    "agencyId": "burulas",
+    "shortName": "617H",
+    "longName": "617H",
+    "description": "617H",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1176",
+    "code": "618",
+    "agencyId": "burulas",
+    "shortName": "618",
+    "longName": "618",
+    "description": "618",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1177",
+    "code": "619",
+    "agencyId": "burulas",
+    "shortName": "619",
+    "longName": "619",
+    "description": "619",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1178",
+    "code": "620",
+    "agencyId": "burulas",
+    "shortName": "620",
+    "longName": "620",
+    "description": "620",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1179",
+    "code": "620K",
+    "agencyId": "burulas",
+    "shortName": "620K",
+    "longName": "620K",
+    "description": "620K",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1180",
+    "code": "621",
+    "agencyId": "burulas",
+    "shortName": "621",
+    "longName": "621",
+    "description": "621",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1181",
+    "code": "622",
+    "agencyId": "burulas",
+    "shortName": "622",
+    "longName": "622",
+    "description": "622",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1182",
+    "code": "623",
+    "agencyId": "burulas",
+    "shortName": "623",
+    "longName": "623",
+    "description": "623",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1183",
+    "code": "625",
+    "agencyId": "burulas",
+    "shortName": "625",
+    "longName": "625",
+    "description": "625",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1184",
+    "code": "626",
+    "agencyId": "burulas",
+    "shortName": "626",
+    "longName": "626",
+    "description": "626",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1185",
+    "code": "627",
+    "agencyId": "burulas",
+    "shortName": "627",
+    "longName": "627",
+    "description": "627",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1186",
+    "code": "628",
+    "agencyId": "burulas",
+    "shortName": "628",
+    "longName": "628",
+    "description": "628",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1187",
+    "code": "630",
+    "agencyId": "burulas",
+    "shortName": "630",
+    "longName": "630",
+    "description": "630",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1188",
+    "code": "631",
+    "agencyId": "burulas",
+    "shortName": "631",
+    "longName": "631",
+    "description": "631",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1189",
+    "code": "632",
+    "agencyId": "burulas",
+    "shortName": "632",
+    "longName": "632",
+    "description": "632",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1190",
+    "code": "642",
+    "agencyId": "burulas",
+    "shortName": "642",
+    "longName": "642",
+    "description": "642",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1191",
+    "code": "675",
+    "agencyId": "burulas",
+    "shortName": "675",
+    "longName": "675",
+    "description": "675",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1192",
+    "code": "6A",
+    "agencyId": "burulas",
+    "shortName": "6A",
+    "longName": "6A",
+    "description": "6A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1193",
+    "code": "6E",
+    "agencyId": "burulas",
+    "shortName": "6E",
+    "longName": "6E",
+    "description": "6E",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1194",
+    "code": "6F",
+    "agencyId": "burulas",
+    "shortName": "6F",
+    "longName": "6F",
+    "description": "6F",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1195",
+    "code": "6F1",
+    "agencyId": "burulas",
+    "shortName": "6F1",
+    "longName": "6F1",
+    "description": "6F1",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1196",
+    "code": "6F2",
+    "agencyId": "burulas",
+    "shortName": "6F2",
+    "longName": "6F2",
+    "description": "6F2",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1197",
+    "code": "6FD",
+    "agencyId": "burulas",
+    "shortName": "6FD",
+    "longName": "6FD",
+    "description": "6FD",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1198",
+    "code": "6K1",
+    "agencyId": "burulas",
+    "shortName": "6K1",
+    "longName": "6K1",
+    "description": "6K1",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1199",
+    "code": "714",
+    "agencyId": "burulas",
+    "shortName": "714",
+    "longName": "714",
+    "description": "714",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1200",
+    "code": "732",
+    "agencyId": "burulas",
+    "shortName": "732",
+    "longName": "732",
+    "description": "732",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1201",
+    "code": "741M",
+    "agencyId": "burulas",
+    "shortName": "741M",
+    "longName": "741M",
+    "description": "741M",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1202",
+    "code": "755B",
+    "agencyId": "burulas",
+    "shortName": "755B",
+    "longName": "755B",
+    "description": "755B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1203",
+    "code": "772",
+    "agencyId": "burulas",
+    "shortName": "772",
+    "longName": "772",
+    "description": "772",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1204",
+    "code": "7A",
+    "agencyId": "burulas",
+    "shortName": "7A",
+    "longName": "7A",
+    "description": "7A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1205",
+    "code": "7B",
+    "agencyId": "burulas",
+    "shortName": "7B",
+    "longName": "7B",
+    "description": "7B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1206",
+    "code": "7C",
+    "agencyId": "burulas",
+    "shortName": "7C",
+    "longName": "7C",
+    "description": "7C",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1207",
+    "code": "7S",
+    "agencyId": "burulas",
+    "shortName": "7S",
+    "longName": "7S",
+    "description": "7S",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1208",
+    "code": "801",
+    "agencyId": "burulas",
+    "shortName": "801",
+    "longName": "801",
+    "description": "801",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1209",
+    "code": "811",
+    "agencyId": "burulas",
+    "shortName": "811",
+    "longName": "811",
+    "description": "811",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1210",
+    "code": "811D",
+    "agencyId": "burulas",
+    "shortName": "811D",
+    "longName": "811D",
+    "description": "811D",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1211",
+    "code": "812S",
+    "agencyId": "burulas",
+    "shortName": "812S",
+    "longName": "812S",
+    "description": "812S",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1212",
+    "code": "812T",
+    "agencyId": "burulas",
+    "shortName": "812T",
+    "longName": "812T",
+    "description": "812T",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1213",
+    "code": "813C",
+    "agencyId": "burulas",
+    "shortName": "813C",
+    "longName": "813C",
+    "description": "813C",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1214",
+    "code": "813D",
+    "agencyId": "burulas",
+    "shortName": "813D",
+    "longName": "813D",
+    "description": "813D",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1215",
+    "code": "813H",
+    "agencyId": "burulas",
+    "shortName": "813H",
+    "longName": "813H",
+    "description": "813H",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1216",
+    "code": "814",
+    "agencyId": "burulas",
+    "shortName": "814",
+    "longName": "814",
+    "description": "814",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1217",
+    "code": "815",
+    "agencyId": "burulas",
+    "shortName": "815",
+    "longName": "815",
+    "description": "815",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1218",
+    "code": "816",
+    "agencyId": "burulas",
+    "shortName": "816",
+    "longName": "816",
+    "description": "816",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1219",
+    "code": "817",
+    "agencyId": "burulas",
+    "shortName": "817",
+    "longName": "817",
+    "description": "817",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1220",
+    "code": "817TK",
+    "agencyId": "burulas",
+    "shortName": "817TK",
+    "longName": "817TK",
+    "description": "817TK",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1221",
+    "code": "818",
+    "agencyId": "burulas",
+    "shortName": "818",
+    "longName": "818",
+    "description": "818",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1222",
+    "code": "818H",
+    "agencyId": "burulas",
+    "shortName": "818H",
+    "longName": "818H",
+    "description": "818H",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1223",
+    "code": "820",
+    "agencyId": "burulas",
+    "shortName": "820",
+    "longName": "820",
+    "description": "820",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1224",
+    "code": "876",
+    "agencyId": "burulas",
+    "shortName": "876",
+    "longName": "876",
+    "description": "876",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1225",
+    "code": "8L",
+    "agencyId": "burulas",
+    "shortName": "8L",
+    "longName": "8L",
+    "description": "8L",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1226",
+    "code": "901",
+    "agencyId": "burulas",
+    "shortName": "901",
+    "longName": "901",
+    "description": "901",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1227",
+    "code": "903",
+    "agencyId": "burulas",
+    "shortName": "903",
+    "longName": "903",
+    "description": "903",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1228",
+    "code": "904",
+    "agencyId": "burulas",
+    "shortName": "904",
+    "longName": "904",
+    "description": "904",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1229",
+    "code": "91",
+    "agencyId": "burulas",
+    "shortName": "91",
+    "longName": "91",
+    "description": "91",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1230",
+    "code": "911A",
+    "agencyId": "burulas",
+    "shortName": "911A",
+    "longName": "911A",
+    "description": "911A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1231",
+    "code": "912",
+    "agencyId": "burulas",
+    "shortName": "912",
+    "longName": "912",
+    "description": "912",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1232",
+    "code": "914",
+    "agencyId": "burulas",
+    "shortName": "914",
+    "longName": "914",
+    "description": "914",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1233",
+    "code": "914A",
+    "agencyId": "burulas",
+    "shortName": "914A",
+    "longName": "914A",
+    "description": "914A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1234",
+    "code": "91G",
+    "agencyId": "burulas",
+    "shortName": "91G",
+    "longName": "91G",
+    "description": "91G",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1235",
+    "code": "92",
+    "agencyId": "burulas",
+    "shortName": "92",
+    "longName": "92",
+    "description": "92",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1236",
+    "code": "92B",
+    "agencyId": "burulas",
+    "shortName": "92B",
+    "longName": "92B",
+    "description": "92B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1237",
+    "code": "93",
+    "agencyId": "burulas",
+    "shortName": "93",
+    "longName": "93",
+    "description": "93",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1238",
+    "code": "93B",
+    "agencyId": "burulas",
+    "shortName": "93B",
+    "longName": "93B",
+    "description": "93B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1239",
+    "code": "93E",
+    "agencyId": "burulas",
+    "shortName": "93E",
+    "longName": "93E",
+    "description": "93E",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1240",
+    "code": "94",
+    "agencyId": "burulas",
+    "shortName": "94",
+    "longName": "94",
+    "description": "94",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1241",
+    "code": "94B",
+    "agencyId": "burulas",
+    "shortName": "94B",
+    "longName": "94B",
+    "description": "94B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1242",
+    "code": "95",
+    "agencyId": "burulas",
+    "shortName": "95",
+    "longName": "95",
+    "description": "95",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1243",
+    "code": "95A",
+    "agencyId": "burulas",
+    "shortName": "95A",
+    "longName": "95A",
+    "description": "95A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1244",
+    "code": "95B",
+    "agencyId": "burulas",
+    "shortName": "95B",
+    "longName": "95B",
+    "description": "95B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1245",
+    "code": "96",
+    "agencyId": "burulas",
+    "shortName": "96",
+    "longName": "96",
+    "description": "96",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1246",
+    "code": "97",
+    "agencyId": "burulas",
+    "shortName": "97",
+    "longName": "97",
+    "description": "97",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1247",
+    "code": "97A",
+    "agencyId": "burulas",
+    "shortName": "97A",
+    "longName": "97A",
+    "description": "97A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1248",
+    "code": "97B",
+    "agencyId": "burulas",
+    "shortName": "97B",
+    "longName": "97B",
+    "description": "97B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1249",
+    "code": "97F",
+    "agencyId": "burulas",
+    "shortName": "97F",
+    "longName": "97F",
+    "description": "97F",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1250",
+    "code": "97G",
+    "agencyId": "burulas",
+    "shortName": "97G",
+    "longName": "97G",
+    "description": "97G",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1251",
+    "code": "98",
+    "agencyId": "burulas",
+    "shortName": "98",
+    "longName": "98",
+    "description": "98",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1252",
+    "code": "98E",
+    "agencyId": "burulas",
+    "shortName": "98E",
+    "longName": "98E",
+    "description": "98E",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1253",
+    "code": "99",
+    "agencyId": "burulas",
+    "shortName": "99",
+    "longName": "99",
+    "description": "99",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1254",
+    "code": "991",
+    "agencyId": "burulas",
+    "shortName": "991",
+    "longName": "991",
+    "description": "991",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1255",
+    "code": "992",
+    "agencyId": "burulas",
+    "shortName": "992",
+    "longName": "992",
+    "description": "992",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1256",
+    "code": "9D",
+    "agencyId": "burulas",
+    "shortName": "9D",
+    "longName": "9D",
+    "description": "9D",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1257",
+    "code": "9M",
+    "agencyId": "burulas",
+    "shortName": "9M",
+    "longName": "9M",
+    "description": "9M",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1258",
+    "code": "9PA",
+    "agencyId": "burulas",
+    "shortName": "9PA",
+    "longName": "9PA",
+    "description": "9PA",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1259",
+    "code": "Armutlu (Ihlas)",
+    "agencyId": "burulas",
+    "shortName": "Armutlu (Ihlas)",
+    "longName": "Armutlu (Ihlas)",
+    "description": "Armutlu (Ihlas)",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1260",
+    "code": "Armutlu - Istanbul ",
+    "agencyId": "burulas",
+    "shortName": "Armutlu - Istanbul ",
+    "longName": "Armutlu - Istanbul ",
+    "description": "Armutlu - Istanbul ",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1261",
+    "code": "B1",
+    "agencyId": "burulas",
+    "shortName": "B1",
+    "longName": "B1",
+    "description": "B1",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1262",
+    "code": "B10",
+    "agencyId": "burulas",
+    "shortName": "B10",
+    "longName": "B10",
+    "description": "B10",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1263",
+    "code": "B10K",
+    "agencyId": "burulas",
+    "shortName": "B10K",
+    "longName": "B10K",
+    "description": "B10K",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1264",
+    "code": "B12",
+    "agencyId": "burulas",
+    "shortName": "B12",
+    "longName": "B12",
+    "description": "B12",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1265",
+    "code": "B13",
+    "agencyId": "burulas",
+    "shortName": "B13",
+    "longName": "B13",
+    "description": "B13",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1266",
+    "code": "B15",
+    "agencyId": "burulas",
+    "shortName": "B15",
+    "longName": "B15",
+    "description": "B15",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1267",
+    "code": "B15C",
+    "agencyId": "burulas",
+    "shortName": "B15C",
+    "longName": "B15C",
+    "description": "B15C",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1268",
+    "code": "B16A",
+    "agencyId": "burulas",
+    "shortName": "B16A",
+    "longName": "B16A",
+    "description": "B16A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1269",
+    "code": "B16B",
+    "agencyId": "burulas",
+    "shortName": "B16B",
+    "longName": "B16B",
+    "description": "B16B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1270",
+    "code": "B16C",
+    "agencyId": "burulas",
+    "shortName": "B16C",
+    "longName": "B16C",
+    "description": "B16C",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1271",
+    "code": "B17",
+    "agencyId": "burulas",
+    "shortName": "B17",
+    "longName": "B17",
+    "description": "B17",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1272",
+    "code": "B17A",
+    "agencyId": "burulas",
+    "shortName": "B17A",
+    "longName": "B17A",
+    "description": "B17A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1273",
+    "code": "B17B",
+    "agencyId": "burulas",
+    "shortName": "B17B",
+    "longName": "B17B",
+    "description": "B17B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1274",
+    "code": "B1B",
+    "agencyId": "burulas",
+    "shortName": "B1B",
+    "longName": "B1B",
+    "description": "B1B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1275",
+    "code": "B2",
+    "agencyId": "burulas",
+    "shortName": "B2",
+    "longName": "B2",
+    "description": "B2",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1276",
+    "code": "B20A",
+    "agencyId": "burulas",
+    "shortName": "B20A",
+    "longName": "B20A",
+    "description": "B20A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1277",
+    "code": "B20B",
+    "agencyId": "burulas",
+    "shortName": "B20B",
+    "longName": "B20B",
+    "description": "B20B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1278",
+    "code": "B20C",
+    "agencyId": "burulas",
+    "shortName": "B20C",
+    "longName": "B20C",
+    "description": "B20C",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1279",
+    "code": "B20D",
+    "agencyId": "burulas",
+    "shortName": "B20D",
+    "longName": "B20D",
+    "description": "B20D",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1280",
+    "code": "B20G",
+    "agencyId": "burulas",
+    "shortName": "B20G",
+    "longName": "B20G",
+    "description": "B20G",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1281",
+    "code": "B22",
+    "agencyId": "burulas",
+    "shortName": "B22",
+    "longName": "B22",
+    "description": "B22",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1282",
+    "code": "B22K",
+    "agencyId": "burulas",
+    "shortName": "B22K",
+    "longName": "B22K",
+    "description": "B22K",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1283",
+    "code": "B24",
+    "agencyId": "burulas",
+    "shortName": "B24",
+    "longName": "B24",
+    "description": "B24",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1284",
+    "code": "B25",
+    "agencyId": "burulas",
+    "shortName": "B25",
+    "longName": "B25",
+    "description": "B25",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1285",
+    "code": "B27",
+    "agencyId": "burulas",
+    "shortName": "B27",
+    "longName": "B27",
+    "description": "B27",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1286",
+    "code": "B29",
+    "agencyId": "burulas",
+    "shortName": "B29",
+    "longName": "B29",
+    "description": "B29",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1287",
+    "code": "B2A",
+    "agencyId": "burulas",
+    "shortName": "B2A",
+    "longName": "B2A",
+    "description": "B2A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1288",
+    "code": "B2C",
+    "agencyId": "burulas",
+    "shortName": "B2C",
+    "longName": "B2C",
+    "description": "B2C",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1289",
+    "code": "B2D",
+    "agencyId": "burulas",
+    "shortName": "B2D",
+    "longName": "B2D",
+    "description": "B2D",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1290",
+    "code": "B2K",
+    "agencyId": "burulas",
+    "shortName": "B2K",
+    "longName": "B2K",
+    "description": "B2K",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1291",
+    "code": "B3",
+    "agencyId": "burulas",
+    "shortName": "B3",
+    "longName": "B3",
+    "description": "B3",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1292",
+    "code": "B30",
+    "agencyId": "burulas",
+    "shortName": "B30",
+    "longName": "B30",
+    "description": "B30",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1293",
+    "code": "B31",
+    "agencyId": "burulas",
+    "shortName": "B31",
+    "longName": "B31",
+    "description": "B31",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1294",
+    "code": "B31A",
+    "agencyId": "burulas",
+    "shortName": "B31A",
+    "longName": "B31A",
+    "description": "B31A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1295",
+    "code": "B32",
+    "agencyId": "burulas",
+    "shortName": "B32",
+    "longName": "B32",
+    "description": "B32",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1296",
+    "code": "B32A",
+    "agencyId": "burulas",
+    "shortName": "B32A",
+    "longName": "B32A",
+    "description": "B32A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1297",
+    "code": "B33",
+    "agencyId": "burulas",
+    "shortName": "B33",
+    "longName": "B33",
+    "description": "B33",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1298",
+    "code": "B33A",
+    "agencyId": "burulas",
+    "shortName": "B33A",
+    "longName": "B33A",
+    "description": "B33A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1299",
+    "code": "B33G",
+    "agencyId": "burulas",
+    "shortName": "B33G",
+    "longName": "B33G",
+    "description": "B33G",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1300",
+    "code": "B33H",
+    "agencyId": "burulas",
+    "shortName": "B33H",
+    "longName": "B33H",
+    "description": "B33H",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1301",
+    "code": "B33K",
+    "agencyId": "burulas",
+    "shortName": "B33K",
+    "longName": "B33K",
+    "description": "B33K",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1302",
+    "code": "B33M",
+    "agencyId": "burulas",
+    "shortName": "B33M",
+    "longName": "B33M",
+    "description": "B33M",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1303",
+    "code": "B34",
+    "agencyId": "burulas",
+    "shortName": "B34",
+    "longName": "B34",
+    "description": "B34",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1304",
+    "code": "B34U",
+    "agencyId": "burulas",
+    "shortName": "B34U",
+    "longName": "B34U",
+    "description": "B34U",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1305",
+    "code": "B35",
+    "agencyId": "burulas",
+    "shortName": "B35",
+    "longName": "B35",
+    "description": "B35",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1306",
+    "code": "B35K1",
+    "agencyId": "burulas",
+    "shortName": "B35K1",
+    "longName": "B35K1",
+    "description": "B35K1",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1307",
+    "code": "B35K2",
+    "agencyId": "burulas",
+    "shortName": "B35K2",
+    "longName": "B35K2",
+    "description": "B35K2",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1308",
+    "code": "B35M",
+    "agencyId": "burulas",
+    "shortName": "B35M",
+    "longName": "B35M",
+    "description": "B35M",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1309",
+    "code": "B36",
+    "agencyId": "burulas",
+    "shortName": "B36",
+    "longName": "B36",
+    "description": "B36",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1310",
+    "code": "B36A",
+    "agencyId": "burulas",
+    "shortName": "B36A",
+    "longName": "B36A",
+    "description": "B36A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1311",
+    "code": "B36C",
+    "agencyId": "burulas",
+    "shortName": "B36C",
+    "longName": "B36C",
+    "description": "B36C",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1312",
+    "code": "B36M",
+    "agencyId": "burulas",
+    "shortName": "B36M",
+    "longName": "B36M",
+    "description": "B36M",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1313",
+    "code": "B36U",
+    "agencyId": "burulas",
+    "shortName": "B36U",
+    "longName": "B36U",
+    "description": "B36U",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1314",
+    "code": "B37",
+    "agencyId": "burulas",
+    "shortName": "B37",
+    "longName": "B37",
+    "description": "B37",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1315",
+    "code": "B38",
+    "agencyId": "burulas",
+    "shortName": "B38",
+    "longName": "B38",
+    "description": "B38",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1316",
+    "code": "B39",
+    "agencyId": "burulas",
+    "shortName": "B39",
+    "longName": "B39",
+    "description": "B39",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1317",
+    "code": "B39K",
+    "agencyId": "burulas",
+    "shortName": "B39K",
+    "longName": "B39K",
+    "description": "B39K",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1318",
+    "code": "B3K",
+    "agencyId": "burulas",
+    "shortName": "B3K",
+    "longName": "B3K",
+    "description": "B3K",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1319",
+    "code": "B4",
+    "agencyId": "burulas",
+    "shortName": "B4",
+    "longName": "B4",
+    "description": "B4",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1320",
+    "code": "B40",
+    "agencyId": "burulas",
+    "shortName": "B40",
+    "longName": "B40",
+    "description": "B40",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1321",
+    "code": "B41B",
+    "agencyId": "burulas",
+    "shortName": "B41B",
+    "longName": "B41B",
+    "description": "B41B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1322",
+    "code": "B41C",
+    "agencyId": "burulas",
+    "shortName": "B41C",
+    "longName": "B41C",
+    "description": "B41C",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1323",
+    "code": "B42A",
+    "agencyId": "burulas",
+    "shortName": "B42A",
+    "longName": "B42A",
+    "description": "B42A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1324",
+    "code": "B43",
+    "agencyId": "burulas",
+    "shortName": "B43",
+    "longName": "B43",
+    "description": "B43",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1325",
+    "code": "B44B",
+    "agencyId": "burulas",
+    "shortName": "B44B",
+    "longName": "B44B",
+    "description": "B44B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1326",
+    "code": "B46",
+    "agencyId": "burulas",
+    "shortName": "B46",
+    "longName": "B46",
+    "description": "B46",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1327",
+    "code": "B5",
+    "agencyId": "burulas",
+    "shortName": "B5",
+    "longName": "B5",
+    "description": "B5",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1328",
+    "code": "B6",
+    "agencyId": "burulas",
+    "shortName": "B6",
+    "longName": "B6",
+    "description": "B6",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1329",
+    "code": "B7",
+    "agencyId": "burulas",
+    "shortName": "B7",
+    "longName": "B7",
+    "description": "B7",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1330",
+    "code": "B8",
+    "agencyId": "burulas",
+    "shortName": "B8",
+    "longName": "B8",
+    "description": "B8",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1331",
+    "code": "B9",
+    "agencyId": "burulas",
+    "shortName": "B9",
+    "longName": "B9",
+    "description": "B9",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1332",
+    "code": "BSP",
+    "agencyId": "burulas",
+    "shortName": "BSP",
+    "longName": "BSP",
+    "description": "BSP",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1333",
+    "code": "Bursaray Gece 1",
+    "agencyId": "burulas",
+    "shortName": "Bursaray Gece 1",
+    "longName": "Bursaray Gece 1",
+    "description": "Bursaray Gece 1",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1334",
+    "code": "Bursaray Gece 2",
+    "agencyId": "burulas",
+    "shortName": "Bursaray Gece 2",
+    "longName": "Bursaray Gece 2",
+    "description": "Bursaray Gece 2",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1335",
+    "code": "D1",
+    "agencyId": "burulas",
+    "shortName": "D1",
+    "longName": "D1",
+    "description": "D1",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1336",
+    "code": "D10",
+    "agencyId": "burulas",
+    "shortName": "D10",
+    "longName": "D10",
+    "description": "D10",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1337",
+    "code": "D11",
+    "agencyId": "burulas",
+    "shortName": "D11",
+    "longName": "D11",
+    "description": "D11",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1338",
+    "code": "D11A",
+    "agencyId": "burulas",
+    "shortName": "D11A",
+    "longName": "D11A",
+    "description": "D11A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1339",
+    "code": "D11B",
+    "agencyId": "burulas",
+    "shortName": "D11B",
+    "longName": "D11B",
+    "description": "D11B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1340",
+    "code": "D12",
+    "agencyId": "burulas",
+    "shortName": "D12",
+    "longName": "D12",
+    "description": "D12",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1341",
+    "code": "D12A",
+    "agencyId": "burulas",
+    "shortName": "D12A",
+    "longName": "D12A",
+    "description": "D12A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1342",
+    "code": "D12E",
+    "agencyId": "burulas",
+    "shortName": "D12E",
+    "longName": "D12E",
+    "description": "D12E",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1343",
+    "code": "D12H",
+    "agencyId": "burulas",
+    "shortName": "D12H",
+    "longName": "D12H",
+    "description": "D12H",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1344",
+    "code": "D12R",
+    "agencyId": "burulas",
+    "shortName": "D12R",
+    "longName": "D12R",
+    "description": "D12R",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1345",
+    "code": "D12Y",
+    "agencyId": "burulas",
+    "shortName": "D12Y",
+    "longName": "D12Y",
+    "description": "D12Y",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1346",
+    "code": "D13",
+    "agencyId": "burulas",
+    "shortName": "D13",
+    "longName": "D13",
+    "description": "D13",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1347",
+    "code": "D13A",
+    "agencyId": "burulas",
+    "shortName": "D13A",
+    "longName": "D13A",
+    "description": "D13A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1348",
+    "code": "D13D",
+    "agencyId": "burulas",
+    "shortName": "D13D",
+    "longName": "D13D",
+    "description": "D13D",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1349",
+    "code": "D14",
+    "agencyId": "burulas",
+    "shortName": "D14",
+    "longName": "D14",
+    "description": "D14",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1350",
+    "code": "D14A",
+    "agencyId": "burulas",
+    "shortName": "D14A",
+    "longName": "D14A",
+    "description": "D14A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1351",
+    "code": "D15",
+    "agencyId": "burulas",
+    "shortName": "D15",
+    "longName": "D15",
+    "description": "D15",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1352",
+    "code": "D16",
+    "agencyId": "burulas",
+    "shortName": "D16",
+    "longName": "D16",
+    "description": "D16",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1353",
+    "code": "D16A",
+    "agencyId": "burulas",
+    "shortName": "D16A",
+    "longName": "D16A",
+    "description": "D16A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1354",
+    "code": "D16B",
+    "agencyId": "burulas",
+    "shortName": "D16B",
+    "longName": "D16B",
+    "description": "D16B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1355",
+    "code": "D17",
+    "agencyId": "burulas",
+    "shortName": "D17",
+    "longName": "D17",
+    "description": "D17",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1356",
+    "code": "D17B",
+    "agencyId": "burulas",
+    "shortName": "D17B",
+    "longName": "D17B",
+    "description": "D17B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1357",
+    "code": "D18",
+    "agencyId": "burulas",
+    "shortName": "D18",
+    "longName": "D18",
+    "description": "D18",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1358",
+    "code": "D19",
+    "agencyId": "burulas",
+    "shortName": "D19",
+    "longName": "D19",
+    "description": "D19",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1359",
+    "code": "D1A",
+    "agencyId": "burulas",
+    "shortName": "D1A",
+    "longName": "D1A",
+    "description": "D1A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1360",
+    "code": "D1B",
+    "agencyId": "burulas",
+    "shortName": "D1B",
+    "longName": "D1B",
+    "description": "D1B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1361",
+    "code": "D2",
+    "agencyId": "burulas",
+    "shortName": "D2",
+    "longName": "D2",
+    "description": "D2",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1362",
+    "code": "D20",
+    "agencyId": "burulas",
+    "shortName": "D20",
+    "longName": "D20",
+    "description": "D20",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1363",
+    "code": "D21",
+    "agencyId": "burulas",
+    "shortName": "D21",
+    "longName": "D21",
+    "description": "D21",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1364",
+    "code": "D22",
+    "agencyId": "burulas",
+    "shortName": "D22",
+    "longName": "D22",
+    "description": "D22",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1365",
+    "code": "D23",
+    "agencyId": "burulas",
+    "shortName": "D23",
+    "longName": "D23",
+    "description": "D23",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1366",
+    "code": "D24",
+    "agencyId": "burulas",
+    "shortName": "D24",
+    "longName": "D24",
+    "description": "D24",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1367",
+    "code": "D24E",
+    "agencyId": "burulas",
+    "shortName": "D24E",
+    "longName": "D24E",
+    "description": "D24E",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1368",
+    "code": "D25",
+    "agencyId": "burulas",
+    "shortName": "D25",
+    "longName": "D25",
+    "description": "D25",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1369",
+    "code": "D26",
+    "agencyId": "burulas",
+    "shortName": "D26",
+    "longName": "D26",
+    "description": "D26",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1370",
+    "code": "D2A",
+    "agencyId": "burulas",
+    "shortName": "D2A",
+    "longName": "D2A",
+    "description": "D2A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1371",
+    "code": "D3",
+    "agencyId": "burulas",
+    "shortName": "D3",
+    "longName": "D3",
+    "description": "D3",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1372",
+    "code": "D4",
+    "agencyId": "burulas",
+    "shortName": "D4",
+    "longName": "D4",
+    "description": "D4",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1373",
+    "code": "D4A",
+    "agencyId": "burulas",
+    "shortName": "D4A",
+    "longName": "D4A",
+    "description": "D4A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1374",
+    "code": "D5",
+    "agencyId": "burulas",
+    "shortName": "D5",
+    "longName": "D5",
+    "description": "D5",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1375",
+    "code": "D6",
+    "agencyId": "burulas",
+    "shortName": "D6",
+    "longName": "D6",
+    "description": "D6",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1376",
+    "code": "D6A",
+    "agencyId": "burulas",
+    "shortName": "D6A",
+    "longName": "D6A",
+    "description": "D6A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1377",
+    "code": "D7",
+    "agencyId": "burulas",
+    "shortName": "D7",
+    "longName": "D7",
+    "description": "D7",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1378",
+    "code": "D7A",
+    "agencyId": "burulas",
+    "shortName": "D7A",
+    "longName": "D7A",
+    "description": "D7A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1379",
+    "code": "D8",
+    "agencyId": "burulas",
+    "shortName": "D8",
+    "longName": "D8",
+    "description": "D8",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1380",
+    "code": "D8A",
+    "agencyId": "burulas",
+    "shortName": "D8A",
+    "longName": "D8A",
+    "description": "D8A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1381",
+    "code": "D9",
+    "agencyId": "burulas",
+    "shortName": "D9",
+    "longName": "D9",
+    "description": "D9",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1382",
+    "code": "DE1",
+    "agencyId": "burulas",
+    "shortName": "DE1",
+    "longName": "DE1",
+    "description": "DE1",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1383",
+    "code": "DE2",
+    "agencyId": "burulas",
+    "shortName": "DE2",
+    "longName": "DE2",
+    "description": "DE2",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1384",
+    "code": "E12",
+    "agencyId": "burulas",
+    "shortName": "E12",
+    "longName": "E12",
+    "description": "E12",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1385",
+    "code": "E13",
+    "agencyId": "burulas",
+    "shortName": "E13",
+    "longName": "E13",
+    "description": "E13",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1386",
+    "code": "E2",
+    "agencyId": "burulas",
+    "shortName": "E2",
+    "longName": "E2",
+    "description": "E2",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1387",
+    "code": "F1",
+    "agencyId": "burulas",
+    "shortName": "F1",
+    "longName": "F1",
+    "description": "F1",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1388",
+    "code": "F3",
+    "agencyId": "burulas",
+    "shortName": "F3",
+    "longName": "F3",
+    "description": "F3",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1389",
+    "code": "G2",
+    "agencyId": "burulas",
+    "shortName": "G2",
+    "longName": "G2",
+    "description": "G2",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1390",
+    "code": "G3",
+    "agencyId": "burulas",
+    "shortName": "G3",
+    "longName": "G3",
+    "description": "G3",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1391",
+    "code": "G4A",
+    "agencyId": "burulas",
+    "shortName": "G4A",
+    "longName": "G4A",
+    "description": "G4A",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1392",
+    "code": "G4S",
+    "agencyId": "burulas",
+    "shortName": "G4S",
+    "longName": "G4S",
+    "description": "G4S",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1393",
+    "code": "G4T",
+    "agencyId": "burulas",
+    "shortName": "G4T",
+    "longName": "G4T",
+    "description": "G4T",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1394",
+    "code": "G5",
+    "agencyId": "burulas",
+    "shortName": "G5",
+    "longName": "G5",
+    "description": "G5",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1395",
+    "code": "G6",
+    "agencyId": "burulas",
+    "shortName": "G6",
+    "longName": "G6",
+    "description": "G6",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1396",
+    "code": "G7",
+    "agencyId": "burulas",
+    "shortName": "G7",
+    "longName": "G7",
+    "description": "G7",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1397",
+    "code": "G8",
+    "agencyId": "burulas",
+    "shortName": "G8",
+    "longName": "G8",
+    "description": "G8",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1398",
+    "code": "GÖREVLİ",
+    "agencyId": "burulas",
+    "shortName": "GÖREVLİ",
+    "longName": "GÖREVLİ",
+    "description": "GÖREVLİ",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1399",
+    "code": "H1",
+    "agencyId": "burulas",
+    "shortName": "H1",
+    "longName": "H1",
+    "description": "H1",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1400",
+    "code": "H2",
+    "agencyId": "burulas",
+    "shortName": "H2",
+    "longName": "H2",
+    "description": "H2",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1401",
+    "code": "H3",
+    "agencyId": "burulas",
+    "shortName": "H3",
+    "longName": "H3",
+    "description": "H3",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1402",
+    "code": "H3B",
+    "agencyId": "burulas",
+    "shortName": "H3B",
+    "longName": "H3B",
+    "description": "H3B",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1403",
+    "code": "H3D",
+    "agencyId": "burulas",
+    "shortName": "H3D",
+    "longName": "H3D",
+    "description": "H3D",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1404",
+    "code": "H4",
+    "agencyId": "burulas",
+    "shortName": "H4",
+    "longName": "H4",
+    "description": "H4",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1405",
+    "code": "Hat Seçilmemiş",
+    "agencyId": "burulas",
+    "shortName": "Hat Seçilmemiş",
+    "longName": "Hat Seçilmemiş",
+    "description": "Hat Seçilmemiş",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1406",
+    "code": "KÖRFEZ KISA",
+    "agencyId": "burulas",
+    "shortName": "KÖRFEZ KISA",
+    "longName": "KÖRFEZ KISA",
+    "description": "KÖRFEZ KISA",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1407",
+    "code": "KÖRFEZ UZUN",
+    "agencyId": "burulas",
+    "shortName": "KÖRFEZ UZUN",
+    "longName": "KÖRFEZ UZUN",
+    "description": "KÖRFEZ UZUN",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1408",
+    "code": "M1",
+    "agencyId": "burulas",
+    "shortName": "M1",
+    "longName": "M1",
+    "description": "M1",
+    "color": "#009900",
+    "carType": "metro"
+  },
+  {
+    "id": "BUR1409",
+    "code": "M2",
+    "agencyId": "burulas",
+    "shortName": "M2",
+    "longName": "M2",
+    "description": "M2",
+    "color": "#009900",
+    "carType": "metro"
+  },
+  {
+    "id": "BUR1410",
+    "code": "S1",
+    "agencyId": "burulas",
+    "shortName": "S1",
+    "longName": "S1",
+    "description": "S1",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1411",
+    "code": "S2",
+    "agencyId": "burulas",
+    "shortName": "S2",
+    "longName": "S2",
+    "description": "S2",
+    "color": "#f5c211",
+    "carType": "bus"
+  },
+  {
+    "id": "BUR1412",
+    "code": "T1",
+    "agencyId": "burulas",
+    "shortName": "T1",
+    "longName": "T1",
+    "description": "T1",
+    "color": "#ff0000",
+    "carType": "tram"
+  },
+  {
+    "id": "BUR1413",
+    "code": "T2",
+    "agencyId": "burulas",
+    "shortName": "T2",
+    "longName": "T2",
+    "description": "T2",
+    "color": "#ff0000",
+    "carType": "tram"
+  },
+  {
+    "id": "BUR1414",
+    "code": "T3",
+    "agencyId": "burulas",
+    "shortName": "T3",
+    "longName": "T3",
+    "description": "T3",
+    "color": "#ff0000",
+    "carType": "tram"
+  }
+]
