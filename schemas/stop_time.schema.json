@@ -1,21 +1,21 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "stop_time",
+    "$id": "https://dev.bykemalh.me/schema/transit-json/stop_time.schema.json",
     "title": "StopTime",
-    "description": "Durak bazında varış/kalkış saatleri – tamamen opsiyonel",
+    "description": "TransitJSON durak bazında varış/kalkış saatleri şeması",
     "type": "object",
     "properties": {
         "id": {
             "type": "string",
             "description": "Kayıt kimliği"
         },
-        "tripId": {
+        "trip_id": {
             "type": "string",
-            "description": "Hangi sefere ait (trips.id)"
+            "description": "Sefer kimliği (trips.id alanına referans)"
         },
-        "stopId": {
+        "stop_id": {
             "type": "string",
-            "description": "Hangi durak (stops.id)"
+            "description": "Durak kimliği (stops.id alanına referans)"
         },
         "sequence": {
             "type": "integer",
@@ -23,26 +23,18 @@
             "description": "Durak sırası (0 = ilk durak)"
         },
         "arrival_time": {
-            "type": "string",
-            "pattern": "^\\d{2}:\\d{2}:\\d{2}$",
-            "description": "Varış saati (HH:MM:SS) – opsiyonel"
+            "$ref": "common.schema.json#$defs/time_hhmmss",
+            "description": "Varış saati (opsiyonel)"
         },
         "departure_time": {
-            "type": "string",
-            "pattern": "^\\d{2}:\\d{2}:\\d{2}$",
-            "description": "Kalkış saati (HH:MM:SS) – opsiyonel"
+            "$ref": "common.schema.json#$defs/time_hhmmss",
+            "description": "Kalkış saati (opsiyonel)"
         },
-        "lastUpdated": {
-            "type": "string",
-            "format": "date-time",
-            "description": "Kaydın en son güncellenme tarihi (ISO 8601, opsiyonel)"
+        "last_updated": {
+            "$ref": "common.schema.json#$defs/last_updated",
+            "description": "Kaydın en son güncellenme tarihi (opsiyonel)"
         }
     },
-    "required": [
-        "id",
-        "tripId",
-        "stopId",
-        "sequence"
-    ],
+    "required": ["id", "trip_id", "stop_id", "sequence"],
     "additionalProperties": false
 }

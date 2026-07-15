@@ -1,61 +1,47 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "trips",
+    "$id": "https://dev.bykemalh.me/schema/transit-json/trips.schema.json",
     "title": "Trips",
-    "description": "Sefer tanımı – ilk kalkış saati ile birlikte",
+    "description": "TransitJSON sefer şeması",
     "type": "object",
     "properties": {
         "id": {
             "type": "string",
             "description": "Sefer için benzersiz kimlik"
         },
-        "routeId": {
+        "route_id": {
             "type": "string",
-            "description": "Hangi hatta ait olduğu"
+            "description": "Route kimliği (routes.id alanına referans)"
         },
-        "tripType": {
-            "type": "string",
-            "enum": [
-                "outbound",
-                "inbound",
-                "loop"
-            ],
+        "trip_type": {
+            "$ref": "common.schema.json#$defs/trip_type",
             "description": "Sefer tipi"
         },
-        "dayType": {
-            "type": "string",
-            "enum": [
-                "weekday",
-                "saturday",
-                "sunday"
-            ],
+        "day_type": {
+            "$ref": "common.schema.json#$defs/day_type",
             "description": "Hafta içi, cumartesi veya pazar"
         },
-        "departure_time": {
-            "type": "string",
-            "pattern": "^\\d{2}:\\d{2}:\\d{2}$",
-            "description": "İlk duraktan kalkış saati (HH:MM:SS)"
+        "departure_times": {
+            "type": "array",
+            "items": {
+                "$ref": "common.schema.json#$defs/time_hhmmss"
+            },
+            "minItems": 1,
+            "description": "İlk duraktan kalkış saatleri (HH:MM:SS)"
         },
         "headsign": {
             "type": "string",
             "description": "Araç tabelasında yazan yön bilgisi (opsiyonel)"
         },
-        "wheelchairAccessible": {
+        "wheelchair_accessible": {
             "type": "boolean",
             "description": "Seferin engelli/tekerlekli sandalye erişimine uygunluğu (opsiyonel)"
         },
-        "lastUpdated": {
-            "type": "string",
-            "format": "date-time",
-            "description": "Kaydın en son güncellenme tarihi (ISO 8601, opsiyonel)"
+        "last_updated": {
+            "$ref": "common.schema.json#$defs/last_updated",
+            "description": "Kaydın en son güncellenme tarihi (opsiyonel)"
         }
     },
-    "required": [
-        "id",
-        "routeId",
-        "tripType",
-        "dayType",
-        "departure_time"
-    ],
+    "required": ["id", "route_id", "trip_type", "day_type", "departure_times"],
     "additionalProperties": false
 }

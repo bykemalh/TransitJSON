@@ -1,43 +1,33 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "city",
+    "$id": "https://dev.bykemalh.me/schema/transit-json/city.schema.json",
     "title": "City",
-    "description": "A city schema for TransitJSON",
+    "description": "TransitJSON şehir şeması",
     "type": "object",
     "properties": {
-        "name": {
-            "type": "string"
-        },
+        "name": { "type": "string" },
         "code": {
-            "type": "string",
-            "pattern": "^[A-Z]{3}$"
+            "$ref": "common.schema.json#$defs/city_code"
         },
         "population": {
             "type": "integer",
-            "minimum": 0
+            "minimum": 0,
+            "description": "Şehir nüfusu (opsiyonel)"
         },
-        "countryCode": {
-            "type": "string",
-            "description": "Şehrin ait olduğu ülkenin ISO kodu (country.json'daki code alanına referans)",
-            "minLength": 2,
-            "maxLength": 2
+        "country_code": {
+            "$ref": "common.schema.json#$defs/country_code",
+            "description": "Ülke ISO kodu (country.code alanına referans)"
         },
         "timezone": {
             "type": "string",
-            "description": "IANA zaman dilimi adı (Örn: Europe/Istanbul, America/New_York)",
+            "description": "IANA zaman dilimi adı (Örn: Europe/Istanbul)",
             "pattern": "^[A-Za-z_\\-]+/[A-Za-z_\\-\\+0-9/]+$"
         },
-        "lastUpdated": {
-            "type": "string",
-            "format": "date-time",
-            "description": "Kaydın en son güncellenme tarihi (ISO 8601, opsiyonel)"
+        "last_updated": {
+            "$ref": "common.schema.json#$defs/last_updated",
+            "description": "Kaydın en son güncellenme tarihi (opsiyonel)"
         }
     },
-    "required": [
-        "name",
-        "code",
-        "countryCode",
-        "timezone"
-    ],
+    "required": ["name", "code", "country_code", "timezone"],
     "additionalProperties": false
 }

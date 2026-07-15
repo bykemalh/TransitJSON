@@ -1,8 +1,8 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "stops",
+    "$id": "https://dev.bykemalh.me/schema/transit-json/stops.schema.json",
     "title": "Stops",
-    "description": "TransitJSON Durak veri şeması",
+    "description": "TransitJSON durak şeması",
     "type": "object",
     "properties": {
         "id": {
@@ -14,54 +14,29 @@
             "description": "Durak adı"
         },
         "lat": {
-            "type": "number",
-            "minimum": -90,
-            "maximum": 90,
-            "description": "Durak enlemi (WGS84)"
+            "$ref": "common.schema.json#$defs/lat"
         },
         "lon": {
-            "type": "number",
-            "minimum": -180,
-            "maximum": 180,
-            "description": "Durak boylamı (WGS84)"
+            "$ref": "common.schema.json#$defs/lon"
         },
-        "routeId": {
-            "type": "string",
-            "description": "Durağın ait olduğu route kimliği"
-        },
-        "tripType": {
-            "type": "string",
-            "description": "Sefer tipi: outbound (gidiş), inbound (dönüş), loop (ring)",
-            "enum": [
-                "outbound",
-                "inbound",
-                "loop"
-            ]
-        },
-        "sequence": {
-            "type": "integer",
-            "minimum": 0,
-            "description": "Durağın route üzerindeki sıra numarası (isteğe bağlı)"
+        "route_ids": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Durağın bağlı olduğu route ID'leri (birden çok olabilir, opsiyonel)"
         },
         "description": {
             "type": "string",
-            "description": "Durakla ilgili ek açıklama"
+            "description": "Durakla ilgili ek açıklama (opsiyonel)"
         },
-        "wheelchairAccessible": {
+        "wheelchair_accessible": {
             "type": "boolean",
-            "description": "Durakta engelli/tekerlekli sandalye biniş imkanı bulunup bulunmadığı (opsiyonel)"
+            "description": "Durakta engelli/tekerlekli sandalye biniş imkanı (opsiyonel)"
         },
-        "lastUpdated": {
-            "type": "string",
-            "format": "date-time",
-            "description": "Kaydın en son güncellenme tarihi (ISO 8601, opsiyonel)"
+        "last_updated": {
+            "$ref": "common.schema.json#$defs/last_updated",
+            "description": "Kaydın en son güncellenme tarihi (opsiyonel)"
         }
     },
-    "required": [
-        "id",
-        "name",
-        "lat",
-        "lon"
-    ],
+    "required": ["id", "name", "lat", "lon"],
     "additionalProperties": false
 }

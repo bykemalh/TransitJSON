@@ -1,8 +1,8 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "routes",
+    "$id": "https://dev.bykemalh.me/schema/transit-json/routes.schema.json",
     "title": "Routes",
-    "description": "A schema for TransitJSON routes",
+    "description": "TransitJSON hat/route şeması",
     "type": "object",
     "properties": {
         "id": {
@@ -11,80 +11,72 @@
         },
         "code": {
             "type": "string",
-            "description": "Route'un kodu"
+            "description": "Route'un kodu (Örn: 1, 38A)"
         },
-        "agencyId": {
+        "agency_id": {
             "type": "string",
-            "description": "Route'un ait olduğu ajansın kimliği"
+            "description": "Route'un ait olduğu ajansın kimliği (agency.id alanına referans)"
         },
-        "shortName": {
+        "short_name": {
             "type": "string",
             "description": "Route'un kısa adı"
         },
-        "longName": {
+        "long_name": {
             "type": "string",
             "description": "Route'un uzun adı"
         },
         "description": {
             "type": "string",
-            "description": "Route'un açıklaması"
+            "description": "Route'un açıklaması (opsiyonel)"
         },
         "color": {
-            "type": "string",
-            "description": "Route'un rengi (hex formatında, Örn: #FF0000)",
-            "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+            "$ref": "common.schema.json#$defs/hex_color",
+            "description": "Route'un rengi"
         },
-        "carType": {
+        "car_type": {
             "type": "string",
-            "description": "Route'un taşıma türü (Örn: bus, tram, metro)",
+            "description": "Taşıma türü",
             "enum": [
                 "bus",
+                "minibus",
+                "trolleybus",
                 "tram",
+                "light_rail",
                 "metro",
-                "ferry",
+                "subway",
                 "rail",
-                "subway"
+                "commuter_rail",
+                "high_speed_rail",
+                "ferry",
+                "cable_car",
+                "funicular",
+                "gondola",
+                "monorail",
+                "aerial_lift"
             ]
         },
         "directions": {
             "type": "array",
             "items": {
-                "type": "string",
-                "enum": [
-                    "outbound",
-                    "inbound",
-                    "loop"
-                ]
+                "$ref": "common.schema.json#$defs/trip_type"
             },
             "description": "Hattın çalıştığı yön türleri (opsiyonel)"
         },
-        "sortOrder": {
+        "sort_order": {
             "type": "integer",
             "minimum": 0,
             "description": "Kullanıcı arayüzünde hat listeleme sırası (opsiyonel)"
         },
         "status": {
             "type": "string",
-            "enum": [
-                "active",
-                "inactive",
-                "suspended"
-            ],
+            "enum": ["active", "inactive", "suspended"],
             "description": "Hattın aktiflik durumu (opsiyonel)"
         },
-        "lastUpdated": {
-            "type": "string",
-            "format": "date-time",
-            "description": "Kaydın en son güncellenme tarihi (ISO 8601, opsiyonel)"
+        "last_updated": {
+            "$ref": "common.schema.json#$defs/last_updated",
+            "description": "Kaydın en son güncellenme tarihi (opsiyonel)"
         }
     },
-    "required": [
-        "id",
-        "code",
-        "color",
-        "carType",
-        "shortName",
-        "agencyId"
-    ],
+    "required": ["id", "code", "color", "car_type", "short_name", "agency_id"],
     "additionalProperties": false
 }

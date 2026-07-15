@@ -1,8 +1,8 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "agency",
+    "$id": "https://dev.bykemalh.me/schema/transit-json/agency.schema.json",
     "title": "Agency",
-    "description": "A schema for TransitJSON agencies",
+    "description": "TransitJSON ajans/işletmeci şeması",
     "type": "object",
     "properties": {
         "id": {
@@ -13,15 +13,14 @@
             "type": "string",
             "description": "Agency'nin tam adı (Örn: BURULAŞ)"
         },
-        "cityCode": {
-            "type": "string",
-            "description": "Agency'nin bağlı olduğu şehrin kodu (city.json'daki code alanına referans)",
-            "pattern": "^[A-Z]{3}$"
+        "city_code": {
+            "$ref": "common.schema.json#$defs/city_code",
+            "description": "Agency'nin bağlı olduğu şehir kodu (city.code alanına referans)"
         },
         "url": {
             "type": "string",
-            "description": "Agency'nin resmi web sitesi",
-            "format": "uri"
+            "format": "uri",
+            "description": "Agency'nin resmi web sitesi (opsiyonel)"
         },
         "timezone": {
             "type": "string",
@@ -29,18 +28,13 @@
         },
         "phone": {
             "type": "string",
-            "description": "Agency'nin iletişim telefon numarası"
+            "description": "Agency'nin iletişim telefon numarası (opsiyonel)"
         },
-        "lastUpdated": {
-            "type": "string",
-            "format": "date-time",
-            "description": "Kaydın en son güncellenme tarihi (ISO 8601, opsiyonel)"
+        "last_updated": {
+            "$ref": "common.schema.json#$defs/last_updated",
+            "description": "Kaydın en son güncellenme tarihi (opsiyonel)"
         }
     },
-    "required": [
-        "id",
-        "name",
-        "cityCode"
-    ],
+    "required": ["id", "name", "city_code"],
     "additionalProperties": false
 }

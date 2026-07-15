@@ -1,13 +1,13 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://dev.bykemalh.me/schema/transit-json/shape.schema.json",
-    "title": "Shape",
-    "description": "TransitJSON rota geometrisi şeması",
+    "$id": "https://dev.bykemalh.me/schema/transit-json/route_stops.schema.json",
+    "title": "RouteStops",
+    "description": "Route-durak eşleştirme şeması (stop_time hazır olana kadar geçici çözüm)",
     "type": "object",
     "properties": {
         "id": {
             "type": "string",
-            "description": "Shape için benzersiz kimlik"
+            "description": "Kayıt için benzersiz kimlik"
         },
         "route_id": {
             "type": "string",
@@ -15,27 +15,27 @@
         },
         "trip_type": {
             "$ref": "common.schema.json#$defs/trip_type",
-            "description": "Sefer tipi"
+            "description": "Sefer yön tipi"
         },
-        "points": {
+        "stops": {
             "type": "array",
-            "minItems": 2,
-            "description": "Shape'i oluşturan sıralı koordinat noktaları (WGS84)",
+            "minItems": 1,
             "items": {
                 "type": "object",
                 "properties": {
-                    "lat": { "$ref": "common.schema.json#$defs/lat" },
-                    "lon": { "$ref": "common.schema.json#$defs/lon" }
+                    "stop_id": { "type": "string", "description": "Durak kimliği (stops.id alanına referans)" },
+                    "sequence": { "type": "integer", "minimum": 0, "description": "Durak sıra numarası (0 = ilk durak)" }
                 },
-                "required": ["lat", "lon"],
+                "required": ["stop_id", "sequence"],
                 "additionalProperties": false
-            }
+            },
+            "description": "Sıralı durak listesi"
         },
         "last_updated": {
             "$ref": "common.schema.json#$defs/last_updated",
             "description": "Kaydın en son güncellenme tarihi (opsiyonel)"
         }
     },
-    "required": ["id", "route_id", "trip_type", "points"],
+    "required": ["id", "route_id", "trip_type", "stops"],
     "additionalProperties": false
 }

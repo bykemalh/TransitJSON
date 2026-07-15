@@ -1,34 +1,29 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "vehicles",
+    "$id": "https://dev.bykemalh.me/schema/transit-json/vehicles.schema.json",
     "title": "Vehicle",
-    "description": "Canlı otobüs konumu – REST API yanıtı",
+    "description": "TransitJSON canlı araç konumu şeması",
     "type": "object",
     "properties": {
         "id": {
             "type": "string",
             "description": "Araç için benzersiz kimlik (ör. plaka veya araç kodu)"
         },
-        "routeId": {
+        "route_id": {
             "type": "string",
             "description": "Aracın bağlı olduğu hat (routes.id ile eşleşir)"
         },
-        "tripType": {
-            "type": "string",
-            "enum": ["outbound", "inbound", "loop"],
+        "trip_type": {
+            "$ref": "common.schema.json#$defs/trip_type",
             "description": "Sefer tipi"
         },
         "lat": {
-            "type": "number",
-            "minimum": -90,
-            "maximum": 90,
-            "description": "Anlık enlem (WGS84)"
+            "$ref": "common.schema.json#$defs/lat",
+            "description": "Anlık enlem"
         },
         "lon": {
-            "type": "number",
-            "minimum": -180,
-            "maximum": 180,
-            "description": "Anlık boylam (WGS84)"
+            "$ref": "common.schema.json#$defs/lon",
+            "description": "Anlık boylam"
         },
         "bearing": {
             "type": "number",
@@ -42,35 +37,27 @@
             "description": "Anlık hız (km/s, opsiyonel)"
         },
         "timestamp": {
-            "type": "string",
-            "format": "date-time",
-            "description": "Konumun alındığı zaman (ISO 8601, opsiyonel)"
+            "$ref": "common.schema.json#$defs/last_updated",
+            "description": "Konumun alındığı zaman (opsiyonel)"
         },
         "plate": {
             "type": "string",
             "description": "Araç plakası (opsiyonel)"
         },
-        "vehicleType": {
+        "vehicle_type": {
             "type": "string",
             "enum": ["bus", "minibus", "tram", "metro"],
             "description": "Araç tipi (opsiyonel)"
         },
-        "wheelchairAccessible": {
+        "wheelchair_accessible": {
             "type": "boolean",
             "description": "Aracın engelli/tekerlekli sandalye erişimine uygunluğu (opsiyonel)"
         },
-        "lastUpdated": {
-            "type": "string",
-            "format": "date-time",
-            "description": "Araç konum verisinin en son güncellenme tarihi (ISO 8601, opsiyonel)"
+        "last_updated": {
+            "$ref": "common.schema.json#$defs/last_updated",
+            "description": "Araç konum verisinin en son güncellenme tarihi (opsiyonel)"
         }
     },
-    "required": [
-        "id",
-        "routeId",
-        "tripType",
-        "lat",
-        "lon"
-    ],
+    "required": ["id", "route_id", "trip_type", "lat", "lon"],
     "additionalProperties": false
 }
