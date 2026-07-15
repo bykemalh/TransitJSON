@@ -45,6 +45,37 @@
                 "rail",
                 "subway"
             ]
+        },
+        "directions": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "outbound",
+                    "inbound",
+                    "loop"
+                ]
+            },
+            "description": "Hattın çalıştığı yön türleri (opsiyonel)"
+        },
+        "sortOrder": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Kullanıcı arayüzünde hat listeleme sırası (opsiyonel)"
+        },
+        "status": {
+            "type": "string",
+            "enum": [
+                "active",
+                "inactive",
+                "suspended"
+            ],
+            "description": "Hattın aktiflik durumu (opsiyonel)"
+        },
+        "lastUpdated": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Kaydın en son güncellenme tarihi (ISO 8601, opsiyonel)"
         }
     },
     "required": [
@@ -54,5 +85,6 @@
         "carType",
         "shortName",
         "agencyId"
-    ]
+    ],
+    "additionalProperties": false
 }

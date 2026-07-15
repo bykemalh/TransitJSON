@@ -31,6 +31,11 @@
             "type": "string",
             "pattern": "^\\d{2}:\\d{2}:\\d{2}$",
             "description": "Kalkış saati (HH:MM:SS) – opsiyonel"
+        },
+        "lastUpdated": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Kaydın en son güncellenme tarihi (ISO 8601, opsiyonel)"
         }
     },
     "required": [

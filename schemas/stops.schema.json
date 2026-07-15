@@ -46,15 +46,22 @@
         "description": {
             "type": "string",
             "description": "Durakla ilgili ek açıklama"
+        },
+        "wheelchairAccessible": {
+            "type": "boolean",
+            "description": "Durakta engelli/tekerlekli sandalye biniş imkanı bulunup bulunmadığı (opsiyonel)"
+        },
+        "lastUpdated": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Kaydın en son güncellenme tarihi (ISO 8601, opsiyonel)"
         }
     },
     "required": [
         "id",
         "name",
         "lat",
-        "lon",
-        "routeId",
-        "tripType"
+        "lon"
     ],
     "additionalProperties": false
 }

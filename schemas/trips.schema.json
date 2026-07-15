@@ -39,6 +39,15 @@
         "headsign": {
             "type": "string",
             "description": "Araç tabelasında yazan yön bilgisi (opsiyonel)"
+        },
+        "wheelchairAccessible": {
+            "type": "boolean",
+            "description": "Seferin engelli/tekerlekli sandalye erişimine uygunluğu (opsiyonel)"
+        },
+        "lastUpdated": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Kaydın en son güncellenme tarihi (ISO 8601, opsiyonel)"
         }
     },
     "required": [

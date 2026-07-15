@@ -1,0 +1,59 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "fare",
+    "title": "Fare",
+    "description": "TransitJSON bilet ve ücretlendirme şeması",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "Ücret/tarife için benzersiz kimlik"
+        },
+        "agencyId": {
+            "type": "string",
+            "description": "Uygulanan ajans kimliği"
+        },
+        "name": {
+            "type": "string",
+            "description": "Tarife adı (örn: Tam Kart, Öğrenci, İndirimli)"
+        },
+        "price": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Bilet/geçiş ücreti"
+        },
+        "currency": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 3,
+            "description": "Para birimi (ISO 4217, örn: TRY, USD)"
+        },
+        "paymentMethod": {
+            "type": "string",
+            "enum": ["card", "cash", "mobile", "token"],
+            "description": "Ödeme yöntemi"
+        },
+        "transfersAllowed": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "İzin verilen ücretsiz/indirimli aktarma sayısı (opsiyonel)"
+        },
+        "transferDuration": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Saniye cinsinden aktarma süresi sınırı (opsiyonel)"
+        },
+        "lastUpdated": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Kaydın en son güncellenme tarihi (ISO 8601, opsiyonel)"
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "price",
+        "currency"
+    ],
+    "additionalProperties": false
+}

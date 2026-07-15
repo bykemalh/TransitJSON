@@ -1,0 +1,57 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "metadata",
+    "title": "Metadata",
+    "description": "TransitJSON veri seti sürüm ve yayıncı üst bilgileri",
+    "type": "object",
+    "properties": {
+        "feedPublisherName": {
+            "type": "string",
+            "description": "Veriyi sağlayan/yayınlayan kurum veya kişinin adı"
+        },
+        "feedPublisherUrl": {
+            "type": "string",
+            "format": "uri",
+            "description": "Yayıncı web sitesi"
+        },
+        "feedLang": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 2,
+            "description": "Yayın dili (ISO 639-1, örn: tr)"
+        },
+        "feedVersion": {
+            "type": "string",
+            "description": "Veri setinin sürümü veya yayın tarihi/saati"
+        },
+        "transitJsonVersion": {
+            "type": "string",
+            "description": "TransitJSON spesifikasyon/format sürümü (Örn: 1.0)",
+            "default": "1.0"
+        },
+        "validFrom": {
+            "type": "string",
+            "format": "date",
+            "description": "Verinin geçerli olmaya başladığı tarih (YYYY-MM-DD, opsiyonel)"
+        },
+        "validTo": {
+            "type": "string",
+            "format": "date",
+            "description": "Verinin geçerliliğinin bittiği tarih (YYYY-MM-DD, opsiyonel)"
+        },
+        "lastUpdated": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Veri setinin en son güncellenme tarihi (ISO 8601 formatında, Örn: 2026-07-15T14:30:00Z)"
+        }
+    },
+    "required": [
+        "feedPublisherName",
+        "feedPublisherUrl",
+        "feedLang",
+        "feedVersion",
+        "transitJsonVersion",
+        "lastUpdated"
+    ],
+    "additionalProperties": false
+}

@@ -54,6 +54,15 @@
             "type": "string",
             "enum": ["bus", "minibus", "tram", "metro"],
             "description": "Araç tipi (opsiyonel)"
+        },
+        "wheelchairAccessible": {
+            "type": "boolean",
+            "description": "Aracın engelli/tekerlekli sandalye erişimine uygunluğu (opsiyonel)"
+        },
+        "lastUpdated": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Araç konum verisinin en son güncellenme tarihi (ISO 8601, opsiyonel)"
         }
     },
     "required": [

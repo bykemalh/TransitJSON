@@ -25,7 +25,12 @@
         "timezone": {
             "type": "string",
             "description": "IANA zaman dilimi adı (Örn: Europe/Istanbul, America/New_York)",
-            "pattern": "^[A-Za-z_]+/[A-Za-z_]+$"
+            "pattern": "^[A-Za-z_\\-]+/[A-Za-z_\\-\\+0-9/]+$"
+        },
+        "lastUpdated": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Kaydın en son güncellenme tarihi (ISO 8601, opsiyonel)"
         }
     },
     "required": [
@@ -33,5 +38,6 @@
         "code",
         "countryCode",
         "timezone"
-    ]
+    ],
+    "additionalProperties": false
 }
