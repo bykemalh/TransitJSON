@@ -8,19 +8,19 @@
         "code": {
             "$ref": "common.schema.json#$defs/country_code"
         },
-        "name": {
+        "name_i18n": {
             "type": "object",
-            "properties": {
-                "tr": { "type": "string" },
-                "en": { "type": "string" }
+            "patternProperties": {
+                "^[a-z]{2}(-[A-Z]{2})?$": { "type": "string" }
             },
-            "required": ["tr", "en"]
+            "minProperties": 1,
+            "description": "Çok dilli ad (ISO 639-1 dil kodları ile, örn: {\"tr\": \"Türkiye\", \"en\": \"Turkey\"})"
         },
         "last_updated": {
             "$ref": "common.schema.json#$defs/last_updated",
             "description": "Kaydın en son güncellenme tarihi (opsiyonel)"
         }
     },
-    "required": ["code", "name"],
+    "required": ["code", "name_i18n"],
     "additionalProperties": false
 }

@@ -37,7 +37,7 @@
             "description": "Anlık hız (km/s, opsiyonel)"
         },
         "timestamp": {
-            "$ref": "common.schema.json#$defs/last_updated",
+            "$ref": "common.schema.json#$defs/timestamp",
             "description": "Konumun alındığı zaman (opsiyonel)"
         },
         "plate": {

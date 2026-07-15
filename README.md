@@ -13,7 +13,6 @@ TransitJSON, toplu taşıma verilerini (statik tarifeler, duraklar, rotalar ve c
 | **agency** | **Evet** | İşletmeci/Ajans bilgisi | common, city.code |
 | **routes** | **Evet** | Hat listesi | common, agency.id |
 | **shape** | Hayır | Hat rotası coğrafi çizgisi | common |
-| **route_stops** | Hayır | Route-durak eşleştirme (stop_time hazır olana kadar geçici) | common |
 | **stops** | **Evet** | Fiziksel duraklar (bağımsız, `route_ids` ile çoklu hat desteği) | common |
 | **trips** | **Evet** | Sefer saatleri ve gün tipleri (birden çok kalkış saati desteği) | common |
 | **stop_time** | Hayır | Durakların saat bazlı varış/kalkış detayları | common |
