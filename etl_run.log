@@ -1,0 +1,31 @@
+414 hat işlenecek -> /home/bykemalh/Projects/TransitJSON/JSON/Bursa
+  25/414 hat
+  50/414 hat
+  75/414 hat
+  100/414 hat
+  125/414 hat
+  150/414 hat
+  175/414 hat
+  200/414 hat
+  225/414 hat
+  250/414 hat
+  275/414 hat
+  300/414 hat
+  325/414 hat
+  350/414 hat
+  375/414 hat
+  400/414 hat
+  414/414 hat
+
+Özet:
+  countries   : 1
+  cities      : 1
+  agencies    : 1
+  routes      : 246
+  stops       : 5890
+  route_stops : 16808
+  shapes      : 481
+  trips       : 30395
+  stop_times  : 30395
+  holidays    : 16
+  shapes(snap) : 473/481 Valhalla ile eşlendi

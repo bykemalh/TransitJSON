@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TransitJSON Stop",
+  "type": "object",
+  "properties": {
+    "stop_id": { "type": "string", "description": "Proje genelinde tekil. Örn. '{city_id}-{sequence}' formatı önerilir: BUR-01023" },
+    "city_id": { "type": "string" },
+    "name": { "type": "string" },
+    "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+    "lon": { "type": "number", "minimum": -180, "maximum": 180 },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "source": { "type": "string" }
+  },
+  "required": ["stop_id", "city_id", "name", "lat", "lon", "updated_at"],
+  "additionalProperties": false
+}

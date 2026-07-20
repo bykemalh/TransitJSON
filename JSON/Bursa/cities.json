@@ -1,0 +1,22 @@
+[
+  {
+    "city_id": "BUR",
+    "slug": "bursa",
+    "country_id": "TR",
+    "name": "Bursa",
+    "timezone": "Europe/Istanbul",
+    "default_zoom": 12,
+    "source": "manual",
+    "center": {
+      "lat": 40.098819,
+      "lon": 28.951465
+    },
+    "bounds": {
+      "north": 40.523313,
+      "south": 39.674325,
+      "east": 29.6575,
+      "west": 28.24543
+    },
+    "updated_at": "2026-07-20T20:40:37Z"
+  }
+]

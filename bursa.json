@@ -1,0 +1,2903 @@
+{
+    "total_routes": 414,
+    "routes": [
+        {
+            "hatNo": 1852,
+            "kod": "1 - AKÇALAR",
+            "aciklama": "1 - AKÇALAR",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1026,
+            "kod": "101",
+            "aciklama": "101",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1027,
+            "kod": "102",
+            "aciklama": "102",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1028,
+            "kod": "103",
+            "aciklama": "103",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1226,
+            "kod": "103A",
+            "aciklama": "103A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1029,
+            "kod": "104",
+            "aciklama": "104",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1563,
+            "kod": "105",
+            "aciklama": "105",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1640,
+            "kod": "111A",
+            "aciklama": "111A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1718,
+            "kod": "111B",
+            "aciklama": "111B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1032,
+            "kod": "112",
+            "aciklama": "112",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1667,
+            "kod": "112A",
+            "aciklama": "112A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1033,
+            "kod": "113",
+            "aciklama": "113",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1641,
+            "kod": "113A",
+            "aciklama": "113A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1034,
+            "kod": "114",
+            "aciklama": "114",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1642,
+            "kod": "114A",
+            "aciklama": "114A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1035,
+            "kod": "115",
+            "aciklama": "115",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1036,
+            "kod": "116",
+            "aciklama": "116",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1719,
+            "kod": "116C",
+            "aciklama": "116C",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1682,
+            "kod": "117",
+            "aciklama": "117",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1037,
+            "kod": "118A",
+            "aciklama": "118A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1671,
+            "kod": "119",
+            "aciklama": "119",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1670,
+            "kod": "119A",
+            "aciklama": "119A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1720,
+            "kod": "120",
+            "aciklama": "120",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1039,
+            "kod": "130",
+            "aciklama": "130",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1040,
+            "kod": "131",
+            "aciklama": "131",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1041,
+            "kod": "132",
+            "aciklama": "132",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1796,
+            "kod": "132İ",
+            "aciklama": "132İ",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1042,
+            "kod": "133",
+            "aciklama": "133",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1043,
+            "kod": "134",
+            "aciklama": "134",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1677,
+            "kod": "134F",
+            "aciklama": "134F",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1044,
+            "kod": "135",
+            "aciklama": "135",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1774,
+            "kod": "135H",
+            "aciklama": "135H",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1045,
+            "kod": "136",
+            "aciklama": "136",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1046,
+            "kod": "137",
+            "aciklama": "137",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1048,
+            "kod": "139",
+            "aciklama": "139",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1049,
+            "kod": "140",
+            "aciklama": "140",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1058,
+            "kod": "14F",
+            "aciklama": "14F",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1059,
+            "kod": "14L",
+            "aciklama": "14L",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1060,
+            "kod": "14L2",
+            "aciklama": "14L2",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1866,
+            "kod": "14L3",
+            "aciklama": "14L3",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1061,
+            "kod": "14N",
+            "aciklama": "14N",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1736,
+            "kod": "14U",
+            "aciklama": "14U",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1001,
+            "kod": "15",
+            "aciklama": "15",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1062,
+            "kod": "15A",
+            "aciklama": "15A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1063,
+            "kod": "15B",
+            "aciklama": "15B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1065,
+            "kod": "15H",
+            "aciklama": "15H",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1066,
+            "kod": "16A",
+            "aciklama": "16A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1818,
+            "kod": "16S",
+            "aciklama": "16S",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1067,
+            "kod": "16İ",
+            "aciklama": "16İ",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1068,
+            "kod": "17A",
+            "aciklama": "17A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1580,
+            "kod": "17B",
+            "aciklama": "17B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1414,
+            "kod": "17C",
+            "aciklama": "17C",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1069,
+            "kod": "17D",
+            "aciklama": "17D",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1551,
+            "kod": "17E",
+            "aciklama": "17E",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1746,
+            "kod": "17F",
+            "aciklama": "17F",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1800,
+            "kod": "17H",
+            "aciklama": "17H",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1822,
+            "kod": "17M",
+            "aciklama": "17M",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1666,
+            "kod": "17S",
+            "aciklama": "17S",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1874,
+            "kod": "17T",
+            "aciklama": "17T",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1246,
+            "kod": "17Y",
+            "aciklama": "17Y",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1878,
+            "kod": "17YE",
+            "aciklama": "17YE",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1245,
+            "kod": "18",
+            "aciklama": "18",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1071,
+            "kod": "18B",
+            "aciklama": "18B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1715,
+            "kod": "18Y",
+            "aciklama": "18Y",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1072,
+            "kod": "18İ",
+            "aciklama": "18İ",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1073,
+            "kod": "19A",
+            "aciklama": "19A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1074,
+            "kod": "19B",
+            "aciklama": "19B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1075,
+            "kod": "19C",
+            "aciklama": "19C",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1076,
+            "kod": "19D",
+            "aciklama": "19D",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1077,
+            "kod": "19E",
+            "aciklama": "19E",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1078,
+            "kod": "19İ",
+            "aciklama": "19İ",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1050,
+            "kod": "1A",
+            "aciklama": "1A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1051,
+            "kod": "1C",
+            "aciklama": "1C",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1854,
+            "kod": "1D",
+            "aciklama": "1D",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1052,
+            "kod": "1GY",
+            "aciklama": "1GY",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1053,
+            "kod": "1H",
+            "aciklama": "1H",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1054,
+            "kod": "1K",
+            "aciklama": "1K",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1055,
+            "kod": "1M",
+            "aciklama": "1M",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1559,
+            "kod": "1MB",
+            "aciklama": "1MB",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1713,
+            "kod": "1SY",
+            "aciklama": "1SY",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1056,
+            "kod": "1T",
+            "aciklama": "1T",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1734,
+            "kod": "1TG",
+            "aciklama": "1TG",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1867,
+            "kod": "1TH",
+            "aciklama": "1TH",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1830,
+            "kod": "1TK",
+            "aciklama": "1TK",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1003,
+            "kod": "20",
+            "aciklama": "20",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1085,
+            "kod": "20A",
+            "aciklama": "20A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1004,
+            "kod": "21",
+            "aciklama": "21",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1711,
+            "kod": "21CK",
+            "aciklama": "21CK",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1090,
+            "kod": "22C",
+            "aciklama": "22C",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1006,
+            "kod": "23",
+            "aciklama": "23",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1093,
+            "kod": "23A",
+            "aciklama": "23A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1094,
+            "kod": "24B",
+            "aciklama": "24B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1095,
+            "kod": "24D",
+            "aciklama": "24D",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1007,
+            "kod": "25",
+            "aciklama": "25",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1096,
+            "kod": "25A",
+            "aciklama": "25A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1097,
+            "kod": "25B",
+            "aciklama": "25B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1098,
+            "kod": "25D",
+            "aciklama": "25D",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1101,
+            "kod": "27A",
+            "aciklama": "27A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1008,
+            "kod": "28",
+            "aciklama": "28",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1102,
+            "kod": "28A",
+            "aciklama": "28A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1103,
+            "kod": "29A",
+            "aciklama": "29A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1079,
+            "kod": "2B",
+            "aciklama": "2B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1577,
+            "kod": "2BT",
+            "aciklama": "2BT",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1820,
+            "kod": "2C",
+            "aciklama": "2C",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1080,
+            "kod": "2E",
+            "aciklama": "2E",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1761,
+            "kod": "2G1",
+            "aciklama": "2G1",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1762,
+            "kod": "2G2",
+            "aciklama": "2G2",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1880,
+            "kod": "2GA",
+            "aciklama": "2GA",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1848,
+            "kod": "2GH",
+            "aciklama": "2GH",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1771,
+            "kod": "2GK",
+            "aciklama": "2GK",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1082,
+            "kod": "2GM",
+            "aciklama": "2GM",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1802,
+            "kod": "2GY",
+            "aciklama": "2GY",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1083,
+            "kod": "2K",
+            "aciklama": "2K",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1539,
+            "kod": "2KÇ",
+            "aciklama": "2KÇ",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1242,
+            "kod": "2M",
+            "aciklama": "2M",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1665,
+            "kod": "2MU",
+            "aciklama": "2MU",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1084,
+            "kod": "2U",
+            "aciklama": "2U",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1009,
+            "kod": "30",
+            "aciklama": "30",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1107,
+            "kod": "31A",
+            "aciklama": "31A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1108,
+            "kod": "35B",
+            "aciklama": "35B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1109,
+            "kod": "35C",
+            "aciklama": "35C",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1638,
+            "kod": "35E1",
+            "aciklama": "35E1",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1110,
+            "kod": "35E2",
+            "aciklama": "35E2",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1111,
+            "kod": "35G",
+            "aciklama": "35G",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1112,
+            "kod": "35H",
+            "aciklama": "35H",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1872,
+            "kod": "35L",
+            "aciklama": "35L",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1737,
+            "kod": "35R",
+            "aciklama": "35R",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1566,
+            "kod": "35S",
+            "aciklama": "35S",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1113,
+            "kod": "35SE",
+            "aciklama": "35SE",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1114,
+            "kod": "35U",
+            "aciklama": "35U",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1010,
+            "kod": "36",
+            "aciklama": "36",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1115,
+            "kod": "36A",
+            "aciklama": "36A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1011,
+            "kod": "37",
+            "aciklama": "37",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1012,
+            "kod": "38",
+            "aciklama": "38",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1116,
+            "kod": "38B",
+            "aciklama": "38B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1547,
+            "kod": "38B2",
+            "aciklama": "38B2",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1117,
+            "kod": "38D",
+            "aciklama": "38D",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1568,
+            "kod": "38D2",
+            "aciklama": "38D2",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1118,
+            "kod": "38G",
+            "aciklama": "38G",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1104,
+            "kod": "3C",
+            "aciklama": "3C",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1542,
+            "kod": "3G",
+            "aciklama": "3G",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1768,
+            "kod": "3MU",
+            "aciklama": "3MU",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1767,
+            "kod": "3P",
+            "aciklama": "3P",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1106,
+            "kod": "3İ",
+            "aciklama": "3İ",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1409,
+            "kod": "401",
+            "aciklama": "401",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1123,
+            "kod": "40H",
+            "aciklama": "40H",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1124,
+            "kod": "43A",
+            "aciklama": "43A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1126,
+            "kod": "43D",
+            "aciklama": "43D",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1127,
+            "kod": "43H",
+            "aciklama": "43H",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1608,
+            "kod": "43HB",
+            "aciklama": "43HB",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1119,
+            "kod": "4A",
+            "aciklama": "4A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1120,
+            "kod": "4B",
+            "aciklama": "4B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1121,
+            "kod": "4G",
+            "aciklama": "4G",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1122,
+            "kod": "4İ",
+            "aciklama": "4İ",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1408,
+            "kod": "501",
+            "aciklama": "501",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1129,
+            "kod": "5A",
+            "aciklama": "5A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1816,
+            "kod": "5B",
+            "aciklama": "5B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1579,
+            "kod": "5E",
+            "aciklama": "5E",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1130,
+            "kod": "5G",
+            "aciklama": "5G",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1412,
+            "kod": "601",
+            "aciklama": "601",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1673,
+            "kod": "601U",
+            "aciklama": "601U",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1674,
+            "kod": "60B",
+            "aciklama": "60B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1137,
+            "kod": "60K",
+            "aciklama": "60K",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1749,
+            "kod": "610",
+            "aciklama": "610",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1750,
+            "kod": "610H",
+            "aciklama": "610H",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1694,
+            "kod": "611",
+            "aciklama": "611",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1695,
+            "kod": "612",
+            "aciklama": "612",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1753,
+            "kod": "612T",
+            "aciklama": "612T",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1696,
+            "kod": "613",
+            "aciklama": "613",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1697,
+            "kod": "614",
+            "aciklama": "614",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1698,
+            "kod": "615",
+            "aciklama": "615",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1699,
+            "kod": "616",
+            "aciklama": "616",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1700,
+            "kod": "616H",
+            "aciklama": "616H",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1701,
+            "kod": "617",
+            "aciklama": "617",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1702,
+            "kod": "617H",
+            "aciklama": "617H",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1703,
+            "kod": "618",
+            "aciklama": "618",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1704,
+            "kod": "619",
+            "aciklama": "619",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1705,
+            "kod": "620",
+            "aciklama": "620",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1770,
+            "kod": "620K",
+            "aciklama": "620K",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1706,
+            "kod": "621",
+            "aciklama": "621",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1707,
+            "kod": "622",
+            "aciklama": "622",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1714,
+            "kod": "623",
+            "aciklama": "623",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1785,
+            "kod": "625",
+            "aciklama": "625",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1786,
+            "kod": "626",
+            "aciklama": "626",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1787,
+            "kod": "627",
+            "aciklama": "627",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1788,
+            "kod": "628",
+            "aciklama": "628",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1685,
+            "kod": "630",
+            "aciklama": "630",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1691,
+            "kod": "631",
+            "aciklama": "631",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1692,
+            "kod": "632",
+            "aciklama": "632",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1780,
+            "kod": "642",
+            "aciklama": "642",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1723,
+            "kod": "675",
+            "aciklama": "675",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1131,
+            "kod": "6A",
+            "aciklama": "6A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1132,
+            "kod": "6E",
+            "aciklama": "6E",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1133,
+            "kod": "6F",
+            "aciklama": "6F",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1134,
+            "kod": "6F1",
+            "aciklama": "6F1",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1135,
+            "kod": "6F2",
+            "aciklama": "6F2",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1262,
+            "kod": "6FD",
+            "aciklama": "6FD",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1136,
+            "kod": "6K1",
+            "aciklama": "6K1",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1875,
+            "kod": "714",
+            "aciklama": "714",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1876,
+            "kod": "732",
+            "aciklama": "732",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1851,
+            "kod": "741M",
+            "aciklama": "741M",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1689,
+            "kod": "755B",
+            "aciklama": "755B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1863,
+            "kod": "772",
+            "aciklama": "772",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1139,
+            "kod": "7A",
+            "aciklama": "7A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1248,
+            "kod": "7B",
+            "aciklama": "7B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1637,
+            "kod": "7C",
+            "aciklama": "7C",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1256,
+            "kod": "7S",
+            "aciklama": "7S",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1254,
+            "kod": "801",
+            "aciklama": "801",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1612,
+            "kod": "811",
+            "aciklama": "811",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1613,
+            "kod": "811D",
+            "aciklama": "811D",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1615,
+            "kod": "812S",
+            "aciklama": "812S",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1614,
+            "kod": "812T",
+            "aciklama": "812T",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1617,
+            "kod": "813C",
+            "aciklama": "813C",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1727,
+            "kod": "813D",
+            "aciklama": "813D",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1616,
+            "kod": "813H",
+            "aciklama": "813H",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1618,
+            "kod": "814",
+            "aciklama": "814",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1619,
+            "kod": "815",
+            "aciklama": "815",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1620,
+            "kod": "816",
+            "aciklama": "816",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1621,
+            "kod": "817",
+            "aciklama": "817",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1769,
+            "kod": "817TK",
+            "aciklama": "817TK",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1622,
+            "kod": "818",
+            "aciklama": "818",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1623,
+            "kod": "818H",
+            "aciklama": "818H",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1624,
+            "kod": "820",
+            "aciklama": "820",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1776,
+            "kod": "876",
+            "aciklama": "876",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1140,
+            "kod": "8L",
+            "aciklama": "8L",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1257,
+            "kod": "901",
+            "aciklama": "901",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1629,
+            "kod": "903",
+            "aciklama": "903",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1868,
+            "kod": "904",
+            "aciklama": "904",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1017,
+            "kod": "91",
+            "aciklama": "91",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1553,
+            "kod": "911A",
+            "aciklama": "911A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1554,
+            "kod": "912",
+            "aciklama": "912",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1556,
+            "kod": "914",
+            "aciklama": "914",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1557,
+            "kod": "914A",
+            "aciklama": "914A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1144,
+            "kod": "91G",
+            "aciklama": "91G",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1018,
+            "kod": "92",
+            "aciklama": "92",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1605,
+            "kod": "92B",
+            "aciklama": "92B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1019,
+            "kod": "93",
+            "aciklama": "93",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1870,
+            "kod": "93B",
+            "aciklama": "93B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1413,
+            "kod": "93E",
+            "aciklama": "93E",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1020,
+            "kod": "94",
+            "aciklama": "94",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1871,
+            "kod": "94B",
+            "aciklama": "94B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1021,
+            "kod": "95",
+            "aciklama": "95",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1239,
+            "kod": "95A",
+            "aciklama": "95A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1606,
+            "kod": "95B",
+            "aciklama": "95B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1022,
+            "kod": "96",
+            "aciklama": "96",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1023,
+            "kod": "97",
+            "aciklama": "97",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1517,
+            "kod": "97A",
+            "aciklama": "97A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1607,
+            "kod": "97B",
+            "aciklama": "97B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1663,
+            "kod": "97F",
+            "aciklama": "97F",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1146,
+            "kod": "97G",
+            "aciklama": "97G",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1024,
+            "kod": "98",
+            "aciklama": "98",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1215,
+            "kod": "98E",
+            "aciklama": "98E",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1025,
+            "kod": "99",
+            "aciklama": "99",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1560,
+            "kod": "991",
+            "aciklama": "991",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1561,
+            "kod": "992",
+            "aciklama": "992",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1141,
+            "kod": "9D",
+            "aciklama": "9D",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1142,
+            "kod": "9M",
+            "aciklama": "9M",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1143,
+            "kod": "9PA",
+            "aciklama": "9PA",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1520,
+            "kod": "Armutlu (Ihlas)",
+            "aciklama": "Armutlu (Ihlas)",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1521,
+            "kod": "Armutlu - Istanbul ",
+            "aciklama": "Armutlu - Istanbul ",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1565,
+            "kod": "B1",
+            "aciklama": "B1",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1147,
+            "kod": "B10",
+            "aciklama": "B10",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1574,
+            "kod": "B10K",
+            "aciklama": "B10K",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1148,
+            "kod": "B12",
+            "aciklama": "B12",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1149,
+            "kod": "B13",
+            "aciklama": "B13",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1543,
+            "kod": "B15",
+            "aciklama": "B15",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1573,
+            "kod": "B15C",
+            "aciklama": "B15C",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1150,
+            "kod": "B16A",
+            "aciklama": "B16A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1151,
+            "kod": "B16B",
+            "aciklama": "B16B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1877,
+            "kod": "B16C",
+            "aciklama": "B16C",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1152,
+            "kod": "B17",
+            "aciklama": "B17",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1153,
+            "kod": "B17A",
+            "aciklama": "B17A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1664,
+            "kod": "B17B",
+            "aciklama": "B17B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1865,
+            "kod": "B1B",
+            "aciklama": "B1B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1581,
+            "kod": "B2",
+            "aciklama": "B2",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1155,
+            "kod": "B20A",
+            "aciklama": "B20A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1156,
+            "kod": "B20B",
+            "aciklama": "B20B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1595,
+            "kod": "B20C",
+            "aciklama": "B20C",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1680,
+            "kod": "B20D",
+            "aciklama": "B20D",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1681,
+            "kod": "B20G",
+            "aciklama": "B20G",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1157,
+            "kod": "B22",
+            "aciklama": "B22",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1635,
+            "kod": "B22K",
+            "aciklama": "B22K",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1158,
+            "kod": "B24",
+            "aciklama": "B24",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1159,
+            "kod": "B25",
+            "aciklama": "B25",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1160,
+            "kod": "B27",
+            "aciklama": "B27",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1161,
+            "kod": "B29",
+            "aciklama": "B29",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1676,
+            "kod": "B2A",
+            "aciklama": "B2A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1740,
+            "kod": "B2C",
+            "aciklama": "B2C",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1741,
+            "kod": "B2D",
+            "aciklama": "B2D",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1803,
+            "kod": "B2K",
+            "aciklama": "B2K",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1162,
+            "kod": "B3",
+            "aciklama": "B3",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1535,
+            "kod": "B30",
+            "aciklama": "B30",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1163,
+            "kod": "B31",
+            "aciklama": "B31",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1773,
+            "kod": "B31A",
+            "aciklama": "B31A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1536,
+            "kod": "B32",
+            "aciklama": "B32",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1712,
+            "kod": "B32A",
+            "aciklama": "B32A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1164,
+            "kod": "B33",
+            "aciklama": "B33",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1722,
+            "kod": "B33A",
+            "aciklama": "B33A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1247,
+            "kod": "B33G",
+            "aciklama": "B33G",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1165,
+            "kod": "B33H",
+            "aciklama": "B33H",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1166,
+            "kod": "B33K",
+            "aciklama": "B33K",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1167,
+            "kod": "B33M",
+            "aciklama": "B33M",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1168,
+            "kod": "B34",
+            "aciklama": "B34",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1575,
+            "kod": "B34U",
+            "aciklama": "B34U",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1571,
+            "kod": "B35",
+            "aciklama": "B35",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1717,
+            "kod": "B35K1",
+            "aciklama": "B35K1",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1169,
+            "kod": "B35K2",
+            "aciklama": "B35K2",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1679,
+            "kod": "B35M",
+            "aciklama": "B35M",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1170,
+            "kod": "B36",
+            "aciklama": "B36",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1171,
+            "kod": "B36A",
+            "aciklama": "B36A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1172,
+            "kod": "B36C",
+            "aciklama": "B36C",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1244,
+            "kod": "B36M",
+            "aciklama": "B36M",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1537,
+            "kod": "B36U",
+            "aciklama": "B36U",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1639,
+            "kod": "B37",
+            "aciklama": "B37",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1173,
+            "kod": "B38",
+            "aciklama": "B38",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1174,
+            "kod": "B39",
+            "aciklama": "B39",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1801,
+            "kod": "B39K",
+            "aciklama": "B39K",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1710,
+            "kod": "B3K",
+            "aciklama": "B3K",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1175,
+            "kod": "B4",
+            "aciklama": "B4",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1176,
+            "kod": "B40",
+            "aciklama": "B40",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1178,
+            "kod": "B41B",
+            "aciklama": "B41B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1179,
+            "kod": "B41C",
+            "aciklama": "B41C",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1180,
+            "kod": "B42A",
+            "aciklama": "B42A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1181,
+            "kod": "B43",
+            "aciklama": "B43",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1182,
+            "kod": "B44B",
+            "aciklama": "B44B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1184,
+            "kod": "B46",
+            "aciklama": "B46",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1185,
+            "kod": "B5",
+            "aciklama": "B5",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1186,
+            "kod": "B6",
+            "aciklama": "B6",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1187,
+            "kod": "B7",
+            "aciklama": "B7",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1188,
+            "kod": "B8",
+            "aciklama": "B8",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1189,
+            "kod": "B9",
+            "aciklama": "B9",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1798,
+            "kod": "BSP",
+            "aciklama": "BSP",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1826,
+            "kod": "Bursaray Gece 1",
+            "aciklama": "Bursaray Gece 1",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1827,
+            "kod": "Bursaray Gece 2",
+            "aciklama": "Bursaray Gece 2",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1518,
+            "kod": "D1",
+            "aciklama": "D1",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1392,
+            "kod": "D10",
+            "aciklama": "D10",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1264,
+            "kod": "D11",
+            "aciklama": "D11",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1558,
+            "kod": "D11A",
+            "aciklama": "D11A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1819,
+            "kod": "D11B",
+            "aciklama": "D11B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1265,
+            "kod": "D12",
+            "aciklama": "D12",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1763,
+            "kod": "D12A",
+            "aciklama": "D12A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1799,
+            "kod": "D12E",
+            "aciklama": "D12E",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1418,
+            "kod": "D12H",
+            "aciklama": "D12H",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1810,
+            "kod": "D12R",
+            "aciklama": "D12R",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1709,
+            "kod": "D12Y",
+            "aciklama": "D12Y",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1191,
+            "kod": "D13",
+            "aciklama": "D13",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1223,
+            "kod": "D13A",
+            "aciklama": "D13A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1869,
+            "kod": "D13D",
+            "aciklama": "D13D",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1688,
+            "kod": "D14",
+            "aciklama": "D14",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1192,
+            "kod": "D14A",
+            "aciklama": "D14A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1193,
+            "kod": "D15",
+            "aciklama": "D15",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1194,
+            "kod": "D16",
+            "aciklama": "D16",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1228,
+            "kod": "D16A",
+            "aciklama": "D16A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1759,
+            "kod": "D16B",
+            "aciklama": "D16B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1195,
+            "kod": "D17",
+            "aciklama": "D17",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1829,
+            "kod": "D17B",
+            "aciklama": "D17B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1214,
+            "kod": "D18",
+            "aciklama": "D18",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1224,
+            "kod": "D19",
+            "aciklama": "D19",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1196,
+            "kod": "D1A",
+            "aciklama": "D1A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1233,
+            "kod": "D1B",
+            "aciklama": "D1B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1708,
+            "kod": "D2",
+            "aciklama": "D2",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1225,
+            "kod": "D20",
+            "aciklama": "D20",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1227,
+            "kod": "D21",
+            "aciklama": "D21",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1237,
+            "kod": "D22",
+            "aciklama": "D22",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1249,
+            "kod": "D23",
+            "aciklama": "D23",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1569,
+            "kod": "D24",
+            "aciklama": "D24",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1603,
+            "kod": "D24E",
+            "aciklama": "D24E",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1570,
+            "kod": "D25",
+            "aciklama": "D25",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1686,
+            "kod": "D26",
+            "aciklama": "D26",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1198,
+            "kod": "D2A",
+            "aciklama": "D2A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1812,
+            "kod": "D3",
+            "aciklama": "D3",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1199,
+            "kod": "D4",
+            "aciklama": "D4",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1675,
+            "kod": "D4A",
+            "aciklama": "D4A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1200,
+            "kod": "D5",
+            "aciklama": "D5",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1201,
+            "kod": "D6",
+            "aciklama": "D6",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1533,
+            "kod": "D6A",
+            "aciklama": "D6A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1202,
+            "kod": "D7",
+            "aciklama": "D7",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1261,
+            "kod": "D7A",
+            "aciklama": "D7A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1203,
+            "kod": "D8",
+            "aciklama": "D8",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1562,
+            "kod": "D8A",
+            "aciklama": "D8A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1204,
+            "kod": "D9",
+            "aciklama": "D9",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1529,
+            "kod": "DE1",
+            "aciklama": "DE1",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1855,
+            "kod": "DE2",
+            "aciklama": "DE2",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1205,
+            "kod": "E12",
+            "aciklama": "E12",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1206,
+            "kod": "E13",
+            "aciklama": "E13",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1207,
+            "kod": "E2",
+            "aciklama": "E2",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1209,
+            "kod": "F1",
+            "aciklama": "F1",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1211,
+            "kod": "F3",
+            "aciklama": "F3",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1572,
+            "kod": "G2",
+            "aciklama": "G2",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1757,
+            "kod": "G3",
+            "aciklama": "G3",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1538,
+            "kod": "G4A",
+            "aciklama": "G4A",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1739,
+            "kod": "G4S",
+            "aciklama": "G4S",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1678,
+            "kod": "G4T",
+            "aciklama": "G4T",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1766,
+            "kod": "G5",
+            "aciklama": "G5",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1772,
+            "kod": "G6",
+            "aciklama": "G6",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1814,
+            "kod": "G7",
+            "aciklama": "G7",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1815,
+            "kod": "G8",
+            "aciklama": "G8",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 65536,
+            "kod": "GÖREVLİ",
+            "aciklama": "GÖREVLİ",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1582,
+            "kod": "H1",
+            "aciklama": "H1",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1583,
+            "kod": "H2",
+            "aciklama": "H2",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1584,
+            "kod": "H3",
+            "aciklama": "H3",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1742,
+            "kod": "H3B",
+            "aciklama": "H3B",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1716,
+            "kod": "H3D",
+            "aciklama": "H3D",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1636,
+            "kod": "H4",
+            "aciklama": "H4",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 65535,
+            "kod": "Hat Seçilmemiş",
+            "aciklama": "Hat Seçilmemiş",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1824,
+            "kod": "KÖRFEZ KISA",
+            "aciklama": "KÖRFEZ KISA",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1825,
+            "kod": "KÖRFEZ UZUN",
+            "aciklama": "KÖRFEZ UZUN",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1531,
+            "kod": "M1",
+            "aciklama": "M1",
+            "vehicleType": "metro",
+            "color": "#009900"
+        },
+        {
+            "hatNo": 1519,
+            "kod": "M2",
+            "aciklama": "M2",
+            "vehicleType": "metro",
+            "color": "#009900"
+        },
+        {
+            "hatNo": 1212,
+            "kod": "S1",
+            "aciklama": "S1",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1213,
+            "kod": "S2",
+            "aciklama": "S2",
+            "vehicleType": "bus",
+            "color": "#f5c211"
+        },
+        {
+            "hatNo": 1401,
+            "kod": "T1",
+            "aciklama": "T1",
+            "vehicleType": "tram",
+            "color": "#ff0000"
+        },
+        {
+            "hatNo": 1726,
+            "kod": "T2",
+            "aciklama": "T2",
+            "vehicleType": "tram",
+            "color": "#ff0000"
+        },
+        {
+            "hatNo": 1403,
+            "kod": "T3",
+            "aciklama": "T3",
+            "vehicleType": "tram",
+            "color": "#ff0000"
+        }
+    ]
+}

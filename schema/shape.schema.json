@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TransitJSON Shape",
+  "description": "Rota geometrisi. Google Encoded Polyline Algorithm Format kullanılır. Kapsam sınırı (v1): her route_id + direction için tek shape vardır; trip bazlı varyant güzergâh yoktur.",
+  "type": "object",
+  "properties": {
+    "shape_id": { "type": "string" },
+    "route_id": { "type": "string" },
+    "direction": { "type": "integer", "enum": [0, 1] },
+    "shape_encoded": { "type": "string", "description": "Encoded polyline string" },
+    "precision": { "type": "integer", "enum": [5, 6], "default": 5 },
+    "point_count": { "type": "integer", "minimum": 2 },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "source": { "type": "string" }
+  },
+  "required": ["shape_id", "route_id", "direction", "shape_encoded", "precision", "updated_at"],
+  "additionalProperties": false
+}
