@@ -4,17 +4,39 @@
   "description": "Resmi tatil günleri. Sabit kural: resmi tatil = Pazar günü sefer programı uygulanır.",
   "type": "object",
   "properties": {
-    "date": { "type": "string", "format": "date" },
-    "country_id": { "type": "string" },
-    "name": { "type": "string" },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "country_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
     "applies_as": {
       "type": "string",
-      "enum": ["weekday", "saturday", "sunday"],
+      "enum": [
+        "weekday",
+        "saturday",
+        "sunday"
+      ],
       "default": "sunday"
     },
-    "updated_at": { "type": "string", "format": "date-time" },
-    "source": { "type": "string" }
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "type": "string"
+    }
   },
-  "required": ["date", "country_id", "name", "applies_as", "updated_at"],
+  "required": [
+    "date",
+    "country_id",
+    "name",
+    "applies_as",
+    "updated_at"
+  ],
   "additionalProperties": false
 }

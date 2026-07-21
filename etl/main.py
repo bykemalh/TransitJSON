@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """TransitJSON ETL — Bursa / Burulaş.
 
-bursa.json + Burulaş statik API + Valhalla -> JSON/Bursa/ altına TransitJSON dosyaları.
+bursa.json + Burulaş statik API -> JSON/Bursa/ altına TransitJSON dosyaları.
 
 Kullanım:
     python -m etl.main                 # tüm hatlar (414)
@@ -100,8 +100,7 @@ def main() -> None:
     print("\nÖzet:")
     for key, _ in COLLECTIONS:
         print(f"  {key:12s}: {len(bundle[key])}")
-    snapped = sum(1 for s in builder.shapes if s["source"] == "api-burulas")
-    print(f"  shapes(snap) : {snapped}/{len(builder.shapes)} Valhalla ile eşlendi")
+    print(f"  shapes      : {len(builder.shapes)} (ham polyline, map match yok)")
 
 
 if __name__ == "__main__":

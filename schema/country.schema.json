@@ -3,11 +3,25 @@
   "title": "TransitJSON Country",
   "type": "object",
   "properties": {
-    "country_id": { "type": "string", "description": "ISO 3166-1 alpha-2 kod önerilir, örn. TR" },
-    "name": { "type": "string" },
-    "updated_at": { "type": "string", "format": "date-time" },
-    "source": { "type": "string" }
+    "country_id": {
+      "type": "string",
+      "description": "ISO 3166-1 alpha-2 kod önerilir, örn. TR"
+    },
+    "name": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "type": "string"
+    }
   },
-  "required": ["country_id", "name", "updated_at"],
+  "required": [
+    "country_id",
+    "name",
+    "updated_at"
+  ],
   "additionalProperties": false
 }

@@ -3,9 +3,7 @@ from __future__ import annotations
 
 from typing import Any
 
-import requests
-
-from . import config, valhalla
+from . import config, shape_encode
 from .api_client import BurulasClient
 
 
@@ -32,7 +30,6 @@ class TransitBuilder:
     def __init__(self, client: BurulasClient, now_iso: str):
         self.client = client
         self.now = now_iso
-        self.valhalla_session = requests.Session()
 
         self.stops: dict[str, dict] = {}          # stop_id -> stop
         self.routes: list[dict] = []
@@ -127,7 +124,7 @@ class TransitBuilder:
             )
 
         # 2) Güzergah geometrisi (shape)
-        self._build_shapes(route_id, hat_no, directions, vehicle_type)
+        self._build_shapes(route_id, hat_no, directions)
 
         # 3) Seferler + saatler
         for api_dir in directions:
@@ -195,7 +192,7 @@ class TransitBuilder:
 
     # ---------------------------------------------------------------
     def _build_shapes(
-        self, route_id: str, hat_no: int, directions: list[str], vehicle_type: str
+        self, route_id: str, hat_no: int, directions: list[str]
     ) -> None:
         coords = self.client.routecoordinate(hat_no)
         pts_by_dir: dict[str, list[tuple[float, float]]] = {}
@@ -215,7 +212,7 @@ class TransitBuilder:
                 continue
             raw_pts.sort(key=lambda x: x[0])
             points = [(lat, lon) for _, lat, lon in raw_pts]
-            shape = valhalla.build_shape(points, vehicle_type, self.valhalla_session)
+            shape = shape_encode.build_shape(points)
             if not shape:
                 continue
             direction = config.API_DIR_TO_INT[api_dir]
@@ -226,7 +223,7 @@ class TransitBuilder:
                 "shape_encoded": shape["shape_encoded"],
                 "precision": shape["precision"],
                 "point_count": shape["point_count"],
-                "source": config.SOURCE_API if shape["snapped"] else "api-burulas-raw",
+                "source": config.SOURCE_API,
                 "updated_at": self.now,
             })
 

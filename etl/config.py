@@ -15,18 +15,9 @@ REQUEST_HEADERS = {
     "Connection": "keep-alive",
 }
 
-# --- Valhalla (shape / harita eşleme) ---
-VALHALLA_URL = "https://valhala.bykemalh.me"
-VALHALLA_COSTING = "bus"
-VALHALLA_SHAPE_MATCH = "map_snap"
-# Valhalla trace_route precision (encoded polyline). 6 döndürür.
-VALHALLA_PRECISION = 6
-# Ham fallback encode precision (Valhalla başarısız olursa).
-RAW_PRECISION = 5
-
-# Valhalla harita eşlemesinin uygulanacağı araç türleri.
-# Tram/metro yol ağına oturmadığı için ham koordinat kullanılır.
-MAP_SNAP_VEHICLE_TYPES = {"bus"}
+# --- Shape (encoded polyline) ---
+# Ham /routecoordinate noktaları doğrudan encode edilir; map matching yok.
+SHAPE_PRECISION = 5
 
 # --- İstek davranışı ---
 REQUEST_TIMEOUT = 30      # saniye
