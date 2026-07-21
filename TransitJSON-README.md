@@ -18,7 +18,7 @@ Farklı kaynaklardan (resmi GTFS feed'leri, belediye API'leri, elle girilen öze
 |---|---|---|
 | İlk/son durak saati | İkisi de zorunlu | Sadece **ilk durak** zorunlu, diğerleri (son durak dahil) opsiyonel |
 | Takvim | `calendar.txt` + `calendar_dates.txt`, haftanın her günü bit maskesi | Sadece `service_type` (weekday/saturday/sunday) + `holidays.json` (resmi tatil = pazar kuralı) |
-| Rota geometrisi | Ham `{lat,lon}` dizisi (`shapes.txt`) | Encoded polyline string (tek satır, küçük boyut) |
+| Rota geometrisi | Ham `{lat,lon}` dizisi (`shapes.txt`) | Ham `{lat, lon}` koordinat dizisi (encoded polyline yok) |
 | Frekanslı hatlar | `frequencies.txt` ile ayrı bir soyutlama | Yok — bir generator script ile **önceden somut saatlere genişletilip** normal `stop_times`'a yazılır |
 | Serbest biniş hatlar | Yok (GTFS'te her durak açıkça tanımlı olmalı) | `stop_mode: "flexible"` — sadece ilk/son durak tanımlı |
 | Cache/güncelleme takibi | Yok (statik feed mantığı) | Her koleksiyonda `updated_at`, route bazlı meta endpoint |
@@ -34,7 +34,7 @@ JSON feed/koleksiyon anahtarları **her zaman çoğuldur**. PostgreSQL tablo adl
 4. `routes.json` — Hatlar
 5. `stops.json` — Duraklar (bağımsız, çok-çoğa paylaşılır)
 6. `route_stops.json` — Hat-Durak ilişkisi (yön + sıra)
-7. `shapes.json` — Rota geometrisi (encoded polyline)
+7. `shapes.json` — Rota geometrisi (doğrudan lat/lon koordinat dizisi; polyline encoding yok)
 8. `trips.json` — Somut seferler
 9. `stop_times.json` — Sefer-durak-saat ilişkisi
 10. `holidays.json` — Resmi tatiller (ülkeye göre)
@@ -210,14 +210,16 @@ Bağımsız varlık — hiçbir route'a ait değildir, çok-çoğa ilişki `rout
   "shape_id": "S-F1-0",
   "route_id": "F1",
   "direction": 0,
-  "shape_encoded": "_p~iF~ps|U_ulLnnqC_mqNvxq`@",
-  "precision": 5,
-  "point_count": 142,
+  "coordinates": [
+    { "lat": 40.1885, "lon": 29.0610 },
+    { "lat": 40.1901, "lon": 29.0652 },
+    { "lat": 40.1920, "lon": 29.0700 }
+  ],
   "updated_at": "2026-07-20T10:00:00Z"
 }
 ```
-- Google Encoded Polyline Algorithm Format kullanılır (Leaflet, Mapbox GL, Google Maps SDK'larında hazır decode fonksiyonları mevcuttur).
-- `precision`: ondalık hane hassasiyeti (genelde 5; decode ederken kütüphaneye doğru parametre vermek için saklanır).
+- Güzergâh **doğrudan** `{lat, lon}` koordinat dizisi olarak saklanır. Encoded polyline (`shape_encoded`) kullanılmaz.
+- Duraklar ve şehir merkezi ile aynı koordinat modeli (`lat` / `lon`).
 - Her `route_id` + `direction` kombinasyonu için ayrı bir shape kaydı olur (gidiş/dönüş genelde farklı güzergah izler).
 
 ## 9. trips.json

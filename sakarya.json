@@ -1,0 +1,922 @@
+[
+    {
+        "id": 51,
+        "name": "ADARAY",
+        "asisIntegrationId": 200,
+        "lineNumber": "A1",
+        "busTypeColor": "#ff8400",
+        "slug": "a1-adaray-51"
+    },
+    {
+        "id": 50,
+        "name": "GAR MEYDANI - KORUCUK",
+        "asisIntegrationId": 250,
+        "lineNumber": "M1",
+        "busTypeColor": "#f04646",
+        "slug": "m1-gar-meydani-korucuk-50"
+    },
+    {
+        "id": 2,
+        "name": "SAKARYAPARK - KÜPÇÜLER - K. TERMİNAL",
+        "asisIntegrationId": 1,
+        "lineNumber": "1",
+        "busTypeColor": "#68bd9c",
+        "slug": "1-numara-sakaryapark-kupculer-k-terminal-2"
+    },
+    {
+        "id": 3,
+        "name": "ORTA GARAJ - HIZIR İLYAS",
+        "asisIntegrationId": 2,
+        "lineNumber": "2",
+        "busTypeColor": "#68bd9c",
+        "slug": "2-numara-orta-garaj-hizir-ilyas-3"
+    },
+    {
+        "id": 4,
+        "name": "D. MEYDANI - YEŞİLTEPE - Y. TERMİNAL",
+        "asisIntegrationId": 3,
+        "lineNumber": "3",
+        "busTypeColor": "#68bd9c",
+        "slug": "3-numara-d-meydani-yesiltepe-y-terminal-4"
+    },
+    {
+        "id": 5,
+        "name": "KAMPÜS - SAKARYAPARK",
+        "asisIntegrationId": 4,
+        "lineNumber": "4",
+        "busTypeColor": "#68bd9c",
+        "slug": "4-numara-kampus-sakaryapark-5"
+    },
+    {
+        "id": 7,
+        "name": "O.GARAJ - OTUZİKİEVLER - BEŞKÖPRÜ - KAMPÜS",
+        "asisIntegrationId": 6,
+        "lineNumber": "6",
+        "busTypeColor": "#68bd9c",
+        "slug": "6-numara-ogaraj-otuzikievler-beskopru-kampus-7"
+    },
+    {
+        "id": 8,
+        "name": "D. MEYDANI - YILDIZTEPE - Y. TERMİNAL",
+        "asisIntegrationId": 7,
+        "lineNumber": "7",
+        "busTypeColor": "#68bd9c",
+        "slug": "7-numara-d-meydani-yildiztepe-y-terminal-8"
+    },
+    {
+        "id": 47,
+        "name": "ORTA GARAJ - OZANLAR - YAZLIK",
+        "asisIntegrationId": 133,
+        "lineNumber": "8A",
+        "busTypeColor": "#68bd9c",
+        "slug": "8a-orta-garaj-ozanlar-yazlik-47"
+    },
+    {
+        "id": 48,
+        "name": "ORTA GARAJ - ŞEKER - YAZLIK",
+        "asisIntegrationId": 134,
+        "lineNumber": "8B",
+        "busTypeColor": "#68bd9c",
+        "slug": "8b-orta-garaj-seker-yazlik-48"
+    },
+    {
+        "id": 9,
+        "name": "ORTA GARAJ - ALTYOL - MALTEPE",
+        "asisIntegrationId": 8,
+        "lineNumber": "9A",
+        "busTypeColor": "#68bd9c",
+        "slug": "9a-orta-garaj-altyol-maltepe-9"
+    },
+    {
+        "id": 10,
+        "name": "ORTA GARAJ - MALTEPE",
+        "asisIntegrationId": 9,
+        "lineNumber": "9B",
+        "busTypeColor": "#68bd9c",
+        "slug": "9b-orta-garaj-maltepe-10"
+    },
+    {
+        "id": 11,
+        "name": "SERDİVAN - HIZIRTEPE - SAKARYAPARK",
+        "asisIntegrationId": 131,
+        "lineNumber": "11",
+        "busTypeColor": "#68bd9c",
+        "slug": "11-numara-serdivan-hizirtepe-sakaryapark-11"
+    },
+    {
+        "id": 12,
+        "name": "YAZLIK - KAMPÜS - ESENTEPE",
+        "asisIntegrationId": 10,
+        "lineNumber": "12",
+        "busTypeColor": "#68bd9c",
+        "slug": "12-numara-yazlik-kampus-esentepe-12"
+    },
+    {
+        "id": 13,
+        "name": "ESENTEPE - SEAH - O. GARAJ",
+        "asisIntegrationId": 132,
+        "lineNumber": "12AR",
+        "busTypeColor": "#68bd9c",
+        "slug": "12ar-esentepe-seah-o-garaj-13"
+    },
+    {
+        "id": 14,
+        "name": "ORTA GARAJ - LOJMANLAR - YAZLIK",
+        "asisIntegrationId": 11,
+        "lineNumber": "14",
+        "busTypeColor": "#68bd9c",
+        "slug": "14-numara-orta-garaj-lojmanlar-yazlik-14"
+    },
+    {
+        "id": 15,
+        "name": "ATATÜRK STADYUMU - KAMPÜS",
+        "asisIntegrationId": 12,
+        "lineNumber": "15",
+        "busTypeColor": "#68bd9c",
+        "slug": "15-numara-ataturk-stadyumu-kampus-15"
+    },
+    {
+        "id": 97,
+        "name": "K. TERMİNAL - SERDİVAN - KAMPÜS",
+        "asisIntegrationId": 37,
+        "lineNumber": "16K",
+        "busTypeColor": "#68bd9c",
+        "slug": "16k-k-terminal-serdivan-kampus-97"
+    },
+    {
+        "id": 16,
+        "name": "GÜNEŞLER - ADATIP - ŞİMŞEK EVLER",
+        "asisIntegrationId": 13,
+        "lineNumber": "17",
+        "busTypeColor": "#68bd9c",
+        "slug": "17-numara-gunesler-adatip-simsek-evler-16"
+    },
+    {
+        "id": 101,
+        "name": "GÜNEŞLER - ÇARK - ŞİMŞEK EVLER",
+        "asisIntegrationId": 137,
+        "lineNumber": "17S",
+        "busTypeColor": "#68bd9c",
+        "slug": "17s-gunesler-cark-simsek-evler-101"
+    },
+    {
+        "id": 17,
+        "name": "ZİRAİ ALETLER - ADATIP - YILDIZ",
+        "asisIntegrationId": 14,
+        "lineNumber": "18",
+        "busTypeColor": "#68bd9c",
+        "slug": "18-numara-zirai-aletler-adatip-yildiz-17"
+    },
+    {
+        "id": 102,
+        "name": "DEMOKRASİ MEYDANI - KÖPRÜBAŞI",
+        "asisIntegrationId": 138,
+        "lineNumber": "18S",
+        "busTypeColor": "#68bd9c",
+        "slug": "18s-demokrasi-meydani-koprubasi-102"
+    },
+    {
+        "id": 98,
+        "name": "D. MEYDANI - HACIOĞLU - SAKARYAPARK",
+        "asisIntegrationId": 38,
+        "lineNumber": "19E",
+        "busTypeColor": "#68bd9c",
+        "slug": "19e-d-meydani-hacioglu-sakaryapark-98"
+    },
+    {
+        "id": 19,
+        "name": "SAKARYAPARK - KAMPÜS",
+        "asisIntegrationId": 16,
+        "lineNumber": "19K",
+        "busTypeColor": "#68bd9c",
+        "slug": "19k-sakaryapark-kampus-19"
+    },
+    {
+        "id": 18,
+        "name": "ORTA GARAJ - ÇARK - SİVRİTEPE",
+        "asisIntegrationId": 36,
+        "lineNumber": "19S",
+        "busTypeColor": "#68bd9c",
+        "slug": "19s-orta-garaj-cark-sivritepe-18"
+    },
+    {
+        "id": 20,
+        "name": "O.GARAJ - ALTINOVA - OTUZİKİEVLER - KAMPÜS",
+        "asisIntegrationId": 17,
+        "lineNumber": "20",
+        "busTypeColor": "#68bd9c",
+        "slug": "20-numara-ogaraj-altinova-otuzikievler-kampus-20"
+    },
+    {
+        "id": 21,
+        "name": "SERDİVAN AVM- BEŞKÖPRÜ-KAMPÜS",
+        "asisIntegrationId": 18,
+        "lineNumber": "20A",
+        "busTypeColor": "#68bd9c",
+        "slug": "20a-serdivan-avm-beskopru-kampus-21"
+    },
+    {
+        "id": 22,
+        "name": "DEMOKRASİ MEYDANI- S. ZAİM BLV - KARAMAN",
+        "asisIntegrationId": 19,
+        "lineNumber": "21C",
+        "busTypeColor": "#68bd9c",
+        "slug": "21c-demokrasi-meydani-s-zaim-blv-karaman-22"
+    },
+    {
+        "id": 23,
+        "name": "UNKAPANI - İKİZCE - KARAMAN",
+        "asisIntegrationId": 20,
+        "lineNumber": "21D",
+        "busTypeColor": "#68bd9c",
+        "slug": "21d-unkapani-ikizce-karaman-23"
+    },
+    {
+        "id": 24,
+        "name": "KARAMAN - KAMPÜS",
+        "asisIntegrationId": 21,
+        "lineNumber": "21K",
+        "busTypeColor": "#68bd9c",
+        "slug": "21k-karaman-kampus-24"
+    },
+    {
+        "id": 25,
+        "name": "O. GARAJ - UNKAPANI - CAMİLİ 1",
+        "asisIntegrationId": 22,
+        "lineNumber": "22C",
+        "busTypeColor": "#68bd9c",
+        "slug": "22c-o-garaj-unkapani-camili-1-25"
+    },
+    {
+        "id": 26,
+        "name": "O. GARAJ - KİRTETEPE - CAMİLİ 1",
+        "asisIntegrationId": 23,
+        "lineNumber": "22D",
+        "busTypeColor": "#68bd9c",
+        "slug": "22d-o-garaj-kirtetepe-camili-1-26"
+    },
+    {
+        "id": 27,
+        "name": "KAMPÜS - CAMİLİ 1/2",
+        "asisIntegrationId": 24,
+        "lineNumber": "22K",
+        "busTypeColor": "#68bd9c",
+        "slug": "22k-kampus-camili-12-27"
+    },
+    {
+        "id": 28,
+        "name": "O. GARAJ - CAMİLİ 2",
+        "asisIntegrationId": 25,
+        "lineNumber": "23",
+        "busTypeColor": "#68bd9c",
+        "slug": "23-numara-o-garaj-camili-2-28"
+    },
+    {
+        "id": 29,
+        "name": "O. GARAJ - TOKİ - KORUCUK",
+        "asisIntegrationId": 26,
+        "lineNumber": "24",
+        "busTypeColor": "#68bd9c",
+        "slug": "24-numara-o-garaj-toki-korucuk-29"
+    },
+    {
+        "id": 31,
+        "name": "YENİKENT İÇ HAT",
+        "asisIntegrationId": 129,
+        "lineNumber": "24İ",
+        "busTypeColor": "#68bd9c",
+        "slug": "24i-yenikent-ic-hat-31"
+    },
+    {
+        "id": 30,
+        "name": "KAMPÜS-KORUCUK ",
+        "asisIntegrationId": 27,
+        "lineNumber": "24K",
+        "busTypeColor": "#68bd9c",
+        "slug": "24k-kampus-korucuk-30"
+    },
+    {
+        "id": 32,
+        "name": "O. GARAJ - BAYTUR İDEALKENT",
+        "asisIntegrationId": 28,
+        "lineNumber": "25",
+        "busTypeColor": "#68bd9c",
+        "slug": "25-numara-o-garaj-baytur-idealkent-32"
+    },
+    {
+        "id": 33,
+        "name": "D. MEYDANI - SERDİVAN HAST. - KAMPÜS",
+        "asisIntegrationId": 29,
+        "lineNumber": "26",
+        "busTypeColor": "#68bd9c",
+        "slug": "26-numara-d-meydani-serdivan-hast-kampus-33"
+    },
+    {
+        "id": 34,
+        "name": "O. GARAJ - ATSO - KAMPÜS",
+        "asisIntegrationId": 30,
+        "lineNumber": "27",
+        "busTypeColor": "#68bd9c",
+        "slug": "27-numara-o-garaj-atso-kampus-34"
+    },
+    {
+        "id": 99,
+        "name": "Y. TERMİNAL - DONATIM - K. TERMİNAL",
+        "asisIntegrationId": 135,
+        "lineNumber": "28A",
+        "busTypeColor": "#68bd9c",
+        "slug": "28a-y-terminal-donatim-k-terminal-99"
+    },
+    {
+        "id": 100,
+        "name": "Y. TERMİNAL - SERDİVAN - K. TERMİNAL",
+        "asisIntegrationId": 136,
+        "lineNumber": "28B",
+        "busTypeColor": "#68bd9c",
+        "slug": "28b-y-terminal-serdivan-k-terminal-100"
+    },
+    {
+        "id": 36,
+        "name": "YENİ TERMİNAL - KAMPÜS",
+        "asisIntegrationId": 32,
+        "lineNumber": "29",
+        "busTypeColor": "#68bd9c",
+        "slug": "29-numara-yeni-terminal-kampus-36"
+    },
+    {
+        "id": 37,
+        "name": "İHSANİYE - SÖĞÜTLÜ - FERİZLİ",
+        "asisIntegrationId": 126,
+        "lineNumber": "30",
+        "busTypeColor": "#68bd9c",
+        "slug": "30-numara-ihsaniye-sogutlu-ferizli-37"
+    },
+    {
+        "id": 38,
+        "name": "ORTA GARAJ -AŞIRLAR",
+        "asisIntegrationId": 55,
+        "lineNumber": "32",
+        "busTypeColor": "#68bd9c",
+        "slug": "32-numara-orta-garaj-asirlar-38"
+    },
+    {
+        "id": 57,
+        "name": "ŞAL SOKAK - KAMPÜS",
+        "asisIntegrationId": 106,
+        "lineNumber": "35-KM",
+        "busTypeColor": "#d389e8",
+        "slug": "35-km-sal-sokak-kampus-57"
+    },
+    {
+        "id": 68,
+        "name": "ABALI - ÇEŞME MEYDANI",
+        "asisIntegrationId": 40,
+        "lineNumber": "100",
+        "busTypeColor": "#d389e8",
+        "slug": "100-numara-abali-cesme-meydani-68"
+    },
+    {
+        "id": 72,
+        "name": "ANDAL / İLYASLAR - ÇEŞME MEYDANI",
+        "asisIntegrationId": 47,
+        "lineNumber": "101",
+        "busTypeColor": "#d389e8",
+        "slug": "101-numara-andal-ilyaslar-cesme-meydani-72"
+    },
+    {
+        "id": 110,
+        "name": "HATAPLI - İHSANİYE GARAJ",
+        "asisIntegrationId": 73,
+        "lineNumber": "103",
+        "busTypeColor": "#d389e8",
+        "slug": "103-numara-hatapli-ihsaniye-garaj-110"
+    },
+    {
+        "id": 112,
+        "name": "İKİZCE - KAYNARCA YOLU - İHSANİYE GARAJ",
+        "asisIntegrationId": 76,
+        "lineNumber": "104-KA",
+        "busTypeColor": "#d389e8",
+        "slug": "104-ka-ikizce-kaynarca-yolu-ihsaniye-garaj-112"
+    },
+    {
+        "id": 111,
+        "name": "İKİZCE - SÖĞÜTLÜ YOLU - İHSANİYE GARAJ",
+        "asisIntegrationId": 75,
+        "lineNumber": "104-SÖ",
+        "busTypeColor": "#d389e8",
+        "slug": "104-so-ikizce-sogutlu-yolu-ihsaniye-garaj-111"
+    },
+    {
+        "id": 113,
+        "name": "KARADERE - İHSANİYE GARAJ",
+        "asisIntegrationId": 78,
+        "lineNumber": "105",
+        "busTypeColor": "#d389e8",
+        "slug": "105-numara-karadere-ihsaniye-garaj-113"
+    },
+    {
+        "id": 80,
+        "name": "KAVAKLIORMAN - ÇEŞME MEYDANI",
+        "asisIntegrationId": 80,
+        "lineNumber": "106",
+        "busTypeColor": "#d389e8",
+        "slug": "106-numara-kavakliorman-cesme-meydani-80"
+    },
+    {
+        "id": 81,
+        "name": "KAYRANCIK - İHSANİYE GARAJ",
+        "asisIntegrationId": 82,
+        "lineNumber": "107",
+        "busTypeColor": "#d389e8",
+        "slug": "107-numara-kayrancik-ihsaniye-garaj-81"
+    },
+    {
+        "id": 89,
+        "name": "VAN / BAĞLAR - UNKAPANI",
+        "asisIntegrationId": 104,
+        "lineNumber": "109",
+        "busTypeColor": "#d389e8",
+        "slug": "109-numara-van-baglar-unkapani-89"
+    },
+    {
+        "id": 54,
+        "name": "TARAKLI - DONATIM GARAJ",
+        "asisIntegrationId": 115,
+        "lineNumber": "115",
+        "busTypeColor": "#d389e8",
+        "slug": "115-numara-tarakli-donatim-garaj-54"
+    },
+    {
+        "id": 43,
+        "name": "AKYAZI - DONATIM GARAJ",
+        "asisIntegrationId": 45,
+        "lineNumber": "130",
+        "busTypeColor": "#d389e8",
+        "slug": "130-numara-akyazi-donatim-garaj-43"
+    },
+    {
+        "id": 314,
+        "name": "AKYAZI - SAÜ KAMPÜS",
+        "asisIntegrationId": 147,
+        "lineNumber": "130-AK",
+        "busTypeColor": "#d389e8",
+        "slug": "130-ak-akyazi-sau-kampus-314"
+    },
+    {
+        "id": 310,
+        "name": "AKYAZI / KÖYLER - DONATIM GARAJ",
+        "asisIntegrationId": 46,
+        "lineNumber": "130-KY",
+        "busTypeColor": "#d389e8",
+        "slug": "130-ky-akyazi-koyler-donatim-garaj-310"
+    },
+    {
+        "id": 92,
+        "name": "KUZULUK - DONATIM GARAJ",
+        "asisIntegrationId": 111,
+        "lineNumber": "131",
+        "busTypeColor": "#d389e8",
+        "slug": "131-numara-kuzuluk-donatim-garaj-92"
+    },
+    {
+        "id": 231,
+        "name": "KUZULUK - AKYAZI",
+        "asisIntegrationId": 112,
+        "lineNumber": "131-AK",
+        "busTypeColor": "#d389e8",
+        "slug": "131-ak-kuzuluk-akyazi-231"
+    },
+    {
+        "id": 85,
+        "name": "KÜÇÜCEK - YENİ CAMİ",
+        "asisIntegrationId": 97,
+        "lineNumber": "132",
+        "busTypeColor": "#d389e8",
+        "slug": "132-numara-kucucek-yeni-cami-85"
+    },
+    {
+        "id": 115,
+        "name": "ORMANKÖY - ÇEŞME MEYDANI",
+        "asisIntegrationId": 99,
+        "lineNumber": "133",
+        "busTypeColor": "#d389e8",
+        "slug": "133-numara-ormankoy-cesme-meydani-115"
+    },
+    {
+        "id": 56,
+        "name": "TAŞLIK - SBB PERON",
+        "asisIntegrationId": 103,
+        "lineNumber": "136",
+        "busTypeColor": "#d389e8",
+        "slug": "136-numara-taslik-sbb-peron-56"
+    },
+    {
+        "id": 39,
+        "name": "ARİFİYE AÇMALAR - DONATIM GARAJ",
+        "asisIntegrationId": 50,
+        "lineNumber": "150-AÇ",
+        "busTypeColor": "#d389e8",
+        "slug": "150-ac-arifiye-acmalar-donatim-garaj-39"
+    },
+    {
+        "id": 41,
+        "name": "ARİFİYE KYK - SAÜ KAMPÜS",
+        "asisIntegrationId": 53,
+        "lineNumber": "150-K",
+        "busTypeColor": "#d389e8",
+        "slug": "150-k-arifiye-kyk-sau-kampus-41"
+    },
+    {
+        "id": 40,
+        "name": "ARİFİYE KALAYCI - DONATIM GARAJ",
+        "asisIntegrationId": 51,
+        "lineNumber": "150-KLY",
+        "busTypeColor": "#d389e8",
+        "slug": "150-kly-arifiye-kalayci-donatim-garaj-40"
+    },
+    {
+        "id": 324,
+        "name": "ARİFİYE TOKİ GÖDEMEN - DONATIM GARAJ",
+        "asisIntegrationId": 148,
+        "lineNumber": "150-T",
+        "busTypeColor": "#d389e8",
+        "slug": "150-t-arifiye-toki-godemen-donatim-garaj-324"
+    },
+    {
+        "id": 69,
+        "name": "ADLİYE / AKÇAY - DONATIM GARAJ",
+        "asisIntegrationId": 42,
+        "lineNumber": "151-AY",
+        "busTypeColor": "#d389e8",
+        "slug": "151-ay-adliye-akcay-donatim-garaj-69"
+    },
+    {
+        "id": 71,
+        "name": "ADLİYE / KUMBAŞI - DONATIM GARAJ",
+        "asisIntegrationId": 44,
+        "lineNumber": "151-KB",
+        "busTypeColor": "#d389e8",
+        "slug": "151-kb-adliye-kumbasi-donatim-garaj-71"
+    },
+    {
+        "id": 70,
+        "name": "ADLİYE / KARAÇAM - DONATIM GARAJ",
+        "asisIntegrationId": 43,
+        "lineNumber": "151-KÇ",
+        "busTypeColor": "#d389e8",
+        "slug": "151-kc-adliye-karacam-donatim-garaj-70"
+    },
+    {
+        "id": 309,
+        "name": "ADLİYE / KÖY HİZMETLERİ-DONATIM GARAJ",
+        "asisIntegrationId": 41,
+        "lineNumber": "151-KY",
+        "busTypeColor": "#d389e8",
+        "slug": "151-ky-adliye-koy-hizmetleri-donatim-garaj-309"
+    },
+    {
+        "id": 83,
+        "name": "KEMALİYE - YENİ CAMİ",
+        "asisIntegrationId": 91,
+        "lineNumber": "152",
+        "busTypeColor": "#d389e8",
+        "slug": "152-numara-kemaliye-yeni-cami-83"
+    },
+    {
+        "id": 84,
+        "name": "KIŞLAÇAY - DONATIM GARAJ",
+        "asisIntegrationId": 92,
+        "lineNumber": "153",
+        "busTypeColor": "#d389e8",
+        "slug": "153-numara-kislacay-donatim-garaj-84"
+    },
+    {
+        "id": 86,
+        "name": "NEHİRKENT - YENİ CAMİ",
+        "asisIntegrationId": 98,
+        "lineNumber": "154",
+        "busTypeColor": "#d389e8",
+        "slug": "154-numara-nehirkent-yeni-cami-86"
+    },
+    {
+        "id": 82,
+        "name": "BEKİRPAŞA / KADIKÖY - YENİ CAMİ",
+        "asisIntegrationId": 90,
+        "lineNumber": "171",
+        "busTypeColor": "#d389e8",
+        "slug": "171-numara-bekirpasa-kadikoy-yeni-cami-82"
+    },
+    {
+        "id": 73,
+        "name": "ÇAYBAŞI YENİKÖY - YENİ CAMİ",
+        "asisIntegrationId": 56,
+        "lineNumber": "172",
+        "busTypeColor": "#d389e8",
+        "slug": "172-numara-caybasi-yenikoy-yeni-cami-73"
+    },
+    {
+        "id": 74,
+        "name": "ÇAYBAŞI YENİKÖY YEŞİLTEPE - YENİ CAMİ",
+        "asisIntegrationId": 57,
+        "lineNumber": "172-YŞ",
+        "busTypeColor": "#d389e8",
+        "slug": "172-ys-caybasi-yenikoy-yesiltepe-yeni-cami-74"
+    },
+    {
+        "id": 75,
+        "name": "ÇAYKIŞLA - YENİ CAMİ",
+        "asisIntegrationId": 58,
+        "lineNumber": "173",
+        "busTypeColor": "#d389e8",
+        "slug": "173-numara-caykisla-yeni-cami-75"
+    },
+    {
+        "id": 104,
+        "name": "DEĞİRMENDERE - YENİ CAMİ",
+        "asisIntegrationId": 59,
+        "lineNumber": "174",
+        "busTypeColor": "#d389e8",
+        "slug": "174-numara-degirmendere-yeni-cami-104"
+    },
+    {
+        "id": 109,
+        "name": "ESENCE - ÇEŞME MEYDANI",
+        "asisIntegrationId": 64,
+        "lineNumber": "175",
+        "busTypeColor": "#d389e8",
+        "slug": "175-numara-esence-cesme-meydani-109"
+    },
+    {
+        "id": 79,
+        "name": "KAMIŞLI - YENİ CAMİ",
+        "asisIntegrationId": 77,
+        "lineNumber": "176",
+        "busTypeColor": "#d389e8",
+        "slug": "176-numara-kamisli-yeni-cami-79"
+    },
+    {
+        "id": 230,
+        "name": "KAYALAR - YENİ CAMİ",
+        "asisIntegrationId": 81,
+        "lineNumber": "177",
+        "busTypeColor": "#d389e8",
+        "slug": "177-numara-kayalar-yeni-cami-230"
+    },
+    {
+        "id": 44,
+        "name": "FERİZLİ DAMLIK - DONATIM GARAJ",
+        "asisIntegrationId": 72,
+        "lineNumber": "190-DM",
+        "busTypeColor": "#d389e8",
+        "slug": "190-dm-ferizli-damlik-donatim-garaj-44"
+    },
+    {
+        "id": 313,
+        "name": "FERİZLİ / OTOBAN - DONATIM GARAJ",
+        "asisIntegrationId": 71,
+        "lineNumber": "190-OT",
+        "busTypeColor": "#d389e8",
+        "slug": "190-ot-ferizli-otoban-donatim-garaj-313"
+    },
+    {
+        "id": 45,
+        "name": "FERİZLİ SİNANOĞLU - DONATIM GARAJ",
+        "asisIntegrationId": 117,
+        "lineNumber": "190-SN",
+        "busTypeColor": "#d389e8",
+        "slug": "190-sn-ferizli-sinanoglu-donatim-garaj-45"
+    },
+    {
+        "id": 53,
+        "name": "GEYVE - DONATIM GARAJ",
+        "asisIntegrationId": 48,
+        "lineNumber": "210",
+        "busTypeColor": "#d389e8",
+        "slug": "210-numara-geyve-donatim-garaj-53"
+    },
+    {
+        "id": 91,
+        "name": "ALİFUATPAŞA - DONATIM GARAJ",
+        "asisIntegrationId": 107,
+        "lineNumber": "211",
+        "busTypeColor": "#d389e8",
+        "slug": "211-numara-alifuatpasa-donatim-garaj-91"
+    },
+    {
+        "id": 42,
+        "name": "HENDEK - DONATIM GARAJ",
+        "asisIntegrationId": 74,
+        "lineNumber": "220",
+        "busTypeColor": "#d389e8",
+        "slug": "220-numara-hendek-donatim-garaj-42"
+    },
+    {
+        "id": 90,
+        "name": "YEŞİLYURT - İHSANİYE GARAJ",
+        "asisIntegrationId": 105,
+        "lineNumber": "222",
+        "busTypeColor": "#d389e8",
+        "slug": "222-numara-yesilyurt-ihsaniye-garaj-90"
+    },
+    {
+        "id": 94,
+        "name": "HENDEK MERKEZ - HENDEK HASTANE",
+        "asisIntegrationId": 114,
+        "lineNumber": "223",
+        "busTypeColor": "#d389e8",
+        "slug": "223-numara-hendek-merkez-hendek-hastane-94"
+    },
+    {
+        "id": 58,
+        "name": "KARAPÜRÇEK - YENİ CAMİ",
+        "asisIntegrationId": 79,
+        "lineNumber": "240",
+        "busTypeColor": "#d389e8",
+        "slug": "240-numara-karapurcek-yeni-cami-58"
+    },
+    {
+        "id": 59,
+        "name": "KOCAALİ - KARASU - YENİ TERMİNAL",
+        "asisIntegrationId": 108,
+        "lineNumber": "250",
+        "busTypeColor": "#d389e8",
+        "slug": "250-numara-kocaali-karasu-yeni-terminal-59"
+    },
+    {
+        "id": 60,
+        "name": "KAYNARCA - İHSANİYE GARAJ",
+        "asisIntegrationId": 109,
+        "lineNumber": "270",
+        "busTypeColor": "#d389e8",
+        "slug": "270-numara-kaynarca-ihsaniye-garaj-60"
+    },
+    {
+        "id": 52,
+        "name": "PAMUKOVA - DONATIM GARAJ",
+        "asisIntegrationId": 110,
+        "lineNumber": "310",
+        "busTypeColor": "#d389e8",
+        "slug": "310-numara-pamukova-donatim-garaj-52"
+    },
+    {
+        "id": 87,
+        "name": "SAPANCA / İPEKYOLU - DONATIM GARAJ",
+        "asisIntegrationId": 100,
+        "lineNumber": "320-İPK",
+        "busTypeColor": "#d389e8",
+        "slug": "320-ipk-sapanca-ipekyolu-donatim-garaj-87"
+    },
+    {
+        "id": 232,
+        "name": "SAPANCA / KYK - SAÜ KAMPÜS",
+        "asisIntegrationId": 141,
+        "lineNumber": "320-K",
+        "busTypeColor": "#d389e8",
+        "slug": "320-k-sapanca-kyk-sau-kampus-232"
+    },
+    {
+        "id": 88,
+        "name": "SAPANCA / YANIK - DONATIM GARAJ",
+        "asisIntegrationId": 101,
+        "lineNumber": "320-YNK",
+        "busTypeColor": "#d389e8",
+        "slug": "320-ynk-sapanca-yanik-donatim-garaj-88"
+    },
+    {
+        "id": 55,
+        "name": "SAPANCA / YÜZEVLER - DONATIM GARAJ",
+        "asisIntegrationId": 102,
+        "lineNumber": "320-YZV",
+        "busTypeColor": "#d389e8",
+        "slug": "320-yzv-sapanca-yuzevler-donatim-garaj-55"
+    },
+    {
+        "id": 116,
+        "name": "HACIMERCAN - DONATIM GARAJ",
+        "asisIntegrationId": 118,
+        "lineNumber": "321",
+        "busTypeColor": "#d389e8",
+        "slug": "321-numara-hacimercan-donatim-garaj-116"
+    },
+    {
+        "id": 103,
+        "name": "ARALIK - DONATIM GARAJ",
+        "asisIntegrationId": 49,
+        "lineNumber": "330",
+        "busTypeColor": "#d389e8",
+        "slug": "330-numara-aralik-donatim-garaj-103"
+    },
+    {
+        "id": 105,
+        "name": "AŞAĞIDEREKÖY - DONATIM GARAJ",
+        "asisIntegrationId": 60,
+        "lineNumber": "331",
+        "busTypeColor": "#d389e8",
+        "slug": "331-numara-asagiderekoy-donatim-garaj-105"
+    },
+    {
+        "id": 106,
+        "name": "ESENTEPE / KIRCAALİ - DONATIM GARAJ",
+        "asisIntegrationId": 61,
+        "lineNumber": "332",
+        "busTypeColor": "#d389e8",
+        "slug": "332-numara-esentepe-kircaali-donatim-garaj-106"
+    },
+    {
+        "id": 63,
+        "name": "KAZIMPAŞA / ALANDÜZÜ - DONATIM GARAJ",
+        "asisIntegrationId": 83,
+        "lineNumber": "333-AD",
+        "busTypeColor": "#d389e8",
+        "slug": "333-ad-kazimpasa-alanduzu-donatim-garaj-63"
+    },
+    {
+        "id": 62,
+        "name": "KAZIMPAŞA / ÇUBUKLU - DONATIM GARAJ",
+        "asisIntegrationId": 84,
+        "lineNumber": "333-ÇBK",
+        "busTypeColor": "#d389e8",
+        "slug": "333-cbk-kazimpasa-cubuklu-donatim-garaj-62"
+    },
+    {
+        "id": 64,
+        "name": "KAZIMPAŞA / DAĞYONCALI - DONATIM GARAJ",
+        "asisIntegrationId": 85,
+        "lineNumber": "333-DĞ",
+        "busTypeColor": "#d389e8",
+        "slug": "333-dg-kazimpasa-dagyoncali-donatim-garaj-64"
+    },
+    {
+        "id": 67,
+        "name": "KAZIMPAŞA / EVRENKÖY - DONATIM GARAJ",
+        "asisIntegrationId": 89,
+        "lineNumber": "333-EK",
+        "busTypeColor": "#d389e8",
+        "slug": "333-ek-kazimpasa-evrenkoy-donatim-garaj-67"
+    },
+    {
+        "id": 61,
+        "name": "KAZIMPAŞA / KIZILCIKLI - DONATIM GARAJ",
+        "asisIntegrationId": 86,
+        "lineNumber": "333-KZ",
+        "busTypeColor": "#d389e8",
+        "slug": "333-kz-kazimpasa-kizilcikli-donatim-garaj-61"
+    },
+    {
+        "id": 65,
+        "name": "KAZIMPAŞA / MAHMUDİYE - DONATIM GARAJ",
+        "asisIntegrationId": 87,
+        "lineNumber": "333-MH",
+        "busTypeColor": "#d389e8",
+        "slug": "333-mh-kazimpasa-mahmudiye-donatim-garaj-65"
+    },
+    {
+        "id": 66,
+        "name": "KAZIMPAŞA / MEŞELİ - DONATIM GARAJ",
+        "asisIntegrationId": 88,
+        "lineNumber": "333-MŞ",
+        "busTypeColor": "#d389e8",
+        "slug": "333-ms-kazimpasa-meseli-donatim-garaj-66"
+    },
+    {
+        "id": 107,
+        "name": "YUKARIDEREKÖY - DONATIM GARAJ",
+        "asisIntegrationId": 62,
+        "lineNumber": "334",
+        "busTypeColor": "#d389e8",
+        "slug": "334-numara-yukariderekoy-donatim-garaj-107"
+    },
+    {
+        "id": 76,
+        "name": "SÖĞÜTLÜ - DONATIM GARAJ",
+        "asisIntegrationId": 65,
+        "lineNumber": "350",
+        "busTypeColor": "#d389e8",
+        "slug": "350-numara-sogutlu-donatim-garaj-76"
+    },
+    {
+        "id": 311,
+        "name": "SÖĞÜTLÜ / KANTAR - DONATIM GARAJ",
+        "asisIntegrationId": 67,
+        "lineNumber": "350-KT",
+        "busTypeColor": "#d389e8",
+        "slug": "350-kt-sogutlu-kantar-donatim-garaj-311"
+    },
+    {
+        "id": 312,
+        "name": "SÖĞÜTLÜ / MAĞARA - DONATIM GARAJ",
+        "asisIntegrationId": 68,
+        "lineNumber": "350-MĞ",
+        "busTypeColor": "#d389e8",
+        "slug": "350-mg-sogutlu-magara-donatim-garaj-312"
+    },
+    {
+        "id": 114,
+        "name": "KURUDİL - ÇEŞME MEYDANI",
+        "asisIntegrationId": 96,
+        "lineNumber": "351",
+        "busTypeColor": "#d389e8",
+        "slug": "351-numara-kurudil-cesme-meydani-114"
+    }
+]
