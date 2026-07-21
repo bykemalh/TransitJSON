@@ -1,0 +1,130 @@
+[
+  {
+    "date": "2026-01-01",
+    "country_id": "TR",
+    "name": "Yılbaşı",
+    "applies_as": "sunday",
+    "source": "manual",
+    "updated_at": "2026-07-21T20:42:48Z"
+  },
+  {
+    "date": "2026-03-19",
+    "country_id": "TR",
+    "name": "Ramazan Bayramı Arifesi",
+    "applies_as": "sunday",
+    "source": "manual",
+    "updated_at": "2026-07-21T20:42:48Z"
+  },
+  {
+    "date": "2026-03-20",
+    "country_id": "TR",
+    "name": "Ramazan Bayramı 1. Gün",
+    "applies_as": "sunday",
+    "source": "manual",
+    "updated_at": "2026-07-21T20:42:48Z"
+  },
+  {
+    "date": "2026-03-21",
+    "country_id": "TR",
+    "name": "Ramazan Bayramı 2. Gün",
+    "applies_as": "sunday",
+    "source": "manual",
+    "updated_at": "2026-07-21T20:42:48Z"
+  },
+  {
+    "date": "2026-03-22",
+    "country_id": "TR",
+    "name": "Ramazan Bayramı 3. Gün",
+    "applies_as": "sunday",
+    "source": "manual",
+    "updated_at": "2026-07-21T20:42:48Z"
+  },
+  {
+    "date": "2026-04-23",
+    "country_id": "TR",
+    "name": "Ulusal Egemenlik ve Çocuk Bayramı",
+    "applies_as": "sunday",
+    "source": "manual",
+    "updated_at": "2026-07-21T20:42:48Z"
+  },
+  {
+    "date": "2026-05-01",
+    "country_id": "TR",
+    "name": "Emek ve Dayanışma Günü",
+    "applies_as": "sunday",
+    "source": "manual",
+    "updated_at": "2026-07-21T20:42:48Z"
+  },
+  {
+    "date": "2026-05-19",
+    "country_id": "TR",
+    "name": "Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+    "applies_as": "sunday",
+    "source": "manual",
+    "updated_at": "2026-07-21T20:42:48Z"
+  },
+  {
+    "date": "2026-05-26",
+    "country_id": "TR",
+    "name": "Kurban Bayramı Arifesi",
+    "applies_as": "sunday",
+    "source": "manual",
+    "updated_at": "2026-07-21T20:42:48Z"
+  },
+  {
+    "date": "2026-05-27",
+    "country_id": "TR",
+    "name": "Kurban Bayramı 1. Gün",
+    "applies_as": "sunday",
+    "source": "manual",
+    "updated_at": "2026-07-21T20:42:48Z"
+  },
+  {
+    "date": "2026-05-28",
+    "country_id": "TR",
+    "name": "Kurban Bayramı 2. Gün",
+    "applies_as": "sunday",
+    "source": "manual",
+    "updated_at": "2026-07-21T20:42:48Z"
+  },
+  {
+    "date": "2026-05-29",
+    "country_id": "TR",
+    "name": "Kurban Bayramı 3. Gün",
+    "applies_as": "sunday",
+    "source": "manual",
+    "updated_at": "2026-07-21T20:42:48Z"
+  },
+  {
+    "date": "2026-05-30",
+    "country_id": "TR",
+    "name": "Kurban Bayramı 4. Gün",
+    "applies_as": "sunday",
+    "source": "manual",
+    "updated_at": "2026-07-21T20:42:48Z"
+  },
+  {
+    "date": "2026-07-15",
+    "country_id": "TR",
+    "name": "Demokrasi ve Millî Birlik Günü",
+    "applies_as": "sunday",
+    "source": "manual",
+    "updated_at": "2026-07-21T20:42:48Z"
+  },
+  {
+    "date": "2026-08-30",
+    "country_id": "TR",
+    "name": "Zafer Bayramı",
+    "applies_as": "sunday",
+    "source": "manual",
+    "updated_at": "2026-07-21T20:42:48Z"
+  },
+  {
+    "date": "2026-10-29",
+    "country_id": "TR",
+    "name": "Cumhuriyet Bayramı",
+    "applies_as": "sunday",
+    "source": "manual",
+    "updated_at": "2026-07-21T20:42:48Z"
+  }
+]

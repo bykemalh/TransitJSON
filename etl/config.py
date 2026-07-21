@@ -15,9 +15,8 @@ REQUEST_HEADERS = {
     "Connection": "keep-alive",
 }
 
-# --- Shape (encoded polyline) ---
-# Ham /routecoordinate noktaları doğrudan encode edilir; map matching yok.
-SHAPE_PRECISION = 5
+# --- Shape ---
+# Ham /routecoordinate noktaları doğrudan {lat, lon} dizisi olarak yazılır; polyline yok.
 
 # --- İstek davranışı ---
 REQUEST_TIMEOUT = 30      # saniye

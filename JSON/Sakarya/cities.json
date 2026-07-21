@@ -1,0 +1,22 @@
+[
+  {
+    "city_id": "SAK",
+    "slug": "sakarya",
+    "country_id": "TR",
+    "name": "Sakarya",
+    "timezone": "Europe/Istanbul",
+    "default_zoom": 12,
+    "source": "manual",
+    "center": {
+      "lat": 40.750201,
+      "lon": 30.453481
+    },
+    "bounds": {
+      "north": 41.104837,
+      "south": 40.395566,
+      "east": 30.855781,
+      "west": 30.05118
+    },
+    "updated_at": "2026-07-21T20:42:48Z"
+  }
+]

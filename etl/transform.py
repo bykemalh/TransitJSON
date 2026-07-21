@@ -220,9 +220,7 @@ class TransitBuilder:
                 "shape_id": f"{route_id}_SH_{direction}",
                 "route_id": route_id,
                 "direction": direction,
-                "shape_encoded": shape["shape_encoded"],
-                "precision": shape["precision"],
-                "point_count": shape["point_count"],
+                "coordinates": shape["coordinates"],
                 "source": config.SOURCE_API,
                 "updated_at": self.now,
             })

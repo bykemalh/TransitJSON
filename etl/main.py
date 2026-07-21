@@ -100,7 +100,7 @@ def main() -> None:
     print("\nÖzet:")
     for key, _ in COLLECTIONS:
         print(f"  {key:12s}: {len(bundle[key])}")
-    print(f"  shapes      : {len(builder.shapes)} (ham polyline, map match yok)")
+    print(f"  shapes      : {len(builder.shapes)} (lat/lon coordinates)")
 
 
 if __name__ == "__main__":

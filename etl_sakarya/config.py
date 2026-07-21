@@ -13,9 +13,8 @@ REQUEST_HEADERS = {
     "Connection": "keep-alive",
 }
 
-# --- Shape (encoded polyline) ---
-# GeoJSON MultiLineString [lng,lat] → lat/lon → encode. Map matching yok.
-SHAPE_PRECISION = 5
+# --- Shape ---
+# GeoJSON MultiLineString [lng,lat] → doğrudan {lat, lon} dizisi; polyline yok.
 
 # --- İstek davranışı ---
 REQUEST_TIMEOUT = 30
