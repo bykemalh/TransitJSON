@@ -38,17 +38,21 @@ JSON feed/koleksiyon anahtarları **her zaman çoğuldur**. PostgreSQL tablo adl
 8. `trips.json` — Somut seferler
 9. `stop_times.json` — Sefer-durak-saat ilişkisi
 10. `holidays.json` — Resmi tatiller (ülkeye göre)
+11. `fares.json` — Ücret tanımları (tam bilet, öğrenci, 65+ vb.)
+12. `fare_rules.json` — Ücret kuralları (opsiyonel; zone/distance bazlı ücretler için)
 
 JSON Schema dosyaları proje kökündeki `schema/` klasöründedir (örn. `schema/city.schema.json`).
 
 ## Kavramsal Model
 
 ```
-country ──┬── city ──┬── agency ──── route ──┬── route_stop ──── stop
-           │          │                       │
-           │          │                       ├── shape (direction başına)
-           │          │                       │
-           │          │                       └── trip ──── stop_time ──── stop
+country ──┬── city ──┬── agency ──┬── route ──┬── route_stop ──── stop
+           │          │            │           │
+           │          │            │           ├── shape (direction başına)
+           │          │            │           │
+           │          │            │           └── trip ──── stop_time ──── stop
+           │          │            │
+           │          │            └── fare ──── fare_rule (opsiyonel)
            │          │
            └── holiday (country_id ile)
 ```
@@ -131,12 +135,31 @@ Manuel/özel işletmeci örneği:
   "code": "F1",
   "color": "#FF6600",
   "vehicle_type": "bus",
+  "fare_id": "BUR-tam",
   "route_pattern": "round_trip",
   "stop_mode": "fixed",
   "updated_at": "2026-07-20T10:00:00Z"
 }
 ```
-- `vehicle_type` (zorunlu): `"bus"` | `"tram"` | `"metro"`
+- `vehicle_type` (zorunlu): Araç türü. Desteklenen değerler:
+
+  | Değer | Açıklama | Örnek |
+  |-------|----------|-------|
+  | `"bus"` | Otobüs | Her yerde |
+  | `"tram"` | Tramvay / Hafif raylı | İstanbul, Konya, Eskişehir |
+  | `"metro"` | Metro / Subway | İstanbul, Ankara, İzmir |
+  | `"rail"` | Demiryolu (Marmaray, banliyö, YHT) | İstanbul, Ankara |
+  | `"ferry"` | Vapur / Feribot | İstanbul, İzmir |
+  | `"cable_tram"` | Kablolu tramvay | San Francisco, Lizbon |
+  | `"gondola"` | Teleferik / Gondol (havadan) | Bursa, İstanbul |
+  | `"funicular"` | Füniküler (raylı, eğimli) | İstanbul Tünel, Bursa |
+  | `"trolleybus"` | Troleybüs (elektrikli katenelli) | Malatya |
+  | `"monorail"` | Monoray | Tokyo, Singapur |
+  | `"minibus"` | Minibüs / Dolmuş | Türkiye (yaygın) |
+  | `"coach"` | Şehirlerarası otobüs | FlixBus, Kamil Koç |
+  | `"water_taxi"` | Deniz taksi / Motor | İstanbul, Venedik |
+
+- `fare_id` (opsiyonel): Bu hat için geçerli ücret tanımı. `fares.json`'daki `fare_id`'ye referans verir. Belirtilmezse agency'nin varsayılan ücretleri kullanılır.
 - `route_pattern`: `"round_trip"` (gidiş/dönüş) | `"loop"` (ring — tek yön, başlangıç=bitiş)
 - `stop_mode`: `"fixed"` (tüm ara duraklar belli, belediye hattı) | `"flexible"` (sadece ilk/son durak belli, serbest biniş — minibüs/İnegöl tipi hatlar)
 
@@ -153,12 +176,14 @@ Ring örneği:
 }
 ```
 
-Serbest biniş örneği:
+Serbest biniş örneği (minibüs hattı):
 ```json
 {
   "route_id": "INE-KET",
   "agency_id": "inegol-seyahat",
   "name": "İnegöl Terminal - Ketsel Metro",
+  "vehicle_type": "minibus",
+  "fare_id": "INE-tam",
   "route_pattern": "round_trip",
   "stop_mode": "flexible",
   "updated_at": "2026-07-20T10:00:00Z"
@@ -249,16 +274,73 @@ Bağımsız varlık — hiçbir route'a ait değildir, çok-çoğa ilişki `rout
 - `applies_as`: o gün hangi `service_type` programının uygulanacağı (`"sunday"` sabit kuraldır).
 - API mantığı: `bugün holidays içinde var mı? → varsa applies_as kullan; yoksa haftanın gününden service_type türet.`
 
+## 12. fares.json
+
+Ücret tanımları. Her agency'nin farklı yolcu profilleri (tam, öğrenci, 65+) veya farklı ücret modelleri için ayrı fare kayıtları oluşturulur.
+
+```json
+{
+  "fare_id": "BUR-tam",
+  "agency_id": "burulas",
+  "name": "Tam Bilet",
+  "fare_type": "flat",
+  "price": 17.80,
+  "currency": "TRY",
+  "payment_methods": ["smart_card", "credit_card"],
+  "transfer_duration": 90,
+  "transfer_limit": 3,
+  "updated_at": "2026-07-20T10:00:00Z"
+}
+```
+- `fare_type` (zorunlu): `"flat"` (sabit ücret) | `"zone"` (bölge bazlı, `fare_rules.json` gerekir) | `"distance"` (mesafe bazlı, `fare_rules.json` gerekir)
+- `price` (zorunlu): Birim fiyat. `flat` için tam fiyat; `zone`/`distance` için baz fiyat.
+- `currency` (zorunlu): ISO 4217 para birimi kodu (`"TRY"`, `"EUR"`, `"USD"`).
+- `payment_methods` (opsiyonel): Kabul edilen ödeme yöntemleri: `"cash"` | `"smart_card"` | `"credit_card"` | `"mobile"` | `"contactless"` | `"qr"`
+- `transfer_duration` (opsiyonel): Aktarma süresi (dakika). Bu süre içinde yapılan aktarmalarda ek ücret alınmaz. `null` = aktarma hakkı yok.
+- `transfer_limit` (opsiyonel): `transfer_duration` süresi içinde kaç aktarma hakkı var. `null` = sınırsız.
+
+Öğrenci ve 65+ örnekleri:
+```json
+[
+  { "fare_id": "BUR-tam",     "agency_id": "burulas", "name": "Tam Bilet",     "fare_type": "flat", "price": 17.80, "currency": "TRY", "updated_at": "2026-07-20T10:00:00Z" },
+  { "fare_id": "BUR-ogrenci", "agency_id": "burulas", "name": "Öğrenci Bilet", "fare_type": "flat", "price": 8.90,  "currency": "TRY", "updated_at": "2026-07-20T10:00:00Z" },
+  { "fare_id": "BUR-65plus",  "agency_id": "burulas", "name": "65+ Bilet",     "fare_type": "flat", "price": 0.00,  "currency": "TRY", "updated_at": "2026-07-20T10:00:00Z" }
+]
+```
+
+**Route bağlantısı:** Route'un `fare_id` alanı `fares.json`'daki `fare_id`'ye referans verir. Eğer bir route'un kendi `fare_id`'si yoksa, o route'un agency'sine ait tüm fare kayıtları geçerlidir.
+
+## 13. fare_rules.json (opsiyonel)
+
+Sadece `fare_type: "zone"` veya `"distance"` kullanan ajanslar için gereklidir. Flat ücretli şehirler bu dosyayı hiç oluşturmak zorunda değildir.
+
+Zone bazlı örnek:
+```json
+[
+  { "fare_rule_id": "IST-r1", "fare_id": "IST-zone-ab", "route_id": null, "from_zone": "A", "to_zone": "B", "price_override": 22.50, "updated_at": "2026-07-20T10:00:00Z" },
+  { "fare_rule_id": "IST-r2", "fare_id": "IST-zone-ac", "route_id": null, "from_zone": "A", "to_zone": "C", "price_override": 30.00, "updated_at": "2026-07-20T10:00:00Z" }
+]
+```
+
+Mesafe bazlı örnek:
+```json
+[
+  { "fare_rule_id": "ANK-d1", "fare_id": "ANK-dist", "min_distance_km": 0,  "max_distance_km": 10, "price_override": 15.00, "updated_at": "2026-07-20T10:00:00Z" },
+  { "fare_rule_id": "ANK-d2", "fare_id": "ANK-dist", "min_distance_km": 10, "max_distance_km": 25, "price_override": 20.00, "updated_at": "2026-07-20T10:00:00Z" },
+  { "fare_rule_id": "ANK-d3", "fare_id": "ANK-dist", "min_distance_km": 25, "max_distance_km": null, "price_override": 28.00, "updated_at": "2026-07-20T10:00:00Z" }
+]
+```
+
 ---
 
-## 12. Frekanslı Hatlar — Generator Yaklaşımı
+## 14. Frekanslı Hatlar — Generator Yaklaşımı
 
 `frequencies.json` gibi ayrı bir soyutlama **kullanılmaz** — gereksiz karmaşıklık olarak değerlendirildi. Bunun yerine:
 
 1. Kural parametre olarak generator script'e verilir: başlangıç saati, bitiş saati, aralık (dakika), `route_id`.
 2. Script bu parametreleri **somut `trip` + `stop_time` kayıtlarına genişletir** (07:00, 07:15, 07:30 ... 22:00).
 3. Çıktı normal `trips.json` / `stop_times.json` formatındadır — API ve uygulama tarafında hiçbir özel durum kodu gerekmez.
-4. Script bir kere çalıştırılır, çıktısı normal upload akışına sokulur; headway değişirse script yeniden çalıştırılıp dosya yeniden yüklenir (bkz. bölüm 13, replace stratejisi).
+4. Script bir kere çalıştırılır, çıktısı normal upload akışına sokulur; headway değişirse script yeniden çalıştırılıp dosya yeniden yüklenir (bkz. bölüm 15, replace stratejisi).
 
 ```python
 # generate_schedule.py — kavramsal örnek
@@ -285,9 +367,9 @@ def generate(route_id, direction, start="06:00:00", end="22:00:00",
 
 ---
 
-## 13. Import / Güncelleme Stratejisi
+## 15. Import / Güncelleme Stratejisi
 
-**Model: tam replace (scope'u sınırlı).** Bir şehir/agency için yeni dosya yüklendiğinde, o kapsamdaki (`city_id` + `source` ile sınırlı) eski kayıtlar silinip yenisi yazılır — tüm tablo değil, sadece ilgili kaynağın kayıtları.
+**Model: tam replace (scope'u sınırlı).** Bir şehir/agency için yeni dosya yüklendiğinde, o kapsamdaki (`city_id` + `source` ile sınırlı) eski kayıtlar silinip yenisi yazılır — tüm tablo değil, sadece ilgili kaynağın kayıtları. Ücret verileri (`fares`, `fare_rules`) de aynı stratejiye tabidir.
 
 ```sql
 BEGIN;
@@ -300,7 +382,7 @@ COMMIT;
 - Transaction zorunlu — yükleme yarıda kesilirse veri tutarsız kalmamalı.
 - `stop_id` üretimini mümkünse **kalıcı** tutun (isim/konuma göre eşleştirip aynı ID'yi koruyun); aksi halde kullanıcıların favori durak/hat referansları kırılır.
 
-## 14. Cache / `updated_at` Mantığı
+## 16. Cache / `updated_at` Mantığı
 
 Her koleksiyonda `updated_at` bulunur. Ayrıca route bazlı hafif bir **meta endpoint** önerilir:
 
@@ -317,7 +399,7 @@ GET /api/routes/f1/meta
 
 Uygulama önce bu küçük objeyi çeker, cihazdaki önbellekle karşılaştırır, sadece değişen parçayı indirir. Favori hatlarda shape + durak listesi + saatler cihaza kaydedilip hızlıca gösterilir; ağır veri (shape) her açılışta tekrar indirilmez.
 
-## 15. Önerilen Teknoloji Yığını
+## 17. Önerilen Teknoloji Yığını
 
 **PostgreSQL + PostGIS** (MongoDB değil):
 - Veri doğası ilişkisel (country→city→agency→route→stop→trip→stop_time zinciri), Mongo'da bu ilişkileri modellemek gereksiz karmaşıklık yaratır.

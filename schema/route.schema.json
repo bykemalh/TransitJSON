@@ -24,9 +24,23 @@
       "enum": [
         "bus",
         "tram",
-        "metro"
+        "metro",
+        "rail",
+        "ferry",
+        "cable_tram",
+        "gondola",
+        "funicular",
+        "trolleybus",
+        "monorail",
+        "minibus",
+        "coach",
+        "water_taxi"
       ],
-      "description": "Aracın türü. bus: otobüs, tram: tramvay, metro: metro/hafif raylı."
+      "description": "Araç türü. bus: otobüs, tram: tramvay, metro: metro/subway, rail: demiryolu (Marmaray/banliyö/YHT), ferry: vapur/feribot, cable_tram: kablolu tramvay, gondola: teleferik/gondol, funicular: füniküler, trolleybus: troleybüs, monorail: monoray, minibus: minibüs/dolmuş, coach: şehirlerarası otobüs, water_taxi: deniz taksi/motor."
+    },
+    "fare_id": {
+      "type": "string",
+      "description": "Bu hat için geçerli ücret tanımı. fares.json'daki fare_id'ye referans verir. Opsiyonel — yoksa agency'nin varsayılan ücret tanımı kullanılır."
     },
     "route_pattern": {
       "type": "string",

@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TransitJSON FareRule",
+  "description": "Ücret kuralı. Sadece fare_type 'zone' veya 'distance' olan ücretler için kullanılır. flat ücretler bu dosyayı gerektirmez.",
+  "type": "object",
+  "properties": {
+    "fare_rule_id": {
+      "type": "string",
+      "description": "Proje genelinde tekil kural kimliği."
+    },
+    "fare_id": {
+      "type": "string",
+      "description": "Bu kuralın ait olduğu fare tanımı. fares.json'daki fare_id'ye referans verir."
+    },
+    "route_id": {
+      "type": ["string", "null"],
+      "description": "Kural belirli bir hatta mı uygulanıyor? null ise agency genelinde geçerli."
+    },
+    "from_zone": {
+      "type": ["string", "null"],
+      "description": "Başlangıç bölgesi (fare_type: 'zone' için). Örn. 'A', 'B'."
+    },
+    "to_zone": {
+      "type": ["string", "null"],
+      "description": "Varış bölgesi (fare_type: 'zone' için). Örn. 'A', 'B'."
+    },
+    "min_distance_km": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "description": "Minimum mesafe (fare_type: 'distance' için). Kademe başlangıcı (km)."
+    },
+    "max_distance_km": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "description": "Maksimum mesafe (fare_type: 'distance' için). Kademe bitişi (km). null = sınırsız."
+    },
+    "price_override": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Bu kural geçerli olduğunda uygulanan fiyat. fares.json'daki baz price'ı override eder."
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "type": "string"
+    }
+  },
+  "required": ["fare_rule_id", "fare_id", "price_override", "updated_at"],
+  "additionalProperties": false
+}
