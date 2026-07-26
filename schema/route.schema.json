@@ -13,10 +13,10 @@
       "type": "string"
     },
     "code": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "color": {
-      "type": "string",
+      "type": ["string", "null"],
       "pattern": "^#[0-9A-Fa-f]{6}$"
     },
     "vehicle_type": {
@@ -39,8 +39,8 @@
       "description": "Araç türü. bus: otobüs, tram: tramvay, metro: metro/subway, rail: demiryolu (Marmaray/banliyö/YHT), ferry: vapur/feribot, cable_tram: kablolu tramvay, gondola: teleferik/gondol, funicular: füniküler, trolleybus: troleybüs, monorail: monoray, minibus: minibüs/dolmuş, coach: şehirlerarası otobüs, water_taxi: deniz taksi/motor."
     },
     "fare_id": {
-      "type": "string",
-      "description": "Bu hat için geçerli ücret tanımı. fares.json'daki fare_id'ye referans verir. Opsiyonel — yoksa agency'nin varsayılan ücret tanımı kullanılır."
+      "type": ["string", "null"],
+      "description": "Bu hat için geçerli ücret tanımı. fares.json'daki fare_id'ye referans verir. Opsiyonel/null — yoksa agency'nin varsayılan ücret tanımı kullanılır."
     },
     "route_pattern": {
       "type": "string",
@@ -63,8 +63,9 @@
       "format": "date-time"
     },
     "source": {
-      "type": "string"
+      "type": ["string", "null"]
     }
+
   },
   "required": [
     "route_id",
