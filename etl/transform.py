@@ -37,6 +37,8 @@ class TransitBuilder:
         self.shapes: list[dict] = []
         self.trips: list[dict] = []
         self.stop_times: list[dict] = []
+        self.fares: dict[str, dict] = {}
+        self.fare_rules: list[dict] = []
         self._trip_ids: set[str] = set()
 
         # API id -> bizim id kayıtları (izlenebilirlik + tekilleştirme)
@@ -67,6 +69,59 @@ class TransitBuilder:
             sid = f"{config.STOP_ID_PREFIX}_{self._stop_seq:0{config.STOP_ID_WIDTH}d}"
             self._stop_id_map[key] = sid
         return sid
+
+    def _build_fares(self, route_id: str, hat_no: int, kod: str | None, name: str) -> str | None:
+        keyword = kod if kod else str(hat_no)
+        prices = self.client.routeprice(keyword)
+        if not prices and kod and "-" in kod:
+            keyword = kod.split("-")[0].strip()
+            prices = self.client.routeprice(keyword)
+        if not prices:
+            prices = self.client.routeprice(hat_no)
+
+        if not prices:
+            return None
+
+        primary_fare_id = None
+        for item in prices:
+            card_type = str(item.get("cardType", "TAM ÜCRET")).strip()
+            try:
+                price_val = float(item.get("price", 0))
+            except (TypeError, ValueError):
+                price_val = 0.0
+
+            card_upper = card_type.upper()
+            if "TAM" in card_upper:
+                fare_key = "tam"
+                fare_name = f"{name} - Tam Bilet"
+            elif "İNDİRİMLİ" in card_upper or "INDIRIMLI" in card_upper:
+                fare_key = "indirimli"
+                fare_name = f"{name} - İndirimli Bilet"
+            elif "ÖĞRENCİ" in card_upper or "OGRENCI" in card_upper:
+                fare_key = "ogrenci"
+                fare_name = f"{name} - Öğrenci Bileti"
+            else:
+                fare_key = card_type.lower().replace(" ", "_")
+                fare_name = f"{name} - {card_type}"
+
+            fare_id = f"{route_id}_FARE_{fare_key.upper()}"
+            if fare_key == "tam" or primary_fare_id is None:
+                primary_fare_id = fare_id
+
+            if fare_id not in self.fares:
+                self.fares[fare_id] = {
+                    "fare_id": fare_id,
+                    "agency_id": config.DEFAULT_AGENCY_ID,
+                    "name": fare_name,
+                    "fare_type": "flat",
+                    "price": price_val,
+                    "currency": "TRY",
+                    "payment_methods": ["smart_card"],
+                    "updated_at": self.now,
+                    "source": config.SOURCE_API,
+                }
+
+        return primary_fare_id
 
     def id_map(self) -> dict:
         return {
@@ -102,19 +157,25 @@ class TransitBuilder:
 
         # route_id yalnızca durağı olan hatlara verilir (id_map temiz kalsın)
         route_id = self._route_id(hat_no)
+        kod = raw.get("kod")
+        name = raw.get("aciklama") or kod or route_id
+
+        fare_id = self._build_fares(route_id, hat_no, kod, name)
 
         self.routes.append({
             "route_id": route_id,
             "agency_id": config.DEFAULT_AGENCY_ID,
-            "name": raw.get("aciklama") or raw.get("kod") or route_id,
-            "code": raw.get("kod"),
+            "name": name,
+            "code": kod,
             "color": raw.get("color"),
             "vehicle_type": vehicle_type,
+            "fare_id": fare_id,
             "route_pattern": route_pattern,
             "stop_mode": config.DEFAULT_STOP_MODE,
             "source": config.SOURCE_API,
             "updated_at": self.now,
         })
+
 
         first_stop_by_dir: dict[str, str] = {}
         for api_dir, stop_rows in stops_by_dir.items():

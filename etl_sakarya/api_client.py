@@ -87,3 +87,9 @@ class SakaryaClient:
             {"date": api_date, "lineId": int(line_id)},
         )
         return data if isinstance(data, dict) else {}
+
+    def line_fare(self, line_id: int) -> dict:
+        """Hat ücret tarifesi (line-fare)."""
+        data = self._get(f"/Ulasim/line-fare/{int(line_id)}")
+        return data if isinstance(data, dict) else {}
+

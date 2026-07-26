@@ -6,10 +6,11 @@
     "code": "A1",
     "color": "#ff8400",
     "vehicle_type": "metro",
+    "fare_id": "SAK_0001_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0002",
@@ -18,10 +19,11 @@
     "code": "M1",
     "color": "#f04646",
     "vehicle_type": "metro",
+    "fare_id": "SAK_0002_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0003",
@@ -30,10 +32,11 @@
     "code": "1",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0003_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0004",
@@ -42,10 +45,11 @@
     "code": "2",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0004_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0005",
@@ -54,10 +58,11 @@
     "code": "3",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0005_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0006",
@@ -66,10 +71,11 @@
     "code": "4",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0006_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0007",
@@ -78,10 +84,11 @@
     "code": "6",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0007_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0008",
@@ -90,10 +97,11 @@
     "code": "7",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0008_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0009",
@@ -102,10 +110,11 @@
     "code": "8A",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0009_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0010",
@@ -114,10 +123,11 @@
     "code": "8B",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0010_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0011",
@@ -126,10 +136,11 @@
     "code": "9A",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0011_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0012",
@@ -138,10 +149,11 @@
     "code": "9B",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0012_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0013",
@@ -150,10 +162,11 @@
     "code": "11",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0013_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0014",
@@ -162,10 +175,11 @@
     "code": "12",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0014_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0015",
@@ -174,10 +188,11 @@
     "code": "12AR",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0015_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0016",
@@ -186,10 +201,11 @@
     "code": "14",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0016_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0017",
@@ -198,10 +214,11 @@
     "code": "15",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0017_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0018",
@@ -210,10 +227,11 @@
     "code": "16K",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0018_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0019",
@@ -222,10 +240,11 @@
     "code": "17",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0019_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0020",
@@ -234,10 +253,11 @@
     "code": "17S",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0020_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0021",
@@ -246,10 +266,11 @@
     "code": "18",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0021_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0022",
@@ -258,10 +279,11 @@
     "code": "18S",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0022_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0023",
@@ -270,10 +292,11 @@
     "code": "19E",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0023_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0024",
@@ -282,10 +305,11 @@
     "code": "19K",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0024_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0025",
@@ -294,10 +318,11 @@
     "code": "19S",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0025_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0026",
@@ -306,10 +331,11 @@
     "code": "20",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0026_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0027",
@@ -318,10 +344,11 @@
     "code": "20A",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0027_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0028",
@@ -330,10 +357,11 @@
     "code": "21C",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0028_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0029",
@@ -342,10 +370,11 @@
     "code": "21D",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0029_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0030",
@@ -354,10 +383,11 @@
     "code": "21K",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0030_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0031",
@@ -366,10 +396,11 @@
     "code": "22C",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0031_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0032",
@@ -378,10 +409,11 @@
     "code": "22D",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0032_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0033",
@@ -390,10 +422,11 @@
     "code": "22K",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0033_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0034",
@@ -402,10 +435,11 @@
     "code": "23",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0034_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0035",
@@ -414,10 +448,11 @@
     "code": "24",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0035_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0036",
@@ -426,10 +461,11 @@
     "code": "24İ",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0036_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0037",
@@ -438,10 +474,11 @@
     "code": "24K",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0037_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0038",
@@ -450,10 +487,11 @@
     "code": "25",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0038_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0039",
@@ -462,10 +500,11 @@
     "code": "26",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0039_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0040",
@@ -474,10 +513,11 @@
     "code": "27",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0040_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0041",
@@ -486,10 +526,11 @@
     "code": "28A",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0041_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0042",
@@ -498,10 +539,11 @@
     "code": "28B",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0042_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0043",
@@ -510,10 +552,11 @@
     "code": "29",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0043_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0044",
@@ -522,10 +565,11 @@
     "code": "30",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0044_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0045",
@@ -534,10 +578,11 @@
     "code": "32",
     "color": "#68bd9c",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0045_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0046",
@@ -546,10 +591,11 @@
     "code": "35-KM",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0046_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0047",
@@ -558,10 +604,11 @@
     "code": "100",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0047_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0048",
@@ -570,10 +617,11 @@
     "code": "101",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0048_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0049",
@@ -582,10 +630,11 @@
     "code": "103",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0049_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0050",
@@ -594,10 +643,11 @@
     "code": "104-KA",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0050_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0051",
@@ -606,10 +656,11 @@
     "code": "104-SÖ",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0051_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0052",
@@ -618,10 +669,11 @@
     "code": "105",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0052_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0053",
@@ -630,10 +682,11 @@
     "code": "106",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0053_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0054",
@@ -642,10 +695,11 @@
     "code": "107",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0054_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0055",
@@ -654,10 +708,11 @@
     "code": "109",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0055_FARE_TAM",
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0056",
@@ -666,10 +721,11 @@
     "code": "115",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0056_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0057",
@@ -678,10 +734,11 @@
     "code": "130",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0057_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0058",
@@ -690,10 +747,11 @@
     "code": "130-AK",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0058_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0059",
@@ -702,10 +760,11 @@
     "code": "130-KY",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0059_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0060",
@@ -714,10 +773,11 @@
     "code": "131",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0060_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0061",
@@ -726,10 +786,11 @@
     "code": "131-AK",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0061_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0062",
@@ -738,10 +799,11 @@
     "code": "132",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0062_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0063",
@@ -750,10 +812,11 @@
     "code": "133",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0063_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0064",
@@ -762,10 +825,11 @@
     "code": "136",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0064_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0065",
@@ -774,10 +838,11 @@
     "code": "150-AÇ",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0065_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0066",
@@ -786,10 +851,11 @@
     "code": "150-K",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0066_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0067",
@@ -798,10 +864,11 @@
     "code": "150-KLY",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0067_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0068",
@@ -810,10 +877,11 @@
     "code": "150-T",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0068_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0069",
@@ -822,10 +890,11 @@
     "code": "151-AY",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0069_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0070",
@@ -834,10 +903,11 @@
     "code": "151-KB",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0070_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0071",
@@ -846,10 +916,11 @@
     "code": "151-KÇ",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0071_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0072",
@@ -858,10 +929,11 @@
     "code": "151-KY",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0072_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0073",
@@ -870,10 +942,11 @@
     "code": "152",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0073_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0074",
@@ -882,10 +955,11 @@
     "code": "153",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0074_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0075",
@@ -894,10 +968,11 @@
     "code": "154",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0075_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0076",
@@ -906,10 +981,11 @@
     "code": "171",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0076_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0077",
@@ -918,10 +994,11 @@
     "code": "172",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0077_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0078",
@@ -930,10 +1007,11 @@
     "code": "172-YŞ",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0078_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0079",
@@ -942,10 +1020,11 @@
     "code": "173",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0079_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0080",
@@ -954,10 +1033,11 @@
     "code": "174",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0080_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0081",
@@ -966,10 +1046,11 @@
     "code": "175",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0081_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0082",
@@ -978,10 +1059,11 @@
     "code": "176",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0082_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0083",
@@ -990,10 +1072,11 @@
     "code": "177",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0083_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0084",
@@ -1002,10 +1085,11 @@
     "code": "190-DM",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0084_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0085",
@@ -1014,10 +1098,11 @@
     "code": "190-OT",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0085_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0086",
@@ -1026,10 +1111,11 @@
     "code": "190-SN",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0086_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0087",
@@ -1038,10 +1124,11 @@
     "code": "210",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0087_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0088",
@@ -1050,10 +1137,11 @@
     "code": "211",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0088_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0089",
@@ -1062,10 +1150,11 @@
     "code": "220",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0089_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0090",
@@ -1074,10 +1163,11 @@
     "code": "222",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0090_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0091",
@@ -1086,10 +1176,11 @@
     "code": "223",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0091_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0092",
@@ -1098,10 +1189,11 @@
     "code": "240",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0092_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0093",
@@ -1110,10 +1202,11 @@
     "code": "250",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0093_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0094",
@@ -1122,10 +1215,11 @@
     "code": "270",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0094_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0095",
@@ -1134,10 +1228,11 @@
     "code": "310",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0095_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0096",
@@ -1146,10 +1241,11 @@
     "code": "320-İPK",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0096_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0097",
@@ -1158,10 +1254,11 @@
     "code": "320-K",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0097_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0098",
@@ -1170,10 +1267,11 @@
     "code": "320-YNK",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0098_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0099",
@@ -1182,10 +1280,11 @@
     "code": "320-YZV",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0099_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0100",
@@ -1194,10 +1293,11 @@
     "code": "321",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0100_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0101",
@@ -1206,10 +1306,11 @@
     "code": "330",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0101_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0102",
@@ -1218,10 +1319,11 @@
     "code": "331",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0102_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0103",
@@ -1230,10 +1332,11 @@
     "code": "332",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0103_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0104",
@@ -1242,10 +1345,11 @@
     "code": "333-AD",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0104_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0105",
@@ -1254,10 +1358,11 @@
     "code": "333-ÇBK",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0105_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0106",
@@ -1266,10 +1371,11 @@
     "code": "333-DĞ",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0106_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0107",
@@ -1278,10 +1384,11 @@
     "code": "333-EK",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0107_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0108",
@@ -1290,10 +1397,11 @@
     "code": "333-KZ",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0108_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0109",
@@ -1302,10 +1410,11 @@
     "code": "333-MH",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0109_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0110",
@@ -1314,10 +1423,11 @@
     "code": "333-MŞ",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0110_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0111",
@@ -1326,10 +1436,11 @@
     "code": "334",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0111_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0112",
@@ -1338,10 +1449,11 @@
     "code": "350",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0112_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0113",
@@ -1350,10 +1462,11 @@
     "code": "350-KT",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0113_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0114",
@@ -1362,10 +1475,11 @@
     "code": "350-MĞ",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0114_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   },
   {
     "route_id": "SAK_0115",
@@ -1374,9 +1488,10 @@
     "code": "351",
     "color": "#d389e8",
     "vehicle_type": "bus",
+    "fare_id": "SAK_0115_FARE_TAM",
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-21T20:42:48Z"
+    "updated_at": "2026-07-26T20:06:26Z"
   }
 ]

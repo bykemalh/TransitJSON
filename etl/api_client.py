@@ -91,3 +91,10 @@ class BurulasClient:
         data = self._post("/schedulebystop", body)
         result = self._result(data)
         return result if isinstance(result, list) else []
+
+    def routeprice(self, hat_kod_or_no: str | int) -> list[dict]:
+        """Hattın ücret tarifesi (cardType, price vb.)."""
+        data = self._post("/routeprice", {"keyword": str(hat_kod_or_no)})
+        result = self._result(data)
+        return result if isinstance(result, list) else []
+

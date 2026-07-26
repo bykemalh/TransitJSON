@@ -35,6 +35,8 @@ COLLECTIONS = [
     ("trips", "trips.json"),
     ("stop_times", "stop_times.json"),
     ("holidays", "holidays.json"),
+    ("fares", "fares.json"),
+    ("fare_rules", "fare_rules.json"),
 ]
 
 
@@ -89,7 +91,10 @@ def main() -> None:
         "trips": builder.trips,
         "stop_times": builder.stop_times,
         "holidays": builder.holidays(),
+        "fares": list(builder.fares.values()),
+        "fare_rules": builder.fare_rules,
     }
+
 
     for key, filename in COLLECTIONS:
         write_json(OUTPUT_DIR / filename, bundle[key])
