@@ -194,6 +194,8 @@ Serbest biniş örneği (minibüs hattı):
 
 Bağımsız varlık — hiçbir route'a ait değildir, çok-çoğa ilişki `route_stops` üzerinden kurulur.
 
+v2'de durağa erişilebilirlik bayrakları, fiziksel özellikler ve opsiyonel bir `platforms` (nested) dizisi eklendi. Tüm yeni alanlar opsiyoneldir (`null` veya eksik olabilir); v1 kayıtları şema ile tam uyumludur.
+
 ```json
 {
   "stop_id": "BUR-01023",
@@ -201,10 +203,122 @@ Bağımsız varlık — hiçbir route'a ait değildir, çok-çoğa ilişki `rout
   "name": "Heykel",
   "lat": 40.1885,
   "lon": 29.0610,
+  "location_type": "stop",
+  "wheelchair_accessible": true,
+  "has_ramp": true,
+  "has_elevator": false,
+  "has_tactile_paving": true,
+  "has_audio_announcement": true,
+  "has_braille_signage": false,
+  "shelter_type": "closed",
+  "has_bench": true,
+  "has_lighting": true,
+  "has_real_time_display": true,
+  "has_ticket_machine": true,
+  "has_trash_bin": true,
+  "has_wifi": false,
+  "has_security_camera": true,
+  "has_bike_rack": false,
+  "platforms": [],
   "updated_at": "2026-07-20T10:00:00Z"
 }
 ```
 Öneri: `stop_id` üretimini `{city_id}-{sıra}` gibi okunabilir yapın (örn. `BUR-01023`) — hem debug kolaylığı hem şehirler arası doğal tekillik sağlar.
+
+### 6.1 Erişilebilirlik Alanları (v2)
+
+Tüm alanlar opsiyoneldir, tipi `["boolean", "null"]`'dur. `null` = bilinmiyor / veri yok anlamına gelir.
+
+| Alan | Açıklama |
+|---|---|
+| `wheelchair_accessible` | Tekerlekli sandalye ile durağa/durağın içine erişilebilir mi? |
+| `has_ramp` | Rampa var mı? |
+| `has_elevator` | Asansör var mı? |
+| `has_tactile_paving` | Görme engelliler için taktil (kabartmalı) yüzey var mı? |
+| `has_audio_announcement` | Yaklaşan araç/hat için sesli anons var mı? |
+| `has_braille_signage` | Braille tabela var mı? |
+
+### 6.2 Fiziksel Özellikler (v2)
+
+| Alan | Tip | Açıklama |
+|---|---|---|
+| `shelter_type` | enum | `"none"` \| `"open"` \| `"closed"` \| `"heated"`, `null`. Kapalı durak kavramı `closed` (camekanlı) ve `heated` (ısıtmalı kapalı) değerleridir. |
+| `has_bench` | bool/null | Oturma yeri |
+| `has_lighting` | bool/null | Aydınlatma |
+| `has_real_time_display` | bool/null | Canlı kalkış saati ekranı |
+| `has_ticket_machine` | bool/null | Bilet makinesi |
+| `has_trash_bin` | bool/null | Çöp kutusu |
+| `has_wifi` | bool/null | Ücretsiz WiFi |
+| `has_security_camera` | bool/null | Güvenlik kamerası |
+| `has_bike_rack` | bool/null | Bisiklet parkı |
+
+### 6.3 `location_type` (v2, GTFS uyumlu)
+
+Opsiyonel enum:
+
+| Değer | Açıklama |
+|---|---|
+| `"stop"` | Basit durak (varsayılan; `null` da bu anlama gelir) |
+| `"station"` | İstasyon/kompleks — birden fazla platform içerebilir |
+| `"entrance"` | İstasyon girişi (iç platforma erişim noktası) |
+| `"generic_node"` | Yolcu erişimi olmayan geometrik nokta |
+
+### 6.4 `platforms[]` (v2)
+
+Büyük istasyonlar (metro, tren, büyük aktarma merkezleri) için **durağa gömülü** platform listesi. Basit duraklarda bu dizi boş veya 1 elemanlıdır.
+
+```json
+{
+  "stop_id": "BUR-90001",
+  "city_id": "BUR",
+  "name": "Şehreküstü Metro İstasyonu",
+  "lat": 40.1826,
+  "lon": 29.0666,
+  "location_type": "station",
+  "wheelchair_accessible": true,
+  "has_elevator": true,
+  "has_tactile_paving": true,
+  "platforms": [
+    {
+      "platform_id": "BUR-90001-P1",
+      "code": "1",
+      "direction": 0,
+      "lat": 40.1827,
+      "lon": 29.0667,
+      "wheelchair_accessible": true,
+      "has_elevator": true,
+      "has_tactile_paving": true,
+      "has_audio_announcement": true,
+      "has_shelter": true,
+      "shelter_type": "closed",
+      "has_bench": true,
+      "has_lighting": true,
+      "updated_at": "2026-07-20T10:00:00Z"
+    },
+    {
+      "platform_id": "BUR-90001-P2",
+      "code": "2",
+      "direction": 1,
+      "lat": 40.1825,
+      "lon": 29.0665,
+      "wheelchair_accessible": true,
+      "has_elevator": true,
+      "has_tactile_paving": true,
+      "has_audio_announcement": true,
+      "has_shelter": true,
+      "shelter_type": "closed",
+      "has_bench": true,
+      "has_lighting": true,
+      "updated_at": "2026-07-20T10:00:00Z"
+    }
+  ],
+  "updated_at": "2026-07-20T10:00:00Z"
+}
+```
+
+**Neden nested?** Çoğu şehirde platform başına ayrı bir JSON dosyası ve tablo yönetmek overkill; PostgreSQL tarafında `stops.platforms` JSONB kolonu olarak tutulup GIN index ile sorgulanabilir. Erişilebilirlik sorguları (ör. "tekerlekli sandalye erişimli platformlar") `jsonb_path_query` veya `jsonb_exists` ile yapılır.
+
+**Platform düzeyi vs. durak düzeyi:** Platform kendi bayraklarını taşır; durağın kök alanlarından **bağımsızdır**. Örnek: istasyonun asansörü var ama bir platforma yalnızca merdivenle iniliyor — kök `has_elevator: true`, o platform `has_elevator: false`.
 
 ## 7. route_stops.json
 
@@ -409,3 +523,27 @@ Uygulama önce bu küçük objeyi çeker, cihazdaki önbellekle karşılaştır�
 - Opsiyonel: **Redis** — API response cache katmanı (bölüm 14'teki meta endpoint'i hızlandırmak için).
 
 Detaylı tablo yapısı için `transitjson-schema.sql` dosyasına bakın.
+
+---
+
+## 18. Sürüm Geçmişi
+
+### v2 — Durak Erişilebilirliği & Fiziksel Altyapı
+
+**Kapsam:** Sadece `stops.json` ve ilgili şema (`schema/stop.schema.json`).
+
+**Yeni alanlar (tümü opsiyonel, `null` veya eksik olabilir):**
+
+- **Erişilebilirlik flag'leri:** `wheelchair_accessible`, `has_ramp`, `has_elevator`, `has_tactile_paving`, `has_audio_announcement`, `has_braille_signage`
+- **Fiziksel özellikler:** `shelter_type` (enum: `none`/`open`/`closed`/`heated`), `has_bench`, `has_lighting`, `has_real_time_display`, `has_ticket_machine`, `has_trash_bin`, `has_wifi`, `has_security_camera`, `has_bike_rack`
+- **Konum tipi:** `location_type` (GTFS uyumlu enum: `stop`/`station`/`entrance`/`generic_node`)
+- **Nested `platforms[]`:** Büyük istasyonlar için durağa gömülü platform listesi. Her platform kendi erişilebilirlik/fiziksel bayraklarını taşır.
+
+**Geriye uyumluluk:** v1 formatındaki mevcut `stops.json` dosyaları v2 şemasıyla **doğrulanmaya devam eder**. Yeni alanlar `additionalProperties: false` kuralı istisnası değildir; sadece `required` listesinde olmadıkları için eski kayıtlarda eksik bırakılabilir. Mevcut ETL çıktıları (`bursa.json`, `sakarya.json`) dokunulmaz — yeni alanları agency'ler kademeli olarak doldurabilir.
+
+**PostgreSQL önerisi:** `stops` tablosuna `platforms JSONB` kolonu + `GIN` index eklenir. Erişilebilirlik sorguları:
+```sql
+SELECT stop_id FROM stops WHERE (platforms #> '{0,wheelchair_accessible}')::bool = true;
+-- veya kök düzey için:
+SELECT stop_id FROM stops WHERE wheelchair_accessible = true;
+```
