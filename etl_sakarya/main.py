@@ -35,7 +35,6 @@ COLLECTIONS = [
     ("stop_times", "stop_times.json"),
     ("holidays", "holidays.json"),
     ("fares", "fares.json"),
-    ("fare_rules", "fare_rules.json"),
 ]
 
 
@@ -99,7 +98,6 @@ def main() -> None:
         "stop_times": builder.stop_times,
         "holidays": builder.holidays(),
         "fares": list(builder.fares.values()),
-        "fare_rules": builder.fare_rules,
     }
 
 

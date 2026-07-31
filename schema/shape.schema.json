@@ -14,12 +14,14 @@
       "type": "integer",
       "enum": [
         0,
-        1
-      ]
+        1,
+        2
+      ],
+      "description": "0: loop (tek yön döngü), 1: gidiş, 2: dönüş."
     },
     "coordinates": {
       "type": "array",
-      "description": "Güzergâh noktaları (sıralı). Encoded polyline kullanılmaz.",
+      "description": "Güzergâh noktaları (sıralı).",
       "minItems": 2,
       "items": {
         "type": "object",

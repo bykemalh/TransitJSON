@@ -17,10 +17,15 @@
     "applies_as": {
       "type": "string",
       "enum": [
-        "weekday",
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
         "saturday",
         "sunday"
       ],
+      "description": "O gün hangi günün sefer programının uygulanacağı.",
       "default": "sunday"
     },
     "updated_at": {

@@ -10,7 +10,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0002",
@@ -23,7 +23,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0003",
@@ -36,7 +36,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0004",
@@ -49,7 +49,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0005",
@@ -62,7 +62,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0006",
@@ -75,7 +75,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0007",
@@ -88,7 +88,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0008",
@@ -101,7 +101,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0009",
@@ -114,7 +114,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0010",
@@ -127,7 +127,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0011",
@@ -140,7 +140,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0012",
@@ -153,7 +153,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0013",
@@ -166,7 +166,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0014",
@@ -179,7 +179,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0015",
@@ -192,7 +192,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0016",
@@ -205,7 +205,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0017",
@@ -218,7 +218,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0018",
@@ -231,7 +231,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0019",
@@ -244,7 +244,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0020",
@@ -257,7 +257,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0021",
@@ -270,7 +270,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0022",
@@ -283,7 +283,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0023",
@@ -296,7 +296,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0024",
@@ -309,7 +309,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0025",
@@ -322,7 +322,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0026",
@@ -335,7 +335,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0027",
@@ -348,7 +348,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0028",
@@ -361,7 +361,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0029",
@@ -374,7 +374,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0030",
@@ -387,7 +387,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0031",
@@ -400,7 +400,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0032",
@@ -413,7 +413,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0033",
@@ -426,7 +426,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0034",
@@ -439,7 +439,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0035",
@@ -452,7 +452,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0036",
@@ -465,7 +465,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0037",
@@ -478,7 +478,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0038",
@@ -491,7 +491,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0039",
@@ -504,7 +504,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0040",
@@ -517,7 +517,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0041",
@@ -530,7 +530,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0042",
@@ -543,7 +543,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0043",
@@ -556,7 +556,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0044",
@@ -569,7 +569,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0045",
@@ -582,7 +582,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0046",
@@ -595,7 +595,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0047",
@@ -608,7 +608,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0048",
@@ -621,7 +621,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0049",
@@ -634,7 +634,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0050",
@@ -647,7 +647,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0051",
@@ -660,7 +660,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0052",
@@ -673,7 +673,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0053",
@@ -686,7 +686,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0054",
@@ -699,7 +699,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0055",
@@ -712,7 +712,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0056",
@@ -725,7 +725,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0057",
@@ -738,7 +738,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0058",
@@ -751,7 +751,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0059",
@@ -764,7 +764,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0060",
@@ -777,7 +777,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0061",
@@ -790,7 +790,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0062",
@@ -803,7 +803,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0063",
@@ -816,7 +816,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0064",
@@ -829,7 +829,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0065",
@@ -842,7 +842,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0066",
@@ -855,7 +855,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0067",
@@ -868,7 +868,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0068",
@@ -881,7 +881,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0069",
@@ -894,7 +894,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0070",
@@ -907,7 +907,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0071",
@@ -920,7 +920,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0072",
@@ -933,7 +933,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0073",
@@ -946,7 +946,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0074",
@@ -959,7 +959,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0075",
@@ -972,7 +972,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0076",
@@ -985,7 +985,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0077",
@@ -998,7 +998,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0078",
@@ -1011,7 +1011,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0079",
@@ -1024,7 +1024,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0080",
@@ -1037,7 +1037,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0081",
@@ -1050,7 +1050,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0082",
@@ -1063,7 +1063,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0083",
@@ -1076,7 +1076,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0084",
@@ -1089,7 +1089,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0085",
@@ -1102,7 +1102,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0086",
@@ -1115,7 +1115,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0087",
@@ -1128,7 +1128,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0088",
@@ -1141,7 +1141,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0089",
@@ -1154,7 +1154,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0090",
@@ -1167,7 +1167,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0091",
@@ -1180,7 +1180,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0092",
@@ -1193,7 +1193,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0093",
@@ -1206,7 +1206,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0094",
@@ -1219,7 +1219,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0095",
@@ -1232,7 +1232,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0096",
@@ -1245,7 +1245,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0097",
@@ -1258,7 +1258,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0098",
@@ -1271,7 +1271,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0099",
@@ -1284,7 +1284,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0100",
@@ -1297,7 +1297,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0101",
@@ -1310,7 +1310,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0102",
@@ -1323,7 +1323,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0103",
@@ -1336,7 +1336,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0104",
@@ -1349,7 +1349,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0105",
@@ -1362,7 +1362,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0106",
@@ -1375,7 +1375,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0107",
@@ -1388,7 +1388,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0108",
@@ -1401,7 +1401,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0109",
@@ -1414,7 +1414,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0110",
@@ -1427,7 +1427,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0111",
@@ -1440,7 +1440,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0112",
@@ -1453,7 +1453,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0113",
@@ -1466,7 +1466,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0114",
@@ -1479,7 +1479,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0115",
@@ -1492,7 +1492,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0116",
@@ -1505,7 +1505,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0117",
@@ -1518,7 +1518,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0118",
@@ -1531,7 +1531,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0119",
@@ -1544,7 +1544,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0120",
@@ -1557,7 +1557,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0121",
@@ -1570,7 +1570,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0122",
@@ -1583,7 +1583,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0123",
@@ -1596,7 +1596,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0124",
@@ -1609,7 +1609,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0125",
@@ -1622,7 +1622,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0126",
@@ -1635,7 +1635,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0127",
@@ -1648,7 +1648,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0128",
@@ -1661,7 +1661,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0129",
@@ -1674,7 +1674,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0130",
@@ -1687,7 +1687,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0131",
@@ -1700,7 +1700,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0132",
@@ -1713,7 +1713,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0133",
@@ -1726,7 +1726,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0134",
@@ -1739,7 +1739,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0135",
@@ -1752,7 +1752,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0136",
@@ -1765,7 +1765,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0137",
@@ -1778,7 +1778,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0138",
@@ -1791,7 +1791,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0139",
@@ -1804,7 +1804,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0140",
@@ -1817,7 +1817,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0141",
@@ -1830,7 +1830,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0142",
@@ -1843,7 +1843,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0143",
@@ -1856,7 +1856,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0144",
@@ -1869,7 +1869,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0145",
@@ -1882,7 +1882,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0146",
@@ -1895,7 +1895,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0147",
@@ -1908,7 +1908,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0148",
@@ -1921,7 +1921,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0149",
@@ -1934,7 +1934,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0150",
@@ -1947,7 +1947,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0151",
@@ -1960,7 +1960,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0152",
@@ -1973,7 +1973,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0153",
@@ -1986,7 +1986,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0154",
@@ -1999,7 +1999,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0155",
@@ -2012,7 +2012,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0156",
@@ -2025,7 +2025,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0157",
@@ -2038,7 +2038,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0158",
@@ -2051,7 +2051,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0159",
@@ -2064,7 +2064,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0160",
@@ -2077,7 +2077,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0161",
@@ -2090,7 +2090,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0162",
@@ -2103,7 +2103,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0163",
@@ -2116,7 +2116,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0164",
@@ -2129,7 +2129,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0165",
@@ -2142,7 +2142,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0166",
@@ -2155,7 +2155,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0167",
@@ -2168,7 +2168,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0168",
@@ -2181,7 +2181,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0169",
@@ -2194,7 +2194,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0170",
@@ -2207,7 +2207,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0171",
@@ -2220,7 +2220,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0172",
@@ -2233,7 +2233,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0173",
@@ -2246,7 +2246,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0174",
@@ -2259,7 +2259,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0175",
@@ -2272,7 +2272,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0176",
@@ -2285,7 +2285,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0177",
@@ -2298,7 +2298,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0178",
@@ -2311,7 +2311,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0179",
@@ -2324,7 +2324,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0180",
@@ -2337,7 +2337,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0181",
@@ -2350,7 +2350,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0182",
@@ -2363,7 +2363,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0183",
@@ -2376,7 +2376,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0184",
@@ -2389,7 +2389,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0185",
@@ -2402,7 +2402,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0186",
@@ -2415,7 +2415,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0187",
@@ -2428,7 +2428,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0188",
@@ -2441,7 +2441,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0189",
@@ -2454,7 +2454,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0190",
@@ -2467,7 +2467,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0191",
@@ -2480,7 +2480,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0192",
@@ -2493,7 +2493,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0193",
@@ -2506,7 +2506,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0194",
@@ -2519,7 +2519,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0195",
@@ -2532,7 +2532,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0196",
@@ -2545,7 +2545,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0197",
@@ -2558,7 +2558,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0198",
@@ -2571,7 +2571,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0199",
@@ -2584,7 +2584,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0200",
@@ -2597,7 +2597,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0201",
@@ -2610,7 +2610,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0202",
@@ -2623,7 +2623,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0203",
@@ -2636,7 +2636,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0204",
@@ -2649,7 +2649,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0205",
@@ -2662,7 +2662,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0206",
@@ -2675,7 +2675,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0207",
@@ -2688,7 +2688,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0208",
@@ -2701,7 +2701,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0209",
@@ -2714,7 +2714,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0210",
@@ -2727,7 +2727,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0211",
@@ -2740,7 +2740,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0212",
@@ -2753,7 +2753,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0213",
@@ -2766,7 +2766,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0214",
@@ -2779,7 +2779,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0215",
@@ -2792,7 +2792,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0216",
@@ -2805,7 +2805,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0217",
@@ -2818,7 +2818,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0218",
@@ -2831,7 +2831,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0219",
@@ -2844,7 +2844,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0220",
@@ -2857,7 +2857,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0221",
@@ -2870,7 +2870,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0222",
@@ -2883,7 +2883,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0223",
@@ -2896,7 +2896,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0224",
@@ -2909,7 +2909,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0225",
@@ -2922,7 +2922,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0226",
@@ -2935,7 +2935,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0227",
@@ -2948,7 +2948,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0228",
@@ -2961,7 +2961,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0229",
@@ -2974,7 +2974,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0230",
@@ -2987,7 +2987,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0231",
@@ -3000,7 +3000,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0232",
@@ -3013,7 +3013,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0233",
@@ -3026,7 +3026,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0234",
@@ -3039,7 +3039,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0235",
@@ -3052,7 +3052,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0236",
@@ -3065,7 +3065,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0237",
@@ -3078,7 +3078,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0238",
@@ -3091,7 +3091,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0239",
@@ -3104,7 +3104,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0240",
@@ -3117,7 +3117,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0241",
@@ -3130,7 +3130,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0242",
@@ -3143,7 +3143,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0243",
@@ -3156,7 +3156,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0244",
@@ -3169,7 +3169,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0245",
@@ -3182,7 +3182,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0246",
@@ -3195,7 +3195,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0247",
@@ -3208,7 +3208,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0248",
@@ -3221,7 +3221,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0249",
@@ -3234,7 +3234,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0250",
@@ -3247,7 +3247,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0251",
@@ -3260,7 +3260,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0252",
@@ -3273,7 +3273,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0253",
@@ -3286,7 +3286,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0254",
@@ -3299,7 +3299,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0255",
@@ -3312,7 +3312,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0256",
@@ -3325,7 +3325,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0257",
@@ -3338,7 +3338,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0258",
@@ -3351,7 +3351,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0259",
@@ -3364,7 +3364,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0260",
@@ -3377,7 +3377,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0261",
@@ -3390,7 +3390,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0262",
@@ -3403,7 +3403,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0263",
@@ -3416,7 +3416,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0264",
@@ -3429,7 +3429,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0265",
@@ -3442,7 +3442,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0266",
@@ -3455,7 +3455,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0267",
@@ -3468,7 +3468,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0268",
@@ -3481,7 +3481,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0269",
@@ -3494,7 +3494,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0270",
@@ -3507,7 +3507,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0271",
@@ -3520,7 +3520,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0272",
@@ -3533,7 +3533,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0273",
@@ -3546,7 +3546,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0274",
@@ -3559,7 +3559,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0275",
@@ -3572,7 +3572,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0276",
@@ -3585,7 +3585,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0277",
@@ -3598,7 +3598,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0278",
@@ -3611,7 +3611,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0279",
@@ -3624,7 +3624,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0280",
@@ -3637,7 +3637,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0281",
@@ -3650,7 +3650,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0282",
@@ -3663,7 +3663,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0283",
@@ -3676,7 +3676,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0284",
@@ -3689,7 +3689,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0285",
@@ -3702,7 +3702,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0286",
@@ -3715,7 +3715,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0287",
@@ -3728,7 +3728,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0288",
@@ -3741,7 +3741,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0289",
@@ -3754,7 +3754,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0290",
@@ -3767,7 +3767,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0291",
@@ -3780,7 +3780,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0292",
@@ -3793,7 +3793,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0293",
@@ -3806,7 +3806,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0294",
@@ -3819,7 +3819,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0295",
@@ -3832,7 +3832,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0296",
@@ -3845,7 +3845,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0297",
@@ -3858,7 +3858,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0298",
@@ -3871,7 +3871,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0299",
@@ -3884,7 +3884,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0300",
@@ -3897,7 +3897,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0301",
@@ -3910,7 +3910,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0302",
@@ -3923,7 +3923,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0303",
@@ -3936,7 +3936,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0304",
@@ -3949,7 +3949,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0305",
@@ -3962,7 +3962,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0306",
@@ -3975,7 +3975,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0307",
@@ -3988,7 +3988,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0308",
@@ -4001,7 +4001,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0309",
@@ -4014,7 +4014,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0310",
@@ -4027,7 +4027,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0311",
@@ -4040,7 +4040,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0312",
@@ -4053,7 +4053,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0313",
@@ -4066,7 +4066,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0314",
@@ -4079,7 +4079,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0315",
@@ -4092,7 +4092,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0316",
@@ -4105,7 +4105,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0317",
@@ -4118,7 +4118,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0318",
@@ -4131,7 +4131,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0319",
@@ -4144,7 +4144,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0320",
@@ -4157,7 +4157,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0321",
@@ -4170,7 +4170,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0322",
@@ -4183,7 +4183,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0323",
@@ -4196,7 +4196,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0324",
@@ -4209,7 +4209,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0325",
@@ -4222,7 +4222,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0326",
@@ -4235,7 +4235,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0327",
@@ -4248,7 +4248,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0328",
@@ -4261,7 +4261,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0329",
@@ -4274,7 +4274,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0330",
@@ -4287,7 +4287,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0331",
@@ -4300,7 +4300,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0332",
@@ -4313,7 +4313,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0333",
@@ -4326,7 +4326,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0334",
@@ -4339,7 +4339,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0335",
@@ -4352,7 +4352,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0336",
@@ -4365,7 +4365,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0337",
@@ -4378,7 +4378,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0338",
@@ -4391,7 +4391,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0339",
@@ -4404,7 +4404,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0340",
@@ -4417,7 +4417,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0341",
@@ -4430,7 +4430,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0342",
@@ -4443,7 +4443,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0343",
@@ -4456,7 +4456,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0344",
@@ -4469,7 +4469,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0345",
@@ -4482,7 +4482,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0346",
@@ -4495,7 +4495,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0347",
@@ -4508,7 +4508,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0348",
@@ -4521,7 +4521,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0349",
@@ -4534,7 +4534,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0350",
@@ -4547,7 +4547,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0351",
@@ -4560,7 +4560,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0352",
@@ -4573,7 +4573,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0353",
@@ -4586,7 +4586,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0354",
@@ -4599,7 +4599,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0355",
@@ -4612,7 +4612,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0356",
@@ -4625,7 +4625,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0357",
@@ -4638,7 +4638,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0358",
@@ -4651,7 +4651,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0359",
@@ -4664,7 +4664,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0360",
@@ -4677,7 +4677,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0361",
@@ -4690,7 +4690,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0362",
@@ -4703,7 +4703,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0363",
@@ -4716,7 +4716,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0364",
@@ -4729,7 +4729,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0365",
@@ -4742,7 +4742,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0366",
@@ -4755,7 +4755,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0367",
@@ -4768,7 +4768,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0368",
@@ -4781,7 +4781,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0369",
@@ -4794,7 +4794,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0370",
@@ -4807,7 +4807,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0371",
@@ -4820,7 +4820,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0372",
@@ -4833,7 +4833,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0373",
@@ -4846,7 +4846,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0374",
@@ -4859,7 +4859,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0375",
@@ -4872,7 +4872,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0376",
@@ -4885,7 +4885,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0377",
@@ -4898,7 +4898,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0378",
@@ -4911,7 +4911,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0379",
@@ -4924,7 +4924,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0380",
@@ -4937,7 +4937,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0381",
@@ -4950,7 +4950,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0382",
@@ -4963,7 +4963,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0383",
@@ -4976,7 +4976,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0384",
@@ -4989,7 +4989,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0385",
@@ -5002,7 +5002,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0386",
@@ -5015,7 +5015,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0387",
@@ -5028,7 +5028,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0388",
@@ -5041,7 +5041,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0389",
@@ -5054,7 +5054,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0390",
@@ -5067,7 +5067,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0391",
@@ -5080,7 +5080,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0392",
@@ -5093,7 +5093,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0393",
@@ -5106,7 +5106,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0394",
@@ -5119,7 +5119,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0395",
@@ -5132,7 +5132,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0396",
@@ -5145,7 +5145,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0397",
@@ -5158,7 +5158,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0398",
@@ -5171,7 +5171,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0399",
@@ -5184,7 +5184,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0400",
@@ -5197,7 +5197,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0401",
@@ -5210,7 +5210,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0402",
@@ -5223,7 +5223,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0403",
@@ -5236,7 +5236,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0404",
@@ -5249,7 +5249,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0405",
@@ -5262,7 +5262,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0406",
@@ -5275,7 +5275,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0407",
@@ -5288,7 +5288,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0408",
@@ -5301,7 +5301,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   },
   {
     "route_id": "BUR_0409",
@@ -5314,6 +5314,6 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-burulas",
-    "updated_at": "2026-07-26T19:58:49Z"
+    "updated_at": "2026-07-31T09:22:14Z"
   }
 ]

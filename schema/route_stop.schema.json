@@ -4,19 +4,45 @@
   "description": "Hat-Durak çok-çoğa ilişkisi. Bir durak birden fazla hatta ait olabilir; bir hat birden fazla durağa sahip olabilir.",
   "type": "object",
   "properties": {
-    "route_id": { "type": "string" },
+    "route_id": {
+      "type": "string"
+    },
     "direction": {
       "type": "integer",
-      "enum": [0, 1],
-      "description": "0: gidiş (veya loop'un tek yönü). 1: dönüş (sadece round_trip hatlarda kullanılır)."
+      "enum": [
+        0,
+        1,
+        2
+      ],
+      "description": "0: loop (tek yön döngü), 1: gidiş, 2: dönüş (sadece round_trip hatlarda kullanılır)."
     },
-    "stop_id": { "type": "string" },
-    "sequence": { "type": "integer", "minimum": 1 },
-    "is_first_stop": { "type": "boolean" },
-    "is_last_stop": { "type": "boolean" },
-    "updated_at": { "type": "string", "format": "date-time" },
-    "source": { "type": "string" }
+    "stop_id": {
+      "type": "string"
+    },
+    "sequence": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "is_first_stop": {
+      "type": "boolean"
+    },
+    "is_last_stop": {
+      "type": "boolean"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "type": "string"
+    }
   },
-  "required": ["route_id", "direction", "stop_id", "sequence", "updated_at"],
+  "required": [
+    "route_id",
+    "direction",
+    "stop_id",
+    "sequence",
+    "updated_at"
+  ],
   "additionalProperties": false
 }

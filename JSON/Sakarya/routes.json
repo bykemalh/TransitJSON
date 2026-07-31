@@ -10,7 +10,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0002",
@@ -23,7 +23,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0003",
@@ -36,7 +36,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0004",
@@ -49,7 +49,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0005",
@@ -62,7 +62,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0006",
@@ -75,7 +75,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0007",
@@ -88,7 +88,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0008",
@@ -101,7 +101,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0009",
@@ -114,7 +114,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0010",
@@ -127,7 +127,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0011",
@@ -140,7 +140,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0012",
@@ -153,7 +153,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0013",
@@ -166,7 +166,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0014",
@@ -179,7 +179,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0015",
@@ -192,7 +192,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0016",
@@ -205,7 +205,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0017",
@@ -218,7 +218,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0018",
@@ -231,7 +231,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0019",
@@ -244,7 +244,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0020",
@@ -257,7 +257,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0021",
@@ -270,7 +270,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0022",
@@ -283,7 +283,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0023",
@@ -296,7 +296,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0024",
@@ -309,7 +309,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0025",
@@ -322,7 +322,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0026",
@@ -335,7 +335,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0027",
@@ -348,7 +348,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0028",
@@ -361,7 +361,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0029",
@@ -374,7 +374,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0030",
@@ -387,7 +387,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0031",
@@ -400,7 +400,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0032",
@@ -413,7 +413,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0033",
@@ -426,7 +426,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0034",
@@ -439,7 +439,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0035",
@@ -452,7 +452,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0036",
@@ -465,7 +465,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0037",
@@ -478,7 +478,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0038",
@@ -491,7 +491,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0039",
@@ -504,7 +504,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0040",
@@ -517,7 +517,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0041",
@@ -530,7 +530,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0042",
@@ -543,7 +543,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0043",
@@ -556,7 +556,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0044",
@@ -569,7 +569,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0045",
@@ -582,7 +582,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0046",
@@ -595,7 +595,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0047",
@@ -608,7 +608,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0048",
@@ -621,7 +621,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0049",
@@ -634,7 +634,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0050",
@@ -647,7 +647,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0051",
@@ -660,7 +660,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0052",
@@ -673,7 +673,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0053",
@@ -686,7 +686,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0054",
@@ -699,7 +699,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0055",
@@ -712,7 +712,7 @@
     "route_pattern": "loop",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0056",
@@ -725,7 +725,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0057",
@@ -738,7 +738,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0058",
@@ -751,7 +751,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0059",
@@ -764,7 +764,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0060",
@@ -777,7 +777,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0061",
@@ -790,7 +790,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0062",
@@ -803,7 +803,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0063",
@@ -816,7 +816,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0064",
@@ -829,7 +829,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0065",
@@ -842,7 +842,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0066",
@@ -855,7 +855,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0067",
@@ -868,7 +868,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0068",
@@ -881,7 +881,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0069",
@@ -894,7 +894,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0070",
@@ -907,7 +907,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0071",
@@ -920,7 +920,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0072",
@@ -933,7 +933,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0073",
@@ -946,7 +946,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0074",
@@ -959,7 +959,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0075",
@@ -972,7 +972,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0076",
@@ -985,7 +985,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0077",
@@ -998,7 +998,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0078",
@@ -1011,7 +1011,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0079",
@@ -1024,7 +1024,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0080",
@@ -1037,7 +1037,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0081",
@@ -1050,7 +1050,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0082",
@@ -1063,7 +1063,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0083",
@@ -1076,7 +1076,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0084",
@@ -1089,7 +1089,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0085",
@@ -1102,7 +1102,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0086",
@@ -1115,7 +1115,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0087",
@@ -1128,7 +1128,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0088",
@@ -1141,7 +1141,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0089",
@@ -1154,7 +1154,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0090",
@@ -1167,7 +1167,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0091",
@@ -1180,7 +1180,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0092",
@@ -1193,7 +1193,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0093",
@@ -1206,7 +1206,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0094",
@@ -1219,7 +1219,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0095",
@@ -1232,7 +1232,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0096",
@@ -1245,7 +1245,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0097",
@@ -1258,7 +1258,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0098",
@@ -1271,7 +1271,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0099",
@@ -1284,7 +1284,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0100",
@@ -1297,7 +1297,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0101",
@@ -1310,7 +1310,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0102",
@@ -1323,7 +1323,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0103",
@@ -1336,7 +1336,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0104",
@@ -1349,7 +1349,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0105",
@@ -1362,7 +1362,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0106",
@@ -1375,7 +1375,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0107",
@@ -1388,7 +1388,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0108",
@@ -1401,7 +1401,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0109",
@@ -1414,7 +1414,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0110",
@@ -1427,7 +1427,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0111",
@@ -1440,7 +1440,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0112",
@@ -1453,7 +1453,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0113",
@@ -1466,7 +1466,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0114",
@@ -1479,7 +1479,7 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "route_id": "SAK_0115",
@@ -1492,6 +1492,6 @@
     "route_pattern": "round_trip",
     "stop_mode": "fixed",
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   }
 ]

@@ -38,7 +38,6 @@ class TransitBuilder:
         self.trips: list[dict] = []
         self.stop_times: list[dict] = []
         self.fares: dict[str, dict] = {}
-        self.fare_rules: list[dict] = []
         self._trip_ids: set[str] = set()
 
         # API id -> bizim id kayıtları (izlenebilirlik + tekilleştirme)
@@ -113,6 +112,7 @@ class TransitBuilder:
                     "fare_id": fare_id,
                     "agency_id": config.DEFAULT_AGENCY_ID,
                     "name": fare_name,
+                    "name_en": config.FARE_NAME_EN.get(fare_key, fare_name),
                     "fare_type": "flat",
                     "price": price_val,
                     "currency": "TRY",
@@ -295,8 +295,8 @@ class TransitBuilder:
         if not rows:
             return
 
-        # routeDay -> service_type; aynı service_type içindeki saatler tekilleştirilir
-        # (Pzt-Cum çoğu zaman aynı, tek "weekday" programında birleştirilir).
+        # routeDay -> service_type (1=Pzt ... 7=Paz); aynı service_type
+        # içindeki saatler tekilleştirilir.
         by_service: dict[str, set[str]] = {}
         for r in rows:
             service_type = config.ROUTEDAY_TO_SERVICE.get(r.get("routeDay"))

@@ -1,8 +1,8 @@
 [
   {
-    "shape_id": "SAK_0001_SH_1",
+    "shape_id": "SAK_0001_SH_2",
     "route_id": "SAK_0001",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.713107007605835,
@@ -398,12 +398,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0001_SH_0",
+    "shape_id": "SAK_0001_SH_1",
     "route_id": "SAK_0001",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.774806039324275,
@@ -751,12 +751,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0002_SH_0",
+    "shape_id": "SAK_0002_SH_1",
     "route_id": "SAK_0002",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.774876144198295,
@@ -1840,12 +1840,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0002_SH_1",
+    "shape_id": "SAK_0002_SH_2",
     "route_id": "SAK_0002",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.84995944522028,
@@ -2785,12 +2785,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0003_SH_1",
+    "shape_id": "SAK_0003_SH_2",
     "route_id": "SAK_0003",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.79992478893131,
@@ -4898,12 +4898,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0003_SH_0",
+    "shape_id": "SAK_0003_SH_1",
     "route_id": "SAK_0003",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.743889800912406,
@@ -6247,7 +6247,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0004_SH_0",
@@ -9976,12 +9976,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0005_SH_0",
+    "shape_id": "SAK_0005_SH_1",
     "route_id": "SAK_0005",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.77551573888761,
@@ -12285,12 +12285,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0005_SH_1",
+    "shape_id": "SAK_0005_SH_2",
     "route_id": "SAK_0005",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.73011151578123,
@@ -14154,12 +14154,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0006_SH_1",
+    "shape_id": "SAK_0006_SH_2",
     "route_id": "SAK_0006",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.74534675693001,
@@ -17127,12 +17127,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0006_SH_0",
+    "shape_id": "SAK_0006_SH_1",
     "route_id": "SAK_0006",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.74018197217101,
@@ -20212,12 +20212,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0007_SH_0",
+    "shape_id": "SAK_0007_SH_1",
     "route_id": "SAK_0007",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.77390087135587,
@@ -22213,12 +22213,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0007_SH_1",
+    "shape_id": "SAK_0007_SH_2",
     "route_id": "SAK_0007",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.74026343012003,
@@ -24226,12 +24226,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0008_SH_0",
+    "shape_id": "SAK_0008_SH_1",
     "route_id": "SAK_0008",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.7754954297308,
@@ -26643,12 +26643,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0008_SH_1",
+    "shape_id": "SAK_0008_SH_2",
     "route_id": "SAK_0008",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.730057578410815,
@@ -28676,7 +28676,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0009_SH_0",
@@ -31229,7 +31229,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0010_SH_0",
@@ -33594,7 +33594,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0011_SH_0",
@@ -35967,7 +35967,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0012_SH_0",
@@ -38752,12 +38752,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0013_SH_0",
+    "shape_id": "SAK_0013_SH_1",
     "route_id": "SAK_0013",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.775377210337396,
@@ -41345,12 +41345,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0013_SH_1",
+    "shape_id": "SAK_0013_SH_2",
     "route_id": "SAK_0013",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.743907587791625,
@@ -44058,12 +44058,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0014_SH_1",
+    "shape_id": "SAK_0014_SH_2",
     "route_id": "SAK_0014",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.739200827428235,
@@ -47419,12 +47419,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0014_SH_0",
+    "shape_id": "SAK_0014_SH_1",
     "route_id": "SAK_0014",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.82526163720088,
@@ -51464,12 +51464,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0015_SH_1",
+    "shape_id": "SAK_0015_SH_2",
     "route_id": "SAK_0015",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77405525906136,
@@ -54465,12 +54465,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0015_SH_0",
+    "shape_id": "SAK_0015_SH_1",
     "route_id": "SAK_0015",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.7392120200082,
@@ -56002,7 +56002,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0016_SH_0",
@@ -60931,12 +60931,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0017_SH_1",
+    "shape_id": "SAK_0017_SH_2",
     "route_id": "SAK_0017",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.740205732262886,
@@ -63872,12 +63872,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0017_SH_0",
+    "shape_id": "SAK_0017_SH_1",
     "route_id": "SAK_0017",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.78251243168661,
@@ -66429,12 +66429,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0018_SH_0",
+    "shape_id": "SAK_0018_SH_1",
     "route_id": "SAK_0018",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.79991476776082,
@@ -68138,12 +68138,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0018_SH_1",
+    "shape_id": "SAK_0018_SH_2",
     "route_id": "SAK_0018",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.74025242899347,
@@ -70043,12 +70043,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0019_SH_0",
+    "shape_id": "SAK_0019_SH_1",
     "route_id": "SAK_0019",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.792455245427114,
@@ -72288,12 +72288,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0019_SH_1",
+    "shape_id": "SAK_0019_SH_2",
     "route_id": "SAK_0019",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.76452568545146,
@@ -74569,12 +74569,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0020_SH_1",
+    "shape_id": "SAK_0020_SH_2",
     "route_id": "SAK_0020",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.76465272213905,
@@ -76810,12 +76810,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0020_SH_0",
+    "shape_id": "SAK_0020_SH_1",
     "route_id": "SAK_0020",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.792455245427114,
@@ -79095,12 +79095,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0021_SH_0",
+    "shape_id": "SAK_0021_SH_1",
     "route_id": "SAK_0021",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.797768167452894,
@@ -80488,12 +80488,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0021_SH_1",
+    "shape_id": "SAK_0021_SH_2",
     "route_id": "SAK_0021",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.773383892487466,
@@ -82285,12 +82285,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0022_SH_0",
+    "shape_id": "SAK_0022_SH_1",
     "route_id": "SAK_0022",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.776337309591476,
@@ -83390,12 +83390,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0022_SH_1",
+    "shape_id": "SAK_0022_SH_2",
     "route_id": "SAK_0022",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.818644691931226,
@@ -84283,12 +84283,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0023_SH_1",
+    "shape_id": "SAK_0023_SH_2",
     "route_id": "SAK_0023",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.74397243270419,
@@ -85480,12 +85480,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0023_SH_0",
+    "shape_id": "SAK_0023_SH_1",
     "route_id": "SAK_0023",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.7761099733626,
@@ -86777,12 +86777,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0024_SH_1",
+    "shape_id": "SAK_0024_SH_2",
     "route_id": "SAK_0024",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.74022694524852,
@@ -89526,12 +89526,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0024_SH_0",
+    "shape_id": "SAK_0024_SH_1",
     "route_id": "SAK_0024",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.743972432704155,
@@ -92243,7 +92243,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0025_SH_0",
@@ -96396,7 +96396,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0026_SH_0",
@@ -99165,12 +99165,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0027_SH_0",
+    "shape_id": "SAK_0027_SH_1",
     "route_id": "SAK_0027",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.77891819357824,
@@ -100670,12 +100670,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0027_SH_1",
+    "shape_id": "SAK_0027_SH_2",
     "route_id": "SAK_0027",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.74031390821763,
@@ -101911,7 +101911,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0028_SH_0",
@@ -106964,7 +106964,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0029_SH_0",
@@ -111025,12 +111025,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0030_SH_1",
+    "shape_id": "SAK_0030_SH_2",
     "route_id": "SAK_0030",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.7402356271049,
@@ -114494,12 +114494,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0030_SH_0",
+    "shape_id": "SAK_0030_SH_1",
     "route_id": "SAK_0030",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.86765419173203,
@@ -117999,7 +117999,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0031_SH_0",
@@ -122844,7 +122844,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0032_SH_0",
@@ -127513,7 +127513,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0033_SH_0",
@@ -134174,12 +134174,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0034_SH_1",
+    "shape_id": "SAK_0034_SH_2",
     "route_id": "SAK_0034",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.86656921115313,
@@ -136363,12 +136363,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0034_SH_0",
+    "shape_id": "SAK_0034_SH_1",
     "route_id": "SAK_0034",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.77404470799973,
@@ -138236,12 +138236,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0035_SH_0",
+    "shape_id": "SAK_0035_SH_1",
     "route_id": "SAK_0035",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.85664509627265,
@@ -141237,12 +141237,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0035_SH_1",
+    "shape_id": "SAK_0035_SH_2",
     "route_id": "SAK_0035",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.773973932640544,
@@ -143766,12 +143766,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0036_SH_0",
+    "shape_id": "SAK_0036_SH_1",
     "route_id": "SAK_0036",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.86780224112826,
@@ -145939,12 +145939,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0036_SH_1",
+    "shape_id": "SAK_0036_SH_2",
     "route_id": "SAK_0036",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.851295152793526,
@@ -148028,7 +148028,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0037_SH_0",
@@ -153869,12 +153869,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0038_SH_1",
+    "shape_id": "SAK_0038_SH_2",
     "route_id": "SAK_0038",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.8632530872751,
@@ -155946,12 +155946,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0038_SH_0",
+    "shape_id": "SAK_0038_SH_1",
     "route_id": "SAK_0038",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.77399180770464,
@@ -157679,12 +157679,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0039_SH_0",
+    "shape_id": "SAK_0039_SH_1",
     "route_id": "SAK_0039",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.7825943028954,
@@ -158800,12 +158800,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0039_SH_1",
+    "shape_id": "SAK_0039_SH_2",
     "route_id": "SAK_0039",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.74024368937437,
@@ -160017,12 +160017,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0040_SH_1",
+    "shape_id": "SAK_0040_SH_2",
     "route_id": "SAK_0040",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.74018822995717,
@@ -161726,12 +161726,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0040_SH_0",
+    "shape_id": "SAK_0040_SH_1",
     "route_id": "SAK_0040",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.77409507860525,
@@ -163279,7 +163279,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0041_SH_0",
@@ -165592,7 +165592,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0042_SH_0",
@@ -168081,12 +168081,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0043_SH_1",
+    "shape_id": "SAK_0043_SH_2",
     "route_id": "SAK_0043",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.74020774233797,
@@ -169442,12 +169442,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0043_SH_0",
+    "shape_id": "SAK_0043_SH_1",
     "route_id": "SAK_0043",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.73013163663969,
@@ -170839,12 +170839,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0044_SH_1",
+    "shape_id": "SAK_0044_SH_2",
     "route_id": "SAK_0044",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.95528822596415,
@@ -172512,12 +172512,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0044_SH_0",
+    "shape_id": "SAK_0044_SH_1",
     "route_id": "SAK_0044",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.78585236973317,
@@ -174177,12 +174177,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0045_SH_0",
+    "shape_id": "SAK_0045_SH_1",
     "route_id": "SAK_0045",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.77392596726679,
@@ -176410,12 +176410,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0045_SH_1",
+    "shape_id": "SAK_0045_SH_2",
     "route_id": "SAK_0045",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.895751736730446,
@@ -178819,12 +178819,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0046_SH_0",
+    "shape_id": "SAK_0046_SH_1",
     "route_id": "SAK_0046",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.77841632635403,
@@ -180228,12 +180228,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0046_SH_1",
+    "shape_id": "SAK_0046_SH_2",
     "route_id": "SAK_0046",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.74027842700589,
@@ -181333,12 +181333,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0047_SH_1",
+    "shape_id": "SAK_0047_SH_2",
     "route_id": "SAK_0047",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.78025192,
@@ -185218,12 +185218,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0047_SH_0",
+    "shape_id": "SAK_0047_SH_1",
     "route_id": "SAK_0047",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.80769189,
@@ -189119,12 +189119,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0048_SH_0",
+    "shape_id": "SAK_0048_SH_1",
     "route_id": "SAK_0048",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.82793563374725,
@@ -190124,12 +190124,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0048_SH_1",
+    "shape_id": "SAK_0048_SH_2",
     "route_id": "SAK_0048",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77997169583939,
@@ -191301,12 +191301,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0049_SH_1",
+    "shape_id": "SAK_0049_SH_2",
     "route_id": "SAK_0049",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.78591859,
@@ -198090,12 +198090,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0049_SH_0",
+    "shape_id": "SAK_0049_SH_1",
     "route_id": "SAK_0049",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.94288674999999,
@@ -205607,7 +205607,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0050_SH_0",
@@ -207784,7 +207784,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0051_SH_0",
@@ -217889,12 +217889,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0052_SH_0",
+    "shape_id": "SAK_0052_SH_1",
     "route_id": "SAK_0052",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.92616363,
@@ -222390,12 +222390,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0052_SH_1",
+    "shape_id": "SAK_0052_SH_2",
     "route_id": "SAK_0052",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.78584419999999,
@@ -230055,12 +230055,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0053_SH_1",
+    "shape_id": "SAK_0053_SH_2",
     "route_id": "SAK_0053",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77972198,
@@ -236628,12 +236628,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0053_SH_0",
+    "shape_id": "SAK_0053_SH_1",
     "route_id": "SAK_0053",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.866043395917,
@@ -238369,12 +238369,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0054_SH_1",
+    "shape_id": "SAK_0054_SH_2",
     "route_id": "SAK_0054",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.78590808,
@@ -244638,12 +244638,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0054_SH_0",
+    "shape_id": "SAK_0054_SH_1",
     "route_id": "SAK_0054",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.92088851241936,
@@ -246843,7 +246843,7 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
     "shape_id": "SAK_0055_SH_0",
@@ -251264,12 +251264,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0056_SH_0",
+    "shape_id": "SAK_0056_SH_1",
     "route_id": "SAK_0056",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.397061369467735,
@@ -257657,12 +257657,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0056_SH_1",
+    "shape_id": "SAK_0056_SH_2",
     "route_id": "SAK_0056",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77166311577547,
@@ -266670,12 +266670,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0057_SH_1",
+    "shape_id": "SAK_0057_SH_2",
     "route_id": "SAK_0057",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77108223252007,
@@ -269147,12 +269147,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0057_SH_0",
+    "shape_id": "SAK_0057_SH_1",
     "route_id": "SAK_0057",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.6839533130624,
@@ -270884,12 +270884,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0058_SH_0",
+    "shape_id": "SAK_0058_SH_1",
     "route_id": "SAK_0058",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.6691616479468,
@@ -273709,12 +273709,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0058_SH_1",
+    "shape_id": "SAK_0058_SH_2",
     "route_id": "SAK_0058",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.74045418679163,
@@ -276538,12 +276538,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0059_SH_0",
+    "shape_id": "SAK_0059_SH_1",
     "route_id": "SAK_0059",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.69584999999999,
@@ -279147,12 +279147,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0059_SH_1",
+    "shape_id": "SAK_0059_SH_2",
     "route_id": "SAK_0059",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77107999999999,
@@ -281536,12 +281536,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0060_SH_1",
+    "shape_id": "SAK_0060_SH_2",
     "route_id": "SAK_0060",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77181034000001,
@@ -288605,12 +288605,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0060_SH_0",
+    "shape_id": "SAK_0060_SH_1",
     "route_id": "SAK_0060",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.62623508,
@@ -296206,12 +296206,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0061_SH_0",
+    "shape_id": "SAK_0061_SH_1",
     "route_id": "SAK_0061",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.63558874,
@@ -300483,12 +300483,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0061_SH_1",
+    "shape_id": "SAK_0061_SH_2",
     "route_id": "SAK_0061",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.695473045950486,
@@ -301312,12 +301312,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0062_SH_1",
+    "shape_id": "SAK_0062_SH_2",
     "route_id": "SAK_0062",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77290577,
@@ -310253,12 +310253,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0062_SH_0",
+    "shape_id": "SAK_0062_SH_1",
     "route_id": "SAK_0062",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.64327855532747,
@@ -312214,12 +312214,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0063_SH_0",
+    "shape_id": "SAK_0063_SH_1",
     "route_id": "SAK_0063",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.77422756,
@@ -317251,12 +317251,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0063_SH_1",
+    "shape_id": "SAK_0063_SH_2",
     "route_id": "SAK_0063",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77985720382158,
@@ -319024,12 +319024,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0064_SH_0",
+    "shape_id": "SAK_0064_SH_1",
     "route_id": "SAK_0064",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.77069000000001,
@@ -320717,12 +320717,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0064_SH_1",
+    "shape_id": "SAK_0064_SH_2",
     "route_id": "SAK_0064",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77776,
@@ -322186,12 +322186,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0065_SH_0",
+    "shape_id": "SAK_0065_SH_1",
     "route_id": "SAK_0065",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.68839292293537,
@@ -324239,12 +324239,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0065_SH_1",
+    "shape_id": "SAK_0065_SH_2",
     "route_id": "SAK_0065",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77159868317199,
@@ -326400,12 +326400,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0066_SH_0",
+    "shape_id": "SAK_0066_SH_1",
     "route_id": "SAK_0066",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.7149888536514,
@@ -327585,12 +327585,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0066_SH_1",
+    "shape_id": "SAK_0066_SH_2",
     "route_id": "SAK_0066",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.74056048591499,
@@ -328838,12 +328838,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0067_SH_0",
+    "shape_id": "SAK_0067_SH_1",
     "route_id": "SAK_0067",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.695964066004414,
@@ -330763,12 +330763,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0067_SH_1",
+    "shape_id": "SAK_0067_SH_2",
     "route_id": "SAK_0067",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77172014382823,
@@ -332612,12 +332612,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0068_SH_0",
+    "shape_id": "SAK_0068_SH_1",
     "route_id": "SAK_0068",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.68987565700029,
@@ -333461,12 +333461,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0068_SH_1",
+    "shape_id": "SAK_0068_SH_2",
     "route_id": "SAK_0068",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77164791391342,
@@ -334658,12 +334658,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0069_SH_0",
+    "shape_id": "SAK_0069_SH_1",
     "route_id": "SAK_0069",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.66341493999999,
@@ -341667,12 +341667,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0069_SH_1",
+    "shape_id": "SAK_0069_SH_2",
     "route_id": "SAK_0069",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.771582309999985,
@@ -347880,12 +347880,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0070_SH_1",
+    "shape_id": "SAK_0070_SH_2",
     "route_id": "SAK_0070",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77165758,
@@ -354473,12 +354473,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0070_SH_0",
+    "shape_id": "SAK_0070_SH_1",
     "route_id": "SAK_0070",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.671501466668666,
@@ -355922,12 +355922,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0071_SH_0",
+    "shape_id": "SAK_0071_SH_1",
     "route_id": "SAK_0071",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.64355855000002,
@@ -360723,12 +360723,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0071_SH_1",
+    "shape_id": "SAK_0071_SH_2",
     "route_id": "SAK_0071",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77170891999997,
@@ -365484,12 +365484,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0072_SH_0",
+    "shape_id": "SAK_0072_SH_1",
     "route_id": "SAK_0072",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.68546,
@@ -368541,12 +368541,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0072_SH_1",
+    "shape_id": "SAK_0072_SH_2",
     "route_id": "SAK_0072",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77127000000001,
@@ -371066,12 +371066,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0073_SH_1",
+    "shape_id": "SAK_0073_SH_2",
     "route_id": "SAK_0073",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77295904,
@@ -377623,12 +377623,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0073_SH_0",
+    "shape_id": "SAK_0073_SH_1",
     "route_id": "SAK_0073",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.66954203799159,
@@ -379644,12 +379644,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0074_SH_0",
+    "shape_id": "SAK_0074_SH_1",
     "route_id": "SAK_0074",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.64441677000001,
@@ -384717,12 +384717,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0074_SH_1",
+    "shape_id": "SAK_0074_SH_2",
     "route_id": "SAK_0074",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77139435,
@@ -390334,12 +390334,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0075_SH_1",
+    "shape_id": "SAK_0075_SH_2",
     "route_id": "SAK_0075",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77305593999999,
@@ -394687,12 +394687,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0075_SH_0",
+    "shape_id": "SAK_0075_SH_1",
     "route_id": "SAK_0075",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.711639949915465,
@@ -395704,12 +395704,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0076_SH_1",
+    "shape_id": "SAK_0076_SH_2",
     "route_id": "SAK_0076",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.773070780530695,
@@ -396841,12 +396841,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0076_SH_0",
+    "shape_id": "SAK_0076_SH_1",
     "route_id": "SAK_0076",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.70464414000001,
@@ -402770,12 +402770,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0077_SH_0",
+    "shape_id": "SAK_0077_SH_1",
     "route_id": "SAK_0077",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.67907631999998,
@@ -408491,12 +408491,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0077_SH_1",
+    "shape_id": "SAK_0077_SH_2",
     "route_id": "SAK_0077",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77282728,
@@ -413744,12 +413744,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0078_SH_1",
+    "shape_id": "SAK_0078_SH_2",
     "route_id": "SAK_0078",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77289278000001,
@@ -419833,12 +419833,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0078_SH_0",
+    "shape_id": "SAK_0078_SH_1",
     "route_id": "SAK_0078",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.67927517999998,
@@ -426514,12 +426514,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0079_SH_0",
+    "shape_id": "SAK_0079_SH_1",
     "route_id": "SAK_0079",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.73657394999997,
@@ -431127,12 +431127,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0079_SH_1",
+    "shape_id": "SAK_0079_SH_2",
     "route_id": "SAK_0079",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77295011000001,
@@ -435380,12 +435380,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0080_SH_0",
+    "shape_id": "SAK_0080_SH_1",
     "route_id": "SAK_0080",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.77280993,
@@ -440193,12 +440193,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0080_SH_1",
+    "shape_id": "SAK_0080_SH_2",
     "route_id": "SAK_0080",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.65061833000001,
@@ -445322,12 +445322,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0081_SH_0",
+    "shape_id": "SAK_0081_SH_1",
     "route_id": "SAK_0081",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.75476636999999,
@@ -449827,12 +449827,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0081_SH_1",
+    "shape_id": "SAK_0081_SH_2",
     "route_id": "SAK_0081",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.779924109999996,
@@ -454484,12 +454484,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0082_SH_0",
+    "shape_id": "SAK_0082_SH_1",
     "route_id": "SAK_0082",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.71114,
@@ -457193,12 +457193,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0083_SH_0",
+    "shape_id": "SAK_0083_SH_1",
     "route_id": "SAK_0083",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.68413367,
@@ -462790,12 +462790,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0083_SH_1",
+    "shape_id": "SAK_0083_SH_2",
     "route_id": "SAK_0083",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77282707,
@@ -468863,12 +468863,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0084_SH_0",
+    "shape_id": "SAK_0084_SH_1",
     "route_id": "SAK_0084",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.93301343518294,
@@ -471812,12 +471812,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0084_SH_1",
+    "shape_id": "SAK_0084_SH_2",
     "route_id": "SAK_0084",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77075484569084,
@@ -473869,12 +473869,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0085_SH_0",
+    "shape_id": "SAK_0085_SH_1",
     "route_id": "SAK_0085",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.942130000000006,
@@ -475658,12 +475658,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0085_SH_1",
+    "shape_id": "SAK_0085_SH_2",
     "route_id": "SAK_0085",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77124,
@@ -477619,12 +477619,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0086_SH_0",
+    "shape_id": "SAK_0086_SH_1",
     "route_id": "SAK_0086",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.97307552295188,
@@ -479796,12 +479796,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0086_SH_1",
+    "shape_id": "SAK_0086_SH_2",
     "route_id": "SAK_0086",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77082622828292,
@@ -481993,12 +481993,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0087_SH_0",
+    "shape_id": "SAK_0087_SH_1",
     "route_id": "SAK_0087",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.49814029589534,
@@ -484882,12 +484882,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0087_SH_1",
+    "shape_id": "SAK_0087_SH_2",
     "route_id": "SAK_0087",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77096998605467,
@@ -488495,12 +488495,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0088_SH_1",
+    "shape_id": "SAK_0088_SH_2",
     "route_id": "SAK_0088",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77179127000001,
@@ -497328,12 +497328,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0088_SH_0",
+    "shape_id": "SAK_0088_SH_1",
     "route_id": "SAK_0088",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.53548,
@@ -501169,12 +501169,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0089_SH_1",
+    "shape_id": "SAK_0089_SH_2",
     "route_id": "SAK_0089",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77104682984454,
@@ -503586,12 +503586,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0089_SH_0",
+    "shape_id": "SAK_0089_SH_1",
     "route_id": "SAK_0089",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.79659337317076,
@@ -506275,12 +506275,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0090_SH_0",
+    "shape_id": "SAK_0090_SH_1",
     "route_id": "SAK_0090",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.90699,
@@ -510888,12 +510888,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0090_SH_1",
+    "shape_id": "SAK_0090_SH_2",
     "route_id": "SAK_0090",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.785859999999985,
@@ -515437,12 +515437,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0091_SH_0",
+    "shape_id": "SAK_0091_SH_1",
     "route_id": "SAK_0091",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.79432266999999,
@@ -516482,12 +516482,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0091_SH_1",
+    "shape_id": "SAK_0091_SH_2",
     "route_id": "SAK_0091",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.770785489999994,
@@ -518619,12 +518619,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0092_SH_0",
+    "shape_id": "SAK_0092_SH_1",
     "route_id": "SAK_0092",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.6710819554611,
@@ -521424,12 +521424,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0092_SH_1",
+    "shape_id": "SAK_0092_SH_2",
     "route_id": "SAK_0092",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.772949031609066,
@@ -524137,12 +524137,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0093_SH_0",
+    "shape_id": "SAK_0093_SH_1",
     "route_id": "SAK_0093",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 41.07199388849508,
@@ -529090,12 +529090,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0093_SH_1",
+    "shape_id": "SAK_0093_SH_2",
     "route_id": "SAK_0093",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.73019363109845,
@@ -534535,12 +534535,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0094_SH_1",
+    "shape_id": "SAK_0094_SH_2",
     "route_id": "SAK_0094",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.78585535828211,
@@ -538432,12 +538432,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0094_SH_0",
+    "shape_id": "SAK_0094_SH_1",
     "route_id": "SAK_0094",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 41.04050820353836,
@@ -542025,12 +542025,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0095_SH_0",
+    "shape_id": "SAK_0095_SH_1",
     "route_id": "SAK_0095",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.45332260380964,
@@ -544530,12 +544530,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0095_SH_1",
+    "shape_id": "SAK_0095_SH_2",
     "route_id": "SAK_0095",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77096998605467,
@@ -548039,12 +548039,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0096_SH_1",
+    "shape_id": "SAK_0096_SH_2",
     "route_id": "SAK_0096",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77122726,
@@ -555060,12 +555060,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0096_SH_0",
+    "shape_id": "SAK_0096_SH_1",
     "route_id": "SAK_0096",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.69466863,
@@ -562357,12 +562357,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0097_SH_0",
+    "shape_id": "SAK_0097_SH_1",
     "route_id": "SAK_0097",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.67729,
@@ -568614,12 +568614,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0097_SH_1",
+    "shape_id": "SAK_0097_SH_2",
     "route_id": "SAK_0097",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.74015511469867,
@@ -574243,12 +574243,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0098_SH_0",
+    "shape_id": "SAK_0098_SH_1",
     "route_id": "SAK_0098",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.69478593,
@@ -581580,12 +581580,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0098_SH_1",
+    "shape_id": "SAK_0098_SH_2",
     "route_id": "SAK_0098",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77157510463357,
@@ -582937,12 +582937,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0099_SH_1",
+    "shape_id": "SAK_0099_SH_2",
     "route_id": "SAK_0099",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.771320396018346,
@@ -585882,12 +585882,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0099_SH_0",
+    "shape_id": "SAK_0099_SH_1",
     "route_id": "SAK_0099",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.678689177515025,
@@ -589123,12 +589123,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0100_SH_0",
+    "shape_id": "SAK_0100_SH_1",
     "route_id": "SAK_0100",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.69256263,
@@ -595680,12 +595680,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0100_SH_1",
+    "shape_id": "SAK_0100_SH_2",
     "route_id": "SAK_0100",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77167422,
@@ -602189,12 +602189,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0101_SH_0",
+    "shape_id": "SAK_0101_SH_1",
     "route_id": "SAK_0101",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.80482604541073,
@@ -603654,12 +603654,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0101_SH_1",
+    "shape_id": "SAK_0101_SH_2",
     "route_id": "SAK_0101",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.771134677030865,
@@ -606131,12 +606131,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0102_SH_1",
+    "shape_id": "SAK_0102_SH_2",
     "route_id": "SAK_0102",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.771582609999996,
@@ -611396,12 +611396,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0102_SH_0",
+    "shape_id": "SAK_0102_SH_1",
     "route_id": "SAK_0102",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.75255887,
@@ -615625,12 +615625,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0103_SH_0",
+    "shape_id": "SAK_0103_SH_1",
     "route_id": "SAK_0103",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.73929182999999,
@@ -619530,12 +619530,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0103_SH_1",
+    "shape_id": "SAK_0103_SH_2",
     "route_id": "SAK_0103",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.7715249,
@@ -623971,12 +623971,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0104_SH_0",
+    "shape_id": "SAK_0104_SH_1",
     "route_id": "SAK_0104",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.85115605196189,
@@ -625568,12 +625568,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0104_SH_1",
+    "shape_id": "SAK_0104_SH_2",
     "route_id": "SAK_0104",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77075063781219,
@@ -627117,12 +627117,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0105_SH_1",
+    "shape_id": "SAK_0105_SH_2",
     "route_id": "SAK_0105",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.770659369585,
@@ -629098,12 +629098,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0105_SH_0",
+    "shape_id": "SAK_0105_SH_1",
     "route_id": "SAK_0105",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.772598515251616,
@@ -630375,12 +630375,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0106_SH_1",
+    "shape_id": "SAK_0106_SH_2",
     "route_id": "SAK_0106",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77067313407884,
@@ -634704,12 +634704,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0106_SH_0",
+    "shape_id": "SAK_0106_SH_1",
     "route_id": "SAK_0106",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.77574631610451,
@@ -635773,12 +635773,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0107_SH_0",
+    "shape_id": "SAK_0107_SH_1",
     "route_id": "SAK_0107",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.83293404471606,
@@ -636950,12 +636950,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0107_SH_1",
+    "shape_id": "SAK_0107_SH_2",
     "route_id": "SAK_0107",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77068255301776,
@@ -637975,12 +637975,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0108_SH_0",
+    "shape_id": "SAK_0108_SH_1",
     "route_id": "SAK_0108",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.814400455043106,
@@ -640208,12 +640208,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0108_SH_1",
+    "shape_id": "SAK_0108_SH_2",
     "route_id": "SAK_0108",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.770656637331044,
@@ -642157,12 +642157,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0109_SH_0",
+    "shape_id": "SAK_0109_SH_1",
     "route_id": "SAK_0109",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.81676294200003,
@@ -643098,12 +643098,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0109_SH_1",
+    "shape_id": "SAK_0109_SH_2",
     "route_id": "SAK_0109",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77065944823016,
@@ -644075,12 +644075,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0110_SH_0",
+    "shape_id": "SAK_0110_SH_1",
     "route_id": "SAK_0110",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.80077596,
@@ -648764,12 +648764,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0110_SH_1",
+    "shape_id": "SAK_0110_SH_2",
     "route_id": "SAK_0110",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.770705015991304,
@@ -650157,12 +650157,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0111_SH_1",
+    "shape_id": "SAK_0111_SH_2",
     "route_id": "SAK_0111",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.771609129999995,
@@ -656962,12 +656962,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0111_SH_0",
+    "shape_id": "SAK_0111_SH_1",
     "route_id": "SAK_0111",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.73353173999999,
@@ -661599,12 +661599,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0112_SH_0",
+    "shape_id": "SAK_0112_SH_1",
     "route_id": "SAK_0112",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.90528332999997,
@@ -666700,12 +666700,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0112_SH_1",
+    "shape_id": "SAK_0112_SH_2",
     "route_id": "SAK_0112",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77067530316863,
@@ -673469,12 +673469,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0113_SH_0",
+    "shape_id": "SAK_0113_SH_1",
     "route_id": "SAK_0113",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.94984999999999,
@@ -676014,12 +676014,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0113_SH_1",
+    "shape_id": "SAK_0113_SH_2",
     "route_id": "SAK_0113",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77131000000001,
@@ -678699,12 +678699,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0114_SH_0",
+    "shape_id": "SAK_0114_SH_1",
     "route_id": "SAK_0114",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.9189,
@@ -682440,12 +682440,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0114_SH_1",
+    "shape_id": "SAK_0114_SH_2",
     "route_id": "SAK_0114",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.771190000000004,
@@ -685653,12 +685653,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0115_SH_0",
+    "shape_id": "SAK_0115_SH_1",
     "route_id": "SAK_0115",
-    "direction": 0,
+    "direction": 1,
     "coordinates": [
       {
         "lat": 40.86936245,
@@ -689818,12 +689818,12 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   },
   {
-    "shape_id": "SAK_0115_SH_1",
+    "shape_id": "SAK_0115_SH_2",
     "route_id": "SAK_0115",
-    "direction": 1,
+    "direction": 2,
     "coordinates": [
       {
         "lat": 40.77987541,
@@ -694343,6 +694343,6 @@
       }
     ],
     "source": "api-sbb",
-    "updated_at": "2026-07-26T20:06:26Z"
+    "updated_at": "2026-07-31T09:24:24Z"
   }
 ]

@@ -17,7 +17,7 @@ Farklı kaynaklardan (resmi GTFS feed'leri, belediye API'leri, elle girilen öze
 | Konu | GTFS | TransitJSON |
 |---|---|---|
 | İlk/son durak saati | İkisi de zorunlu | Sadece **ilk durak** zorunlu, diğerleri (son durak dahil) opsiyonel |
-| Takvim | `calendar.txt` + `calendar_dates.txt`, haftanın her günü bit maskesi | Sadece `service_type` (weekday/saturday/sunday) + `holidays.json` (resmi tatil = pazar kuralı) |
+| Takvim | `calendar.txt` + `calendar_dates.txt`, haftanın her günü bit maskesi | Sadece `service_type` (haftanın 7 günü: monday..sunday) + `holidays.json` (resmi tatil = pazar kuralı) |
 | Rota geometrisi | Ham `{lat,lon}` dizisi (`shapes.txt`) | Ham `{lat, lon}` koordinat dizisi (encoded polyline yok) |
 | Frekanslı hatlar | `frequencies.txt` ile ayrı bir soyutlama | Yok — bir generator script ile **önceden somut saatlere genişletilip** normal `stop_times`'a yazılır |
 | Serbest biniş hatlar | Yok (GTFS'te her durak açıkça tanımlı olmalı) | `stop_mode: "flexible"` — sadece ilk/son durak tanımlı |
@@ -39,7 +39,6 @@ JSON feed/koleksiyon anahtarları **her zaman çoğuldur**. PostgreSQL tablo adl
 9. `stop_times.json` — Sefer-durak-saat ilişkisi
 10. `holidays.json` — Resmi tatiller (ülkeye göre)
 11. `fares.json` — Ücret tanımları (tam bilet, öğrenci, 65+ vb.)
-12. `fare_rules.json` — Ücret kuralları (opsiyonel; zone/distance bazlı ücretler için)
 
 JSON Schema dosyaları proje kökündeki `schema/` klasöründedir (örn. `schema/city.schema.json`).
 
@@ -52,7 +51,7 @@ country ──┬── city ──┬── agency ──┬── route ──
            │          │            │           │
            │          │            │           └── trip ──── stop_time ──── stop
            │          │            │
-           │          │            └── fare ──── fare_rule (opsiyonel)
+           │          │            └── fare
            │          │
            └── holiday (country_id ile)
 ```
@@ -282,7 +281,7 @@ Büyük istasyonlar (metro, tren, büyük aktarma merkezleri) için **durağa g�
     {
       "platform_id": "BUR-90001-P1",
       "code": "1",
-      "direction": 0,
+      "direction": 1,
       "lat": 40.1827,
       "lon": 29.0667,
       "wheelchair_accessible": true,
@@ -298,7 +297,7 @@ Büyük istasyonlar (metro, tren, büyük aktarma merkezleri) için **durağa g�
     {
       "platform_id": "BUR-90001-P2",
       "code": "2",
-      "direction": 1,
+      "direction": 2,
       "lat": 40.1825,
       "lon": 29.0665,
       "wheelchair_accessible": true,
@@ -324,13 +323,13 @@ Büyük istasyonlar (metro, tren, büyük aktarma merkezleri) için **durağa g�
 
 ```json
 [
-  { "route_id": "F1", "direction": 0, "stop_id": "BUR-01001", "sequence": 1, "is_first_stop": true, "updated_at": "2026-07-20T10:00:00Z" },
-  { "route_id": "F1", "direction": 0, "stop_id": "BUR-01023", "sequence": 2, "updated_at": "2026-07-20T10:00:00Z" },
-  { "route_id": "F1", "direction": 1, "stop_id": "BUR-01023", "sequence": 1, "is_first_stop": true, "updated_at": "2026-07-20T10:00:00Z" },
-  { "route_id": "F1", "direction": 1, "stop_id": "BUR-01001", "sequence": 2, "updated_at": "2026-07-20T10:00:00Z" }
+  { "route_id": "F1", "direction": 1, "stop_id": "BUR-01001", "sequence": 1, "is_first_stop": true, "updated_at": "2026-07-20T10:00:00Z" },
+  { "route_id": "F1", "direction": 1, "stop_id": "BUR-01023", "sequence": 2, "updated_at": "2026-07-20T10:00:00Z" },
+  { "route_id": "F1", "direction": 2, "stop_id": "BUR-01023", "sequence": 1, "is_first_stop": true, "updated_at": "2026-07-20T10:00:00Z" },
+  { "route_id": "F1", "direction": 2, "stop_id": "BUR-01001", "sequence": 2, "updated_at": "2026-07-20T10:00:00Z" }
 ]
 ```
-- `direction: 0` = gidiş, `direction: 1` = dönüş
+- `direction: 0` = loop (tek yön döngü), `direction: 1` = gidiş, `direction: 2` = dönüş. Round_trip hatlarda `1` ve `2` kullanılır; loop hatlarda yalnızca `0`.
 - `route_pattern: "loop"` olan hatlarda `direction` her zaman `0`'dır, ama ilk ve son kayıt **aynı `stop_id`'ye farklı `sequence` ile** referans verir (döngünün kapandığını gösterir):
 ```json
 [
@@ -346,9 +345,9 @@ Büyük istasyonlar (metro, tren, büyük aktarma merkezleri) için **durağa g�
 
 ```json
 {
-  "shape_id": "S-F1-0",
+  "shape_id": "S-F1-1",
   "route_id": "F1",
-  "direction": 0,
+  "direction": 1,
   "coordinates": [
     { "lat": 40.1885, "lon": 29.0610 },
     { "lat": 40.1901, "lon": 29.0652 },
@@ -364,9 +363,10 @@ Büyük istasyonlar (metro, tren, büyük aktarma merkezleri) için **durağa g�
 ## 9. trips.json
 
 ```json
-{ "trip_id": "F1-0700-G", "route_id": "F1", "direction": 0, "service_type": "weekday", "updated_at": "2026-07-20T10:00:00Z" }
+{ "trip_id": "F1-0700-G", "route_id": "F1", "direction": 1, "service_type": "monday", "updated_at": "2026-07-20T10:00:00Z" }
 ```
-- `service_type`: `"weekday"` | `"saturday"` | `"sunday"`
+- `direction`: `0` = loop, `1` = gidiş, `2` = dönüş
+- `service_type`: haftanın 7 günü — `"monday"` | `"tuesday"` | `"wednesday"` | `"thursday"` | `"friday"` | `"saturday"` | `"sunday"`
 - Frekanslı hatlarda (örn. İnegöl-Ketsel her 15 dk) her sefer yine ayrı bir `trip` kaydı olarak somutlaştırılmış halde bulunur — bunlar elle değil, bir **generator script** ile üretilir (bkz. bölüm 12).
 - **v1 kapsam sınırı:** Trip, ayrı bir `shape` veya `route_stops` varyantına bağlanmaz. Aynı `route_id` + `direction` altındaki tüm seferler tek güzergâhı paylaşır (short-turn / branch / varyant yok).
 
@@ -385,18 +385,19 @@ Büyük istasyonlar (metro, tren, büyük aktarma merkezleri) için **durağa g�
 ```json
 { "date": "2026-04-23", "country_id": "TR", "name": "23 Nisan", "applies_as": "sunday", "updated_at": "2026-07-20T10:00:00Z" }
 ```
-- `applies_as`: o gün hangi `service_type` programının uygulanacağı (`"sunday"` sabit kuraldır).
+- `applies_as`: o gün hangi günün sefer programının uygulanacağı (7 günden biri; `"sunday"` varsayılandır).
 - API mantığı: `bugün holidays içinde var mı? → varsa applies_as kullan; yoksa haftanın gününden service_type türet.`
 
 ## 12. fares.json
 
-Ücret tanımları. Her agency'nin farklı yolcu profilleri (tam, öğrenci, 65+) veya farklı ücret modelleri için ayrı fare kayıtları oluşturulur.
+Ücret tanımları. Her agency'nin farklı yolcu profilleri (tam, öğrenci, 65+) için ayrı fare kayıtları oluşturulur. Tüm hatlarda başlangıçtan sona kadar sabit (flat) ücret uygulanır.
 
 ```json
 {
   "fare_id": "BUR-tam",
   "agency_id": "burulas",
   "name": "Tam Bilet",
+  "name_en": "Full Ticket",
   "fare_type": "flat",
   "price": 17.80,
   "currency": "TRY",
@@ -406,8 +407,10 @@ Büyük istasyonlar (metro, tren, büyük aktarma merkezleri) için **durağa g�
   "updated_at": "2026-07-20T10:00:00Z"
 }
 ```
-- `fare_type` (zorunlu): `"flat"` (sabit ücret) | `"zone"` (bölge bazlı, `fare_rules.json` gerekir) | `"distance"` (mesafe bazlı, `fare_rules.json` gerekir)
-- `price` (zorunlu): Birim fiyat. `flat` için tam fiyat; `zone`/`distance` için baz fiyat.
+- `name` (zorunlu): Ücretin Türkçe adı. Örn. `"Tam Bilet"`.
+- `name_en` (zorunlu): Ücretin İngilizce adı. Örn. `"Full Ticket"`.
+- `fare_type` (zorunlu): `"flat"` — sabit ücret (tüm hat boyunca aynı fiyat).
+- `price` (zorunlu): Sabit ücret. Hat boyunca başlangıçtan sona kadar değişmez.
 - `currency` (zorunlu): ISO 4217 para birimi kodu (`"TRY"`, `"EUR"`, `"USD"`).
 - `payment_methods` (opsiyonel): Kabul edilen ödeme yöntemleri: `"cash"` | `"smart_card"` | `"credit_card"` | `"mobile"` | `"contactless"` | `"qr"`
 - `transfer_duration` (opsiyonel): Aktarma süresi (dakika). Bu süre içinde yapılan aktarmalarda ek ücret alınmaz. `null` = aktarma hakkı yok.
@@ -416,38 +419,17 @@ Büyük istasyonlar (metro, tren, büyük aktarma merkezleri) için **durağa g�
 Öğrenci ve 65+ örnekleri:
 ```json
 [
-  { "fare_id": "BUR-tam",     "agency_id": "burulas", "name": "Tam Bilet",     "fare_type": "flat", "price": 17.80, "currency": "TRY", "updated_at": "2026-07-20T10:00:00Z" },
-  { "fare_id": "BUR-ogrenci", "agency_id": "burulas", "name": "Öğrenci Bilet", "fare_type": "flat", "price": 8.90,  "currency": "TRY", "updated_at": "2026-07-20T10:00:00Z" },
-  { "fare_id": "BUR-65plus",  "agency_id": "burulas", "name": "65+ Bilet",     "fare_type": "flat", "price": 0.00,  "currency": "TRY", "updated_at": "2026-07-20T10:00:00Z" }
+  { "fare_id": "BUR-tam",     "agency_id": "burulas", "name": "Tam Bilet",     "name_en": "Full Ticket",     "fare_type": "flat", "price": 17.80, "currency": "TRY", "updated_at": "2026-07-20T10:00:00Z" },
+  { "fare_id": "BUR-ogrenci", "agency_id": "burulas", "name": "Öğrenci Bilet", "name_en": "Student Ticket",   "fare_type": "flat", "price": 8.90,  "currency": "TRY", "updated_at": "2026-07-20T10:00:00Z" },
+  { "fare_id": "BUR-65plus",  "agency_id": "burulas", "name": "65+ Bilet",     "name_en": "65+ Ticket",      "fare_type": "flat", "price": 0.00,  "currency": "TRY", "updated_at": "2026-07-20T10:00:00Z" }
 ]
 ```
 
 **Route bağlantısı:** Route'un `fare_id` alanı `fares.json`'daki `fare_id`'ye referans verir. Eğer bir route'un kendi `fare_id`'si yoksa, o route'un agency'sine ait tüm fare kayıtları geçerlidir.
 
-## 13. fare_rules.json (opsiyonel)
-
-Sadece `fare_type: "zone"` veya `"distance"` kullanan ajanslar için gereklidir. Flat ücretli şehirler bu dosyayı hiç oluşturmak zorunda değildir.
-
-Zone bazlı örnek:
-```json
-[
-  { "fare_rule_id": "IST-r1", "fare_id": "IST-zone-ab", "route_id": null, "from_zone": "A", "to_zone": "B", "price_override": 22.50, "updated_at": "2026-07-20T10:00:00Z" },
-  { "fare_rule_id": "IST-r2", "fare_id": "IST-zone-ac", "route_id": null, "from_zone": "A", "to_zone": "C", "price_override": 30.00, "updated_at": "2026-07-20T10:00:00Z" }
-]
-```
-
-Mesafe bazlı örnek:
-```json
-[
-  { "fare_rule_id": "ANK-d1", "fare_id": "ANK-dist", "min_distance_km": 0,  "max_distance_km": 10, "price_override": 15.00, "updated_at": "2026-07-20T10:00:00Z" },
-  { "fare_rule_id": "ANK-d2", "fare_id": "ANK-dist", "min_distance_km": 10, "max_distance_km": 25, "price_override": 20.00, "updated_at": "2026-07-20T10:00:00Z" },
-  { "fare_rule_id": "ANK-d3", "fare_id": "ANK-dist", "min_distance_km": 25, "max_distance_km": null, "price_override": 28.00, "updated_at": "2026-07-20T10:00:00Z" }
-]
-```
-
 ---
 
-## 14. Frekanslı Hatlar — Generator Yaklaşımı
+## 13. Frekanslı Hatlar — Generator Yaklaşımı
 
 `frequencies.json` gibi ayrı bir soyutlama **kullanılmaz** — gereksiz karmaşıklık olarak değerlendirildi. Bunun yerine:
 
@@ -459,7 +441,7 @@ Mesafe bazlı örnek:
 ```python
 # generate_schedule.py — kavramsal örnek
 def generate(route_id, direction, start="06:00:00", end="22:00:00",
-             interval_minutes=15, service_type="weekday", stop_sequence=None):
+             interval_minutes=15, service_type="monday", stop_sequence=None):
     trips, stop_times = [], []
     t = parse_time(start)
     i = 0
@@ -481,9 +463,9 @@ def generate(route_id, direction, start="06:00:00", end="22:00:00",
 
 ---
 
-## 15. Import / Güncelleme Stratejisi
+## 14. Import / Güncelleme Stratejisi
 
-**Model: tam replace (scope'u sınırlı).** Bir şehir/agency için yeni dosya yüklendiğinde, o kapsamdaki (`city_id` + `source` ile sınırlı) eski kayıtlar silinip yenisi yazılır — tüm tablo değil, sadece ilgili kaynağın kayıtları. Ücret verileri (`fares`, `fare_rules`) de aynı stratejiye tabidir.
+**Model: tam replace (scope'u sınırlı).** Bir şehir/agency için yeni dosya yüklendiğinde, o kapsamdaki (`city_id` + `source` ile sınırlı) eski kayıtlar silinip yenisi yazılır — tüm tablo değil, sadece ilgili kaynağın kayıtları. Ücret verileri (`fares`) de aynı stratejiye tabidir.
 
 ```sql
 BEGIN;
@@ -496,7 +478,7 @@ COMMIT;
 - Transaction zorunlu — yükleme yarıda kesilirse veri tutarsız kalmamalı.
 - `stop_id` üretimini mümkünse **kalıcı** tutun (isim/konuma göre eşleştirip aynı ID'yi koruyun); aksi halde kullanıcıların favori durak/hat referansları kırılır.
 
-## 16. Cache / `updated_at` Mantığı
+## 15. Cache / `updated_at` Mantığı
 
 Her koleksiyonda `updated_at` bulunur. Ayrıca route bazlı hafif bir **meta endpoint** önerilir:
 
@@ -513,7 +495,7 @@ GET /api/routes/f1/meta
 
 Uygulama önce bu küçük objeyi çeker, cihazdaki önbellekle karşılaştırır, sadece değişen parçayı indirir. Favori hatlarda shape + durak listesi + saatler cihaza kaydedilip hızlıca gösterilir; ağır veri (shape) her açılışta tekrar indirilmez.
 
-## 17. Önerilen Teknoloji Yığını
+## 16. Önerilen Teknoloji Yığını
 
 **PostgreSQL + PostGIS** (MongoDB değil):
 - Veri doğası ilişkisel (country→city→agency→route→stop→trip→stop_time zinciri), Mongo'da bu ilişkileri modellemek gereksiz karmaşıklık yaratır.
@@ -526,7 +508,169 @@ Detaylı tablo yapısı için `transitjson-schema.sql` dosyasına bakın.
 
 ---
 
+## 17. JSON Schema Yapısı & Doğrulama
+
+Her koleksiyon için `schema/` klasöründe bir JSON Schema (draft-07) dosyası vardır. Şema, koleksiyondaki **her bir kaydın** (dizi elemanının) biçimini tanımlar — dosya kökü dizi (liste) olmalı, şema her elemana uygulanır.
+
+| Koleksiyon | Şema dosyası |
+|---|---|
+| `countries.json` | `country.schema.json` |
+| `cities.json` | `city.schema.json` |
+| `agencies.json` | `agency.schema.json` |
+| `routes.json` | `route.schema.json` |
+| `stops.json` | `stop.schema.json` |
+| `route_stops.json` | `route_stop.schema.json` |
+| `shapes.json` | `shape.schema.json` |
+| `trips.json` | `trip.schema.json` |
+| `stop_times.json` | `stop_time.schema.json` |
+| `holidays.json` | `holiday.schema.json` |
+| `fares.json` | `fare.schema.json` |
+
+### Şema dosyası nasıl okunur?
+
+Bir şema dosyası şu yapıya sahiptir (örnek: `schema/trip.schema.json`):
+
+```json
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TransitJSON Trip",
+  "description": "Bir hatta ait somut, tek bir sefer...",
+  "type": "object",
+  "properties": {
+    "trip_id": { "type": "string" },
+    "direction": {
+      "type": "integer",
+      "enum": [0, 1, 2],
+      "description": "0: loop, 1: gidiş, 2: dönüş."
+    },
+    "service_type": {
+      "type": "string",
+      "enum": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+    }
+  },
+  "required": ["trip_id", "route_id", "direction", "service_type", "updated_at"],
+  "additionalProperties": false
+}
+```
+
+Bölümlerin anlamı:
+
+- **`$schema`:** Şema standardının sürümü (draft-07). Değiştirmeyin.
+- **`title` / `description`:** Şemanın adı ve Türkçe açıklaması. Her alanın kendi `description`'ı alanın anlamını, enum değerlerini ve örnekleri anlatır.
+- **`type`:** Alanın veri tipi: `string`, `integer`, `number`, `boolean`, `array`, `object`, `null`.
+- **`properties`:** Kayıtta bulunabilecek tüm alanların şemaları.
+- **`required`:** Kaydın geçerli sayılması için **zorunlu** alan listesi. Listede olmayan alanlar opsiyoneldir — varsa şemaya uymalı, yoksa sorun değildir.
+- **`additionalProperties: false`:** `properties`'te tanımlı olmayan hiçbir alan kabul edilmez (yazım hatası/yabancı alan yakalanır). Opsiyonel alanlar bu kuralın istisnası değildir; onlar sadece `required` dışında oldukları için eksik bırakılabilir.
+
+### Sık kullanılan şema kalıpları
+
+**Null olabilen alan** — tip `"string"` veya `null`:
+
+```json
+"source": { "type": ["string", "null"] }
+```
+
+**Sabit değer listesi (enum)** — alan yalnızca listedeki değerleri alabilir:
+
+```json
+"fare_type": { "type": "string", "enum": ["flat"] }
+```
+
+**Tarih/saat biçimleri** — `format` ile doğrulanır:
+
+```json
+"updated_at": { "type": "string", "format": "date-time" }   // ISO 8601, örn. 2026-07-20T10:00:00Z
+"date":       { "type": "string", "format": "date" }        // örn. 2026-04-23
+```
+
+**Desen (pattern)** — düzenli ifade ile biçim kontrolü:
+
+```json
+"departure_time": {
+  "type": ["string", "null"],
+  "pattern": "^[0-9]{1,2}:[0-5][0-9]:[0-5][0-9]$"   // HH:MM:SS, 24'ü aşabilir (25:30:00)
+}
+"currency": { "type": "string", "pattern": "^[A-Z]{3}$" }   // ISO 4217: TRY, EUR, USD
+```
+
+**Sayısal sınırlar** — `minimum` / `maximum`:
+
+```json
+"lat": { "type": "number", "minimum": -90, "maximum": 90 }
+"sequence": { "type": "integer", "minimum": 1 }
+"price": { "type": "number", "minimum": 0 }
+```
+
+**Koşullu kurallar (if/then/else)** — bir alanın değerine göre başka kuralları etkinleştirir. `stop_time.schema.json`'da ilk durağın (`sequence == 1`) `departure_time`'ı zorunludur:
+
+```json
+"if": { "properties": { "sequence": { "const": 1 } } },
+"then": { "required": ["trip_id", "stop_id", "sequence", "departure_time", "updated_at"] },
+"else": { "properties": { "departure_time": { "type": ["string", "null"] } } }
+```
+
+**İç içe (nested) yapılar** — `stop.schema.json`'daki `platforms` dizisi gibi. Dizi elemanlarının kendi `properties`/`required`/`additionalProperties` kuralları vardır:
+
+```json
+"platforms": {
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": { "platform_id": { "type": "string" }, "direction": { "type": ["integer", "null"], "enum": [0, 1, 2, null] } },
+    "required": ["platform_id", "updated_at"],
+    "additionalProperties": false
+  }
+}
+```
+
+### Doğrulama nasıl çalışır? (`validate.py`)
+
+`validate.py` proje kökündedir; tek zorunlu argümanı kontrol edilecek klasördür:
+
+```
+py validate.py JSON/Bursa
+py validate.py JSON/Sakarya
+```
+
+- Script klasördeki 11 koleksiyonu sırayla bulur, her dosyayı `schema/` altındaki ilgili şemayla **her kayıt bazında** doğrular.
+- Bulunamayan dosyalar `[ATLANDI]` olarak işaretlenir (klasör eksikse sorun çıkmaz).
+- Hatalar `[HATA] dosya [kayıt_indexi].alan: mesaj` biçiminde, dosya başına ilk 20 tanesi gösterilir (`MAX_PRINT_PER_FILE` sabitinden artırılabilir).
+- Sonunda `11 dosya kontrol edildi, N hata` özeti basılır; hata varsa çıkış kodu `1`, yoksa `0`'dır (CI/otomasyon için).
+- Bağımlılık: `jsonschema` (Python) — `py -m pip install jsonschema`.
+
+---
+
 ## 18. Sürüm Geçmişi
+
+### v0.2 — Takvim (7 Gün), Yön Modeli (0/1/2), Fare Sadeleştirme & Doğrulama
+
+**Kapsam:** `trips`, `shapes`, `route_stops`, `stops`, `holidays`, `fares` şemaları; `fare_rule` kaldırıldı; ETL'ler ve doğrulayıcı.
+
+**Takvim — haftanın 7 günü:**
+
+- `service_type` enum'u `weekday/saturday/sunday` yerine **7 gün** oldu: `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`, `sunday`.
+- `holidays.json`'daki `applies_as` aynı 7 günlük enum'u kullanır (varsayılan `sunday`).
+- ETL'ler her gün için ayrı sefer kayıtları üretir; Pzt-Cum artık tek `weekday` kaydında birleştirilmez (sefer sayısı buna göre artar).
+
+**Yön modeli — 0/1/2:**
+
+- `direction: 0` = **loop** (tek yön döngü), `1` = **gidiş**, `2` = **dönüş**.
+- Eski modelde `0` gidiş, `1` dönüştü ve loop da `0` kullanıyordu; artık üç anlam ayrıştırıldı.
+- `trip.schema.json`, `shape.schema.json`, `route_stop.schema.json` ve `stop.schema.json` (platform `direction`) hepsinde tutarlı.
+- `route.schema.json`'daki `route_pattern` açıklaması buna göre güncellendi: `round_trip` → direction 1/2, `loop` → direction 0.
+
+**Ücret sadeleştirmesi:**
+
+- `schema/fare_rule.schema.json`, `JSON/Bursa/fare_rules.json`, `JSON/Sakarya/fare_rules.json` silindi. Format artık fare_rule içermez.
+- `fare_type` yalnızca `"flat"` olabilir (zone/distance kaldırıldı).
+- `fares.json` kayıtlarına zorunlu `name_en` eklendi: `name` Türkçe, `name_en` İngilizce ad (örn. "Tam Bilet" / "Full Ticket").
+- ETL'ler flat + çift dilli üretir; Sakarya'da bölge/mesafe bazlı hatlar için her tarife tipinde bulunan ilk fiyat tek flat ücret olarak yazılır.
+
+**Doğrulayıcı:**
+
+- `validate.py` eklendi — klasör yolu verilir, koleksiyon JSON'ları şemalara karşı doğrulanır (bölüm 17).
+
+**Geriye uyumluluk notu:** v0.1/v2 verileri yeni şema ile **doğrulanmaz** (service_type, direction ve fare alanları değişti). Veriler ETL yeniden çalıştırılarak üretilir; şema değişiklikleri önceden üretilmiş JSON dosyalarını otomatik dönüştürmez.
 
 ### v2 — Durak Erişilebilirliği & Fiziksel Altyapı
 

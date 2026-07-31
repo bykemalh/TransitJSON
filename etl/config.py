@@ -91,21 +91,38 @@ HOLIDAY_APPLIES_AS = "sunday"
 
 # --- Yön eşlemesi ---
 # API: G = Gidiş, D = Dönüş, R = Ring (tek yön döngü)
-DIRECTION_G = 0
-DIRECTION_D = 1
-DIRECTION_R = 0  # ring = tek yön, direction 0
+# TransitJSON: 0 = loop, 1 = gidiş, 2 = dönüş
+DIRECTION_R = 0
+DIRECTION_G = 1
+DIRECTION_D = 2
 API_DIR_TO_INT = {"G": DIRECTION_G, "D": DIRECTION_D, "R": DIRECTION_R}
 
 # schedulebystop gerçek yanıtı düz listedir: {routeDay, stopTime}
-# routeDay: 1=Pzt ... 5=Cum, 6=Cmt, 7=Paz
-# 1-5 tek bir "weekday" programında birleştirilir (aynı saatler tekilleştirilir).
+# routeDay: 1=Pzt ... 5=Cum, 6=Cmt, 7=Paz — her gün kendi service_type'ına
 ROUTEDAY_TO_SERVICE = {
-    1: "weekday",
-    2: "weekday",
-    3: "weekday",
-    4: "weekday",
-    5: "weekday",
+    1: "monday",
+    2: "tuesday",
+    3: "wednesday",
+    4: "thursday",
+    5: "friday",
     6: "saturday",
     7: "sunday",
 }
-SERVICE_SHORT = {"weekday": "wd", "saturday": "sat", "sunday": "sun"}
+SERVICE_SHORT = {
+    "monday": "mon",
+    "tuesday": "tue",
+    "wednesday": "wed",
+    "thursday": "thu",
+    "friday": "fri",
+    "saturday": "sat",
+    "sunday": "sun",
+}
+
+# fare adlarının İngilizce karşılıkları (fare_key -> name_en)
+FARE_NAME_EN = {
+    "tam": "Full Ticket",
+    "indirimli": "Discounted Ticket",
+    "ogrenci": "Student Ticket",
+    "ogretmen": "Teacher Ticket",
+    "60_65": "60-65 Age Ticket",
+}

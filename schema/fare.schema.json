@@ -1,12 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "TransitJSON Fare",
-  "description": "Ücret tanımı. Bir agency'nin farklı yolcu profilleri (tam, öğrenci, 65+) veya farklı ücret modelleri (sabit, zone, mesafe) için ayrı fare kayıtları oluşturulur.",
+  "description": "Ücret tanımı. Bir agency'nin farklı yolcu profilleri (tam, öğrenci, 65+) için ayrı fare kayıtları oluşturulur. Tüm hatlarda başlangıçtan sona kadar sabit (flat) ücret uygulanır.",
   "type": "object",
   "properties": {
     "fare_id": {
       "type": "string",
-      "description": "Proje genelinde tekil. Örn. 'BUR-tam', 'BUR-ogrenci', 'IST-zone-ab'."
+      "description": "Proje genelinde tekil. Örn. 'BUR-tam', 'BUR-ogrenci'."
     },
     "agency_id": {
       "type": "string",
@@ -14,17 +14,23 @@
     },
     "name": {
       "type": "string",
-      "description": "İnsan-okunur ücret adı. Örn. 'Tam Bilet', 'Öğrenci', '65+ Ücretsiz'."
+      "description": "Ücretin Türkçe adı. Örn. 'Tam Bilet', 'Öğrenci', '65+ Ücretsiz'."
+    },
+    "name_en": {
+      "type": "string",
+      "description": "Ücretin İngilizce adı. Örn. 'Full Ticket', 'Student', '65+ Free'."
     },
     "fare_type": {
       "type": "string",
-      "enum": ["flat", "zone", "distance"],
-      "description": "flat: sabit ücret (tüm hat boyunca aynı fiyat). zone: bölge bazlı (fare_rules.json ile tanımlanır). distance: mesafe bazlı (fare_rules.json ile tanımlanır)."
+      "enum": [
+        "flat"
+      ],
+      "description": "flat: sabit ücret (tüm hat boyunca aynı fiyat)."
     },
     "price": {
       "type": "number",
       "minimum": 0,
-      "description": "Birim fiyat. flat için tam fiyat; zone/distance için baz fiyat."
+      "description": "Sabit ücret. Hat boyunca başlangıçtan sona kadar değişmez."
     },
     "currency": {
       "type": "string",
@@ -35,17 +41,30 @@
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["cash", "smart_card", "credit_card", "mobile", "contactless", "qr"]
+        "enum": [
+          "cash",
+          "smart_card",
+          "credit_card",
+          "mobile",
+          "contactless",
+          "qr"
+        ]
       },
       "description": "Kabul edilen ödeme yöntemleri. cash: nakit, smart_card: kent kart/akbil, credit_card: kredi/banka kartı, mobile: mobil uygulama, contactless: temassız, qr: QR kod."
     },
     "transfer_duration": {
-      "type": ["integer", "null"],
+      "type": [
+        "integer",
+        "null"
+      ],
       "minimum": 0,
       "description": "Aktarma süresi (dakika). Bu süre içinde yapılan aktarmalarda ek ücret alınmaz. null = aktarma hakkı yok."
     },
     "transfer_limit": {
-      "type": ["integer", "null"],
+      "type": [
+        "integer",
+        "null"
+      ],
       "minimum": 0,
       "description": "transfer_duration süresi içinde kaç aktarma hakkı var. null = sınırsız (süre dolana kadar)."
     },
@@ -57,6 +76,15 @@
       "type": "string"
     }
   },
-  "required": ["fare_id", "agency_id", "name", "fare_type", "price", "currency", "updated_at"],
+  "required": [
+    "fare_id",
+    "agency_id",
+    "name",
+    "name_en",
+    "fare_type",
+    "price",
+    "currency",
+    "updated_at"
+  ],
   "additionalProperties": false
 }

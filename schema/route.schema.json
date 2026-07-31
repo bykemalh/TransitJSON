@@ -48,7 +48,7 @@
         "round_trip",
         "loop"
       ],
-      "description": "round_trip: gidiş/dönüş (direction 0/1). loop: ring hat, tek yön, başlangıç=bitiş."
+      "description": "round_trip: gidiş/dönüş (direction 1/2). loop: ring hat, tek yön (direction 0), başlangıç=bitiş."
     },
     "stop_mode": {
       "type": "string",

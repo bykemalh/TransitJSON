@@ -56,7 +56,6 @@ class TransitBuilder:
         self.trips: list[dict] = []
         self.stop_times: list[dict] = []
         self.fares: dict[str, dict] = {}
-        self.fare_rules: list[dict] = []
         self._trip_ids: set[str] = set()
 
         self._route_id_map: dict[int, str] = {}
@@ -143,6 +142,7 @@ class TransitBuilder:
                         "fare_id": fare_id,
                         "agency_id": config.DEFAULT_AGENCY_ID,
                         "name": t_name,
+                        "name_en": config.FARE_NAME_EN.get(fare_key, t_name),
                         "fare_type": "flat",
                         "price": price_val,
                         "currency": "TRY",
@@ -151,24 +151,38 @@ class TransitBuilder:
                         "source": config.SOURCE_API,
                     }
         elif groups:
-            for fare_type_id, type_name in tariff_map.items():
-                type_upper = type_name.upper()
-                if "TAM" in type_upper:
-                    fare_key = "tam"
-                    t_name = f"{name} - Tam (Bölge/Mesafe)"
-                elif "ÖĞRENCİ" in type_upper or "OGRENCI" in type_upper:
-                    fare_key = "ogrenci"
-                    t_name = f"{name} - Öğrenci (Bölge/Mesafe)"
-                elif "ÖĞRETMEN" in type_upper or "OGRETMEN" in type_upper:
-                    fare_key = "ogretmen"
-                    t_name = f"{name} - Öğretmen (Bölge/Mesafe)"
-                elif "60" in type_upper or "65" in type_upper:
-                    fare_key = "60_65"
-                    t_name = f"{name} - 60-65 Yaş (Bölge/Mesafe)"
-                else:
-                    fare_key = type_name.lower().replace(" ", "_")
-                    t_name = f"{name} - {type_name} (Bölge/Mesafe)"
+            # Çok rotalı (bölge/mesafe bazlı) hatlar: fare_rules üretilmez;
+            # her tarife tipi için bulunan ilk fiyat tek flat ücret olarak yazılır.
+            prices_by_key: dict[str, tuple[str, float]] = {}
+            for group in groups:
+                for r in group.get("routes") or []:
+                    for tariff in r.get("tariffs") or []:
+                        fare_type_id = tariff.get("lineFareTypeId")
+                        try:
+                            price_val = float(tariff.get("finalFare", 0))
+                        except (TypeError, ValueError):
+                            price_val = 0.0
+                        type_name = tariff_map.get(fare_type_id, "Tam")
 
+                        type_upper = type_name.upper()
+                        if "TAM" in type_upper:
+                            fare_key = "tam"
+                            t_name = f"{name} - Tam Bilet"
+                        elif "ÖĞRENCİ" in type_upper or "OGRENCI" in type_upper:
+                            fare_key = "ogrenci"
+                            t_name = f"{name} - Öğrenci Bileti"
+                        elif "ÖĞRETMEN" in type_upper or "OGRETMEN" in type_upper:
+                            fare_key = "ogretmen"
+                            t_name = f"{name} - Öğretmen Bileti"
+                        elif "60" in type_upper or "65" in type_upper:
+                            fare_key = "60_65"
+                            t_name = f"{name} - 60-65 Yaş Bileti"
+                        else:
+                            fare_key = type_name.lower().replace(" ", "_")
+                            t_name = f"{name} - {type_name}"
+                        prices_by_key.setdefault(fare_key, (t_name, price_val))
+
+            for fare_key, (t_name, price_val) in prices_by_key.items():
                 fare_id = f"{route_id}_FARE_{fare_key.upper()}"
                 if fare_key == "tam" or primary_fare_id is None:
                     primary_fare_id = fare_id
@@ -178,55 +192,14 @@ class TransitBuilder:
                         "fare_id": fare_id,
                         "agency_id": config.DEFAULT_AGENCY_ID,
                         "name": t_name,
-                        "fare_type": "zone",
-                        "price": 0.0,
+                        "name_en": config.FARE_NAME_EN.get(fare_key, t_name),
+                        "fare_type": "flat",
+                        "price": price_val,
                         "currency": "TRY",
                         "payment_methods": ["smart_card"],
                         "updated_at": self.now,
                         "source": config.SOURCE_API,
                     }
-
-            rule_counter = 0
-            for group in groups:
-                from_zone = group.get("name")
-                for r in group.get("routes") or []:
-                    to_zone = r.get("routeName")
-                    for tariff in r.get("tariffs") or []:
-                        fare_type_id = tariff.get("lineFareTypeId")
-                        try:
-                            final_fare = float(tariff.get("finalFare", 0))
-                        except (TypeError, ValueError):
-                            final_fare = 0.0
-                        type_name = tariff_map.get(fare_type_id, "Tam")
-
-                        type_upper = type_name.upper()
-                        if "TAM" in type_upper:
-                            fare_key = "tam"
-                        elif "ÖĞRENCİ" in type_upper or "OGRENCI" in type_upper:
-                            fare_key = "ogrenci"
-                        elif "ÖĞRETMEN" in type_upper or "OGRETMEN" in type_upper:
-                            fare_key = "ogretmen"
-                        elif "60" in type_upper or "65" in type_upper:
-                            fare_key = "60_65"
-                        else:
-                            fare_key = type_name.lower().replace(" ", "_")
-
-                        fare_id = f"{route_id}_FARE_{fare_key.upper()}"
-                        rule_counter += 1
-                        rule_id = f"{route_id}_RULE_{rule_counter:04d}"
-
-                        self.fare_rules.append({
-                            "fare_rule_id": rule_id,
-                            "fare_id": fare_id,
-                            "route_id": route_id,
-                            "from_zone": from_zone,
-                            "to_zone": to_zone,
-                            "min_distance_km": None,
-                            "max_distance_km": None,
-                            "price_override": final_fare,
-                            "updated_at": self.now,
-                            "source": config.SOURCE_API,
-                        })
 
         return primary_fare_id
 
@@ -397,11 +370,12 @@ class TransitBuilder:
 
             by_service: dict[str, set[str]] = {}
             for row in block.get("routeDetail") or []:
-                service = config.DAY_TO_SERVICE.get(row.get("dayParameterValueId"))
+                days = config.DAY_TO_SERVICE.get(row.get("dayParameterValueId"))
                 dep = _norm_time(row.get("startTime") or "")
-                if not service or not dep:
+                if not days or not dep:
                     continue
-                by_service.setdefault(service, set()).add(dep)
+                for service in days:
+                    by_service.setdefault(service, set()).add(dep)
 
             for service_type, times in by_service.items():
                 short = config.SERVICE_SHORT[service_type]

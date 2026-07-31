@@ -82,15 +82,35 @@ HOLIDAYS_2026 = [
 HOLIDAY_APPLIES_AS = "sunday"
 
 # line-schedule dayParameterValueId
+# 222 = hafta içi programı (Pzt-Cum aynı) -> her güne genişletilir
+# 223 = cumartesi, 224 = pazar
 DAY_TO_SERVICE = {
-    222: "weekday",
-    223: "saturday",
-    224: "sunday",
+    222: ("monday", "tuesday", "wednesday", "thursday", "friday"),
+    223: ("saturday",),
+    224: ("sunday",),
 }
-SERVICE_SHORT = {"weekday": "wd", "saturday": "sat", "sunday": "sun"}
+SERVICE_SHORT = {
+    "monday": "mon",
+    "tuesday": "tue",
+    "wednesday": "wed",
+    "thursday": "thu",
+    "friday": "fri",
+    "saturday": "sat",
+    "sunday": "sun",
+}
+
+# fare adlarının İngilizce karşılıkları (fare_key -> name_en)
+FARE_NAME_EN = {
+    "tam": "Full Ticket",
+    "indirimli": "Discounted Ticket",
+    "ogrenci": "Student Ticket",
+    "ogretmen": "Teacher Ticket",
+    "60_65": "60-65 Age Ticket",
+}
 
 # routeTypeId gözlemi (M1): 220=gidiş, 221=dönüş — diğer hatlarda doğrulanmadı
+# TransitJSON: 1 = gidiş, 2 = dönüş
 ROUTE_TYPE_TO_DIR = {
-    220: 0,
-    221: 1,
+    220: 1,
+    221: 2,
 }

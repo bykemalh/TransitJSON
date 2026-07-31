@@ -3,14 +3,35 @@
   "title": "TransitJSON Agency",
   "type": "object",
   "properties": {
-    "agency_id": { "type": "string" },
-    "city_id": { "type": "string" },
-    "name": { "type": "string" },
-    "phone": { "type": "string" },
-    "website": { "type": "string", "format": "uri" },
-    "updated_at": { "type": "string", "format": "date-time" },
-    "source": { "type": "string" }
+    "agency_id": {
+      "type": "string"
+    },
+    "city_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string",
+      "format": "uri"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "type": "string"
+    }
   },
-  "required": ["agency_id", "city_id", "name", "updated_at"],
+  "required": [
+    "agency_id",
+    "city_id",
+    "name",
+    "updated_at"
+  ],
   "additionalProperties": false
 }
