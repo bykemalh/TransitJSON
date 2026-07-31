@@ -367,7 +367,7 @@ Büyük istasyonlar (metro, tren, büyük aktarma merkezleri) için **durağa g�
 ```
 - `direction`: `0` = loop, `1` = gidiş, `2` = dönüş
 - `service_type`: haftanın 7 günü — `"monday"` | `"tuesday"` | `"wednesday"` | `"thursday"` | `"friday"` | `"saturday"` | `"sunday"`
-- Frekanslı hatlarda (örn. İnegöl-Ketsel her 15 dk) her sefer yine ayrı bir `trip` kaydı olarak somutlaştırılmış halde bulunur — bunlar elle değil, bir **generator script** ile üretilir (bkz. bölüm 12).
+- Frekanslı hatlarda (örn. İnegöl-Ketsel her 15 dk) her sefer yine ayrı bir `trip` kaydı olarak somutlaştırılmış halde bulunur — bunlar elle değil, bir **generator script** ile üretilir (bkz. bölüm 13).
 - **v1 kapsam sınırı:** Trip, ayrı bir `shape` veya `route_stops` varyantına bağlanmaz. Aynı `route_id` + `direction` altındaki tüm seferler tek güzergâhı paylaşır (short-turn / branch / varyant yok).
 
 ## 10. stop_times.json
@@ -436,7 +436,7 @@ Büyük istasyonlar (metro, tren, büyük aktarma merkezleri) için **durağa g�
 1. Kural parametre olarak generator script'e verilir: başlangıç saati, bitiş saati, aralık (dakika), `route_id`.
 2. Script bu parametreleri **somut `trip` + `stop_time` kayıtlarına genişletir** (07:00, 07:15, 07:30 ... 22:00).
 3. Çıktı normal `trips.json` / `stop_times.json` formatındadır — API ve uygulama tarafında hiçbir özel durum kodu gerekmez.
-4. Script bir kere çalıştırılır, çıktısı normal upload akışına sokulur; headway değişirse script yeniden çalıştırılıp dosya yeniden yüklenir (bkz. bölüm 15, replace stratejisi).
+4. Script bir kere çalıştırılır, çıktısı normal upload akışına sokulur; headway değişirse script yeniden çalıştırılıp dosya yeniden yüklenir (bkz. bölüm 14, replace stratejisi).
 
 ```python
 # generate_schedule.py — kavramsal örnek
@@ -501,8 +501,8 @@ Uygulama önce bu küçük objeyi çeker, cihazdaki önbellekle karşılaştır�
 - Veri doğası ilişkisel (country→city→agency→route→stop→trip→stop_time zinciri), Mongo'da bu ilişkileri modellemek gereksiz karmaşıklık yaratır.
 - `JSONB` kolonları esnek/opsiyonel alanlar için Mongo'nun esnekliğini zaten sağlar.
 - `PostGIS` ile "en yakın durak", "X metre yarıçapındaki duraklar" gibi coğrafi sorgular endeksli ve hızlı çalışır.
-- ACID transaction garantisi, bölüm 13'teki replace stratejisi için kritik.
-- Opsiyonel: **Redis** — API response cache katmanı (bölüm 14'teki meta endpoint'i hızlandırmak için).
+- ACID transaction garantisi, bölüm 14'teki replace stratejisi için kritik.
+- Opsiyonel: **Redis** — API response cache katmanı (bölüm 15'teki meta endpoint'i hızlandırmak için).
 
 Detaylı tablo yapısı için `transitjson-schema.sql` dosyasına bakın.
 
